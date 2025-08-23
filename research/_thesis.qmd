@@ -80,10 +80,6 @@ warnings.filterwarnings("ignore")
 
 \newpage
 
-{{< include "literature/_college.qmd" >}}
-
-\newpage
-
 {{< include "literature/_design.qmd" >}}
 
 \newpage

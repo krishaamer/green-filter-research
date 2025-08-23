@@ -1,6 +1,8 @@
 ```{python}
 #| echo: false
 from literature.charts.finance import money_chart, fintech_chart, asset_classes, shopping_growth, world_bank_bonds, growth_brics, esg_fintech_chart, esg_fintech_heatmap, social_commerce_chart, fund_types_chart, conventional_vs_sri_funds, ck_energy_productivity, ck_carbon_productivity, ck_board_diversity, esg_rating_agencies_chart, climate_finance_gap_sectors_timeline, climate_finance_gap_sectors, csrd_timeline, esg_vs_board_diversity, msci_esg_leaders, uk_energy_emissions_trend, econ_history_chart, climate_scenarios_chart, companies_triple_perf, retail_green_vs_nongreen, crypto_pricing_theories, bitcoin_vs_gold_futures, slavery_laws, slavery_map, msci_board_sustainability_experts, companies_large_emitters_climate_experts, companies_large_emitters_criteria, sustainable_consumption_relationships, air_quality_southasia_vs_taiwan
+from literature.charts.college import company_rank_chart, genz_enrollment_chart, college_decline_chart, higher_education_chart, compare_taiwan_sweden, taiwanese_company_ranking_chart, green_millenials, mean_global_attitudes, postmaterialist_chart, postmaterialist_chart, world_values_chart, college_chatbot
+from literature.charts.finance import retail_green_vs_nongreen, climate_finance_gap_sectors_timeline, climate_finance_gap_sectors, money_chart, sustainable_consumption_relationships
 import warnings
 warnings.filterwarnings("ignore")
 ```
@@ -10,8 +12,11 @@ import Figure from '/src/components/Figure'
 import Bunq from '../images/finance/bunq.jpg'
 import AbstractFinance from '../images/finance/abstract-finance.png'
 import FinancialLiteracyYouTube from "../images/college/taiwan-financial-literacy-youtube.png";
+import Geneve from "../images/college/geneve.jpg";
+import FinancialLiteracyYouTube from "../images/college/taiwan-financial-literacy-youtube.png";
+import Taipei from "../images/college/taipei.jpg";
 ```
-## Re-Designing Finance for Taiwanese Youth
+## Re-Designing Finance for Taiwanese College Students
 
 ::: {.content-hidden unless-format="pdf"}
 ![Visual abstract for the finance chapter](./images/finance/abstract-finance.png)
@@ -19,6 +24,58 @@ import FinancialLiteracyYouTube from "../images/college/taiwan-financial-literac
 
 ```{=mdx}
 <Figure caption="Visual abstract for the finance chapter" src={AbstractFinance} />
+```
+
+### Individual Action and the Attitude-Behavior Gap
+
+The focus on individual actions as a solution to environmental issues is often misplaced, though it remains a focus of media and industry. 
+
+> For decades, the petrochemical industry has offloaded responsibility onto individuals through promoting concepts such as the *"carbon footprint"*, championed in a 2004 advertising campaign by British Petroleum [@cherryProfitRethinkingCorporate2010 in @laversFarDistractionPlastic2022].
+
+Sometimes individual environmental (climate) action *does matter* and can come at great personal cost, even loss of life. EJAtlas tracks environmental justice cases around the world, where human stakes are very high. See [@martinez-alierMappingEcologicalDistribution2021; @martinez-alierReplyOrihuelaExtractivism2022; @scheidelEnvironmentalConflictsDefenders2020] for coverage of extreme cases of risk environmental activists must endure. However, for most of us individual climate action is *ineffective*. The effect of individual climate action such as *choosing a more sustainable product* is so limited to be next to meaningless. For individual consumer choices to make a difference, they need to be *aggregated* into a movement, collective action with scale, influence, and visibility.
+
+There is no single solution to the environmental crisis. Given the enormity of environmental degradation, many different approaches are needed. This thesis documents some of the ongoing work which a sustainability companion could assist college students get involved with. The scale of climate change is too big for individual action to make a difference, individual action can foster hope and a sense of collective responsibility [@natureIndividualActionSystemic2020].
+
+While people express eco-conscious ideas, it's non-trivial to practice sustainability in daily life. Translating eco-conscious attitudes into concrete sustainable actions remains challenging. Empirical evidence illustrates this gap between intention and behavior. [@parkExploringAttitudeBehavior2020] positive attitude towards sustainable products does not result in purchase decisions, shows research of fashion in South Korea. In one Australian study, green consumers still waste food similarly to the baseline [@mccarthyFoodWasteGreen2017].
+
+However, changing habits is important if technology alone is not the solution. [@deyangeorgievGenStatisticsWhat2023] reports only 30% of people in the Gen-Z age group believe technology can resolve all environmental problems. Even with good intentions, [@munroSustainableAttitudebehaviorGap2023] finds shoppers who try to shop sustainably often fail to find sustainable product, in a systemic literature review of 64 papers from South Korea, Australia, the UK, the US, and elsewhere.
+
+McKinsey’s *Talk is Cheap* study underscores the same paradox at scale: more than 60% of global consumers say they are willing to pay extra for sustainable products, yet in reality most wouldn't pay a premium greater than about 10% [@freundtHowMuchWill2024]. A robust willingness-to-pay (WTP) literature tells a similar story. A 2021 meta-analysis covering 80 studies finds the average stated premium for sustainable food products is 29.5%; however, hypothetical surveys often overstate WTP relative to real-purchase experiments [@liKallasMetaWTP2021]. In contrast, PwC’s 2024 *Voice of the Consumer* survey, based on 20000 respondents in 31 countries, reports a far more modest mean sustainability premium of 9.7% that consumers are willing to pay, once inflation is factored in [@pwcVoiceConsumer2024]. 
+
+In short, people want eco-products but are largely price-sensitive.
+
+Consumer activists are a small minority among the general consumer population. Recognition precedes protection, as the Estonian slogan goes: *"Õpetame märkama, et oskaksime hoida" / "Learn to notice so we can preserve."* [@tartuloodusmajaTartuLoodusmajasAvatakse2019]. [@milneMindfulConsumptionThree2020] coins the term *mindful consumers*, who do research and are aware of the impact of their shopping choices. Yet these types of *mindful consumers* and *conscious consumers* only make up a small percentage of the entire consumer public, which may make individual action seem close to meaningless.
+
+For consumer activism to become mainstream it needs to much simpler. Sustainable options must become effortless: we need one-click tools that turn everyday spending into votes for circular design, transparent supply chains and mandatory climate disclosures. By setting clear CO~2~-reduction targets for products, embedding dynamic ESG-risk pricing at point of sale, and harnessing our collective purchasing power, we can push companies to embed sustainability at the core of business, transforming vague ESG ideals into tangible market incentives.
+
+There is plenty of research on if and how sustainable shopping could be possible. Already in 2016, [@klinglmayrSustainableConsumerismSelfRegulation2016] proposed a mobile app to channel "political consumerism" into sustainable shopping through self-regulation: personalized recommendations could be provided by aggregating vast product datasets into distilled advice, empowering individuals follow clear sustainable-shopping rules, discover like-minded peers, and communicate concerns directly to retailers, in theory turning vague ESG ideals into a transparent, data-driven, community-backed approach to sustainable consumption - however the Horizon 2020 funded was only deployed in 2 supermarkets (Estonia and Spain) as a pilot project. In order to understand the needed changes to shopping, [@fuentesUnpackingPackageFree2019] employed a shopping-as-practice ethnography in a Swedish zero-waste grocery store to show that removing packaging requires reinventing the shopping practice itself, e.g. introducing reusable containers, new retail setups, and consumer routines. [@weberMobileAppsSustainable2021] proposed a sustainable shopping guide in a study which demonstrates that embedding eco-score rankings into a mobile shopping app significantly increases consumers’ selection of low-impact food products by improving decision support and reducing information overload. Consumer psychology is complex and [@vanderwalParadoxGreenBe2016] discusses how status motives make people publicly display sustainable behavior, revealing that shoppers purchase branded reusable bags rather than bring their own, exposing a "paradox of green to be seen" and its hidden environmental costs.
+
+Sustainable consumption relationships in Europe.
+
+```{python}
+#| label: fig-sust-consum
+#| fig-cap: "Sustainable Consumption"
+#| fig-scap: "Sustainable Consumption"
+sustainable_consumption_relationships()
+```
+
+Make use of indexes to compare companies.
+
+Given the increasingly harsh environmental situation, researchers have studies climate anxiety responses around the world. A growing body of research shows climate anxiety is widespread among young people, which emotionally can both hinder and motivate sustainable action. A large worldwide study in (n = 10000, aged 16-25) by [@hickmanClimateAnxietyChildren2021] provides evidence the youth is anxious about climate in 10 countries: Australia, Brazil, Finland, France, India, Nigeria, Philippines, Portugal, the UK, and the USA. Similarly, [@thompsonYoungPeopleClimate2021] finds young people around the world have climate anxiety. [@whitmarshClimateAnxietyWhat2022] shows worry about the climate in the UK is generally widespread (over 40% of the respondents, n = 1332), while climate anxiety is highest among young people and is a possible motivator for climate action. Additionally, [@ogunbodeClimateAnxietyWellbeing2022] finds climate anxiety in 32 countries and also supports the idea that climate anxiety leads to climate activism. [@thibodeauThreeCompaniesClosing2022]: "In 2021, the BBC polled 1,000 people in Scotland to understand the barriers to taking climate action. What they found was even though many people were aware of actions needed to take to address climate change, and had intentions to their behaviors didn't change. This is a phenomenon called the intention-action gap."
+
+[@osakaWhyClimateDoomers2023] argues *doomerism* is an excuse for climate in-action. Hope is necessary for people to make changes in their habits [@marlonHowHopeDoubt2019]. [@seabrookMusicTherapyEra2020] suggests music therapy is useful in the era of climate crisis, evolving to meet current needs of young people. [@kjaergardHealthSustainability2014] shows how *"understanding health and sustainability as a duality, health both creates conditions and is conditioned by sustainability, understood as economic, social and environmental sustainability, while on the other hand sustainability creates and is conditioned by human health"*.
+
+A recent special issue of Behavioral Sciences' magazine on Behavioral Science for Climate Change (2025) provides further evidence. A review of 50 studies supports the idea that climate activism shifts public opinion towards climate concern [@thomas-waltersImpactsClimateActivism2025]. Climate change negative affect brain health through heat, air pollution, extreme weather; the study finds links to neurological, psychiatric, and cognitive disorders [@todorovaNeuroscienceClimateAction2025].
+
+When disaster hits we need high levels of *social trust*. Being part of community of trust makes it easier to act in unison. Religion is a type of community of trust. Conversely, that can also have negative effects, as in Taiwan the expected behavior of burning joss sticks and paper money, is a cause of air pollution [@tangRitualBurningThreatens2014]
+
+Psychological factors influencing millennials to engage with sustainability [@naderiMeFirstThen2018]
+
+```{python}
+#| label: fig-mil-psych-sust
+#| fig-cap: "Psychological factors influencing millennials to engage with sustainability"
+#| fig-scap: "Psychological Factors Influencing Millennials to Engage with Sustainability"
+green_millenials()
 ```
 
 ### Taiwanese Financial Literacy and Education
@@ -143,6 +200,76 @@ University of California also followed suit with divestment of its \$126B USD po
 
 By extension, it may sound feasible that divesting could have a meaningful impact on companies if many retail investors collaborate on 'banning' the company to send a message to the board, yet in practice small individual divestments may be negligible to governance decisions.
 
+### Measuring the Global Eco-Investment Gap
+
+By the latest estimates sustainability lacks several trillions of USD in investment. Even with massive financing already in the pipeline, the estimate for the global *financing gap* for low-carbon energy production was 5.2 trillion USD as of 2016 [@MappingGapRoad2016; @earthdayEarthDay20232023]. Ray Dalio puts the needed climate investment at \$5T and believes these financial goals won't be met [@raydalioFourthBigForce2023]. A newer United Nations Environmental Programme (UNEP) calculation lowered the world needs an additional 4.1 Trillion USD of financing in nature-based solutions by 2050 to meet climate change, biodiversity, and land degradation reduction targets [@unepUNEPGreenFinance2022]. According to [@therockefellerfoundationWhatGetsMeasured2022] a slightly lower 2.5-3.2 Trillion USD would be sufficient.
+
+```{python}
+#| label: fig-climate-fin-funding
+#| fig-cap: "Climate Finance Funding Gap"
+#| fig-scap: "Climate Finance Funding Gap"
+climate_finance_gap_sectors_timeline()
+```
+
+What if 10% of annual consumer spending – *ten percent is about \$2,8T* - went towards protecting our climate. The theme for the 2023 Earth Day was *"Invest In Our Planet"*.
+
+```{python}
+#| label: fig-climate-fin-funding-sectors
+#| fig-cap: "Climate Finance By Sector"
+#| fig-scap: "Climate Finance By Sector"
+climate_finance_gap_sectors()
+```
+
+The needed investment doesn't seem so large, around 5% of the global GDP, if one compares it to the *per year* Global Gross Domestic Product (GDP) estimated at around 100 Trillion USD in 2022 and growing to 105 Trillion USD in 2023 [@aarononeillGlobalGDP198520282023; @imfWorldEconomicOutlook2023GDPgrowth]. In essence, the estimated total investment gap in climate fits into the economic growth of 1–2 years of the global economy. [@oecdOECDEconomicOutlook2024] projects steady economic growth 3.1% in 2024 and 3.2% in 2025 while the [@worldbankGlobalEconomicProspects2024] is more conservative projecting 2.6% and 2.7% respectively.
+
+The lack of funding in green energy especially affects emerging economies [@MobilizingCapitalEmerging2022]. *"We can and must channel private capital into nature-based solutions. This will require policy and regulatory support, catalytic capital and financial innovation"* argued the CEO Green Finance Institute, Dr Rhian-Mari Thomas, ahead of COP27 in Egypt [@GreenFinanceInstitute2023]. It's not happening fast enough.
+
+```{python}
+#| label: fig-high-value-assets
+#| fig-cap: "Climate Funding Gap vs High Value Assets"
+#| fig-scap: "Climate Funding Gap vs High Value Assets"
+money_chart()
+```
+
+| High-Value Assets (Trillions of USD) |   |
+|----------------------------------------------------|--------------------|
+| Global Real Estate (2020, valuation) | \$326T |
+| Global Equity Markets (2023, valuation) | \$108T |
+| Global GDP (2024, estimated) | \$110T |
+| Global GDP (2023, per year) | \$105T |
+| Global GDP (2022, per year) | \$100T |
+| *Global Pension Funds (2023, valuation)* | *\$47.9T* |
+| U.S. Equity Markets (2023, valuation) | \$46.2T |
+| U.S. National Debt (2023, valuation) | \$32.6T |
+| *Millennials Inheriting Money from Parents in the U.S., U.K. and Australia (2022-2032)* | *\$30T* |
+| Global Retail Sales of Goods and Services to Consumers (2023, per year) | \$28.2T |
+| GDP of U.S.A. (2023, per year) | \$26.8T |
+| GDP of China (2023, per year) | \$19.3T |
+| Global Private Market Assets (2023, per year) | \$11.7T |
+| *Unpriced Externalities (2023, per year)* | *\$7.3T* |
+| Global E-Commerce Sales (2021, per year) | \$5.2T |
+| *Missing Climate Investment (2022, estimate per year)* | *\$4.1T* |
+| Industrial & Commercial Bank of China (2019, total assets) | \$4T |
+| Global Real Estate Sales (2021, per year) | \$3.7T |
+| Apple Computers (2024, market value) | \$3.1T |
+| GDP of Japan (2023, per year) | \$4.5T |
+| GDP of Germany (2023, per year) | \$4.3T |
+| GDP of India (2023, per year) | \$3.7T |
+| U.S. Gen-Z and Millennials Consumer Spending (2022, per year) | \$2.5T |
+| NVIDIA 英偉達 (2024, market value) | \$2.5T |
+| *Retail Investors (2023, liquid assets)* | *\$1.8T* |
+| Blackstone (2023, total assets) | \$1T |
+| Bitcoin (2024, market cap) | \$1T |
+| GDP of Taiwan (2023, per year) | \$0.8T |
+| GDP of Finland (2023) | \$0.3T |
+| Ethereum (2024, market cap) | \$0.3T |
+| *Individual Climate Investors* (2020, per year) | \$0.1T |
+| GDP of Estonia (2023, per year) | \$0.04T |
+
+Table: Comparative data on needed climate investment and other valuable assets; all figures in Trillions of USD [@s&pglobalWorld100Largest2019; @grandviewresearchRealEstateMarket2021; @aarononeillGlobalGDP198520282023; @imfWorldEconomicOutlook2023; @stephanieaaronsonHowAppleBecame2023; @statistaRetailMarketWorldwide2023; @statistaGlobalRetailEcommerce2021; @sifmaResearchQuarterlyEquities2023; @ustreasuryFiscalDataExplains2023; @raoVisualizing105Trillion2023; @thinkingaheadinstituteGlobalPensionAssets2023; @blockworksBitcoinPriceBTC2023; @blockworksEthereumPriceETH2023; @mckinsey&companyMcKinseyGlobalPrivate2023; @oguhBlackstoneReachesRecord2023; @foxRetailInvestorsWill2023; @trucostNaturalCapitalRisk2023] []{short-caption="Comparative Data on Needed Climate Investment and Other Valuable Assets"}
+
+While these assets and GDP values reflect different aspects of the global economy, the comparison illustrates that redirecting a relatively small fraction of global wealth and economic activity towards sustainable investments can close the investment gap. This perspective should inspire confidence that the goal is achievable with coordinated effort and policy support. Indeed, it would be easier for large institutional investors to move their money to sustainable assets than for retail investors to move their relatively small investments.
+
 ### ESG Crisis: Towards A Shared Language of Sustainability Risk
 
 I've chosen ESG as the umbrella term for many types of sustainability metrics (discussed below). For an AI assistant to be able to provide sustainability support, it needs to have reliable and accurate sustainability data. This is a difficult task to achieve. The sections below aim to cover how ESG could become accessible for college students - in terms of accuracy, relevance, and meaningful impact.
@@ -213,7 +340,7 @@ Yet, the question remains, whether one can trust financial professional to hold 
 
 In early 2025, ESG investing saw \$8.6 billion in global outflows, mainly due to political pushback in the U.S., including rollbacks of climate and DEI policies under the Trump administration. U.S. sustainable funds lost \$6.1 billion, and Europe saw its first net outflow since 2018; ESG is shifting toward a more practical phase, with less focus on branding and more on measurable outcomes [@johnsonESGFundOutflows2025; @bioyGlobalESGFunds2025; @vosburgWhatRollbacksMean2025; @mitchellSustainableFutureHortenseBioy2025].
 
-### ESG Transparency: Fighting Corruption With Real-Time Data Streams for Product Lifecycle Traceability 
+### Towards ESG Transparency with Real-Time Data Streams and Product Lifecycle Traceability
 
 For AI-powered assistants to be able to provide guidance, metrics are needed to evaluate sustainable assets, and ESG provides the current state-of-the-art for this. Tracking ethics and cruelty is only possible with transparent factories and supply chains. The largest obstacle to eco-friendly investing is greenwashing where companies and governments try to portray an asset as green when in reality it's not. A personal investing assistant can provide an interface to focus on transparency, highlighting data sources and limitations, to help users feel in control of their investment decisions, and potentially even provide large-scale consumer feedback on negative practices.
 
@@ -410,7 +537,7 @@ Maintaining that trust matters. In 2017, Etsy lost the certification after faili
 
 Citywealth’s *"ESG branding with B-Corps"* guide shows how companies can leverage their B Corp status—using consistent logo placement, stakeholder storytelling, and transparent impact data to avoid greenwashing and attract impact-focused investors [@citywealthESGBrandingBCorps2021]. [@SocialEnterprisesCorps2025] explains how the true social and financial value of mission-driven enterprises comes from aligning the documentation with the reality.
 
-### ESG Accessibility: Good Governance, Appropriate Legislation, Digitization
+### Good Governance, Appropriate Legislation, and Digitization Hold Potential for ESG Accessibility
 
 ESG accessibility is a new term meant to capture the concept of ESG success for a wide range of stakeholders where each has access to the benefits of ESG.
 
@@ -544,7 +671,50 @@ Board diversity in the top 5 sustainable companies in 2024 based on Corporate Kn
 esg_vs_board_diversity()
 ```
 
-### The Convergence of Money: One Wallet to Rule Shopping, Saving, and Investing
+Tracking sustainability trends in Taiwanese industry, Corporate Knights, which has been ranking global sustainable companies since 2005, including analysis of 7000 public companies with a revenue over US\$1 billion, only includes TSMC in the top 100 (placed 20th in 2021 and 44th in 2022, dropping out in 2023) and Taiwan High Speed Rail Corp (THSR) and Giant Manufacturing Co Ltd since 2023 [@corporateknightsGlobal1002024; @staff2021Global1002021]. Meanwhile, earth.org’s list of the world’s 50 most sustainable companies in 2022, only includes 1 Taiwanese company - TSMC [@earth.orgWorld50Most2022].
+
+```{python}
+#| label: fig-tw-comp-rank
+#| fig-cap: "Taiwanese Company Ranking"
+#| fig-scap: "Taiwanese Company Ranking"
+taiwanese_company_ranking_chart()
+```
+
+TIME Magazine and Statista collaborative *"World’s Most Sustainable Companies Of 2024"* includes 17 Taiwanese companies [@alanasemuelsWorldMostSustainable2024].
+
+| **Sustainability Rank** | **Company**               | **Score (Out of 100)** |
+|-----------------------:|:-------------------------|----------------------:|
+|                      24 | Delta Electronics         |                  77.18 |
+|                      63 | Taishin Holdings          |                  73.50 |
+|                      68 | Fubon Financial           |                  73.01 |
+|                      80 | Chunghwa Telecom          |                  71.69 |
+|                      91 | Yuanta Financial Holdings |                  70.94 |
+|                      92 | Cathay Financial Holdings |                  70.79 |
+|                     108 | Taiwan Mobile             |                  69.72 |
+|                     200 | First Financial Holding   |                  64.17 |
+|                     300 | Far EasTone               |                  60.04 |
+|                     301 | SinoPac Holdings          |                  60.04 |
+|                     344 | Wistron                   |                  58.44 |
+|                     356 | Acer                      |                  58.02 |
+|                     395 | Nanya Technology          |                  56.35 |
+|                     409 | InnoLux                   |                  55.82 |
+|                     416 | Wiwynn                    |                  55.67 |
+|                     421 | Taiwan Cement             |                  55.49 |
+|                     497 | Advantech                 |                  53.14 |
+
+Table: World’s Most Sustainable Companies; data from [@alanasemuelsWorldMostSustainable2024]. []{short-caption="World’s Most Sustainable Companies"}
+
+Taiwan has been on a path of change, striving to become more sustainable. Between 1970 and 2019, emitting CO~2~eq was largely a prerequisite for economic growth in Taiwan [@changRevisitingEconomicGrowth2023]. Since the 1990s, Taiwan is a net CO~2~eq exporter through emissions embedded in the industrial production oriented economy [@huangTaiwanHasShifted2020]. Starting in 2023, Taiwan’s Financial Supervisory Commission’s (FSC) added "requirements for Taiwan’s corporates to disclose their carbon emissions," [@reformosatwAntiGreenwashing2024]. Most recently, the Taiwanese environmental ministry has been cracking down on illegal waste, with over 70 cases being prosecuted [@HuanJing2025].
+
+Musical garbage truck are a success story of the environmental progress in Taiwan [@helendavidsonClassicalTrashHow2022]. Indeed, they are a *user interface innovation* and the main way how people in Taiwan interact with sustainability issues.
+
+The popular narrative about Taiwan recounts the story of the economic and environmental transformation of the country. In the late 1980s during the heights of an economic boom Taiwan became famous as the Taiwanese Miracle (臺灣奇蹟) [@goldStateSocietyTaiwan1986; @tsaiExplainingTaiwanEconomic1999]. By the early 1990s another less flattering nickname appeared: *"garbage island"*, for the piles of trash covering the streets and overflowing landfills [@rapidtransitionsallianceTaiwanTransitionGarbage2019; @ngoHowGettingRid2020]. In the two decades that followed, from 1998 to 2018, Taiwan made progress in municipal waste management, rising to the status of a world-leader in recycling (2nd *effective recycling rate* after Germany); in addition to an effective recycling system, the average waste amount generated per person by 700g (from 1140g to 400g) per day; nonetheless, industrial recycling rates were less stellar, standing at 80% in 2020 and there were unrealized opportunities in using industry 4.0 technologies, such as internet of things (IoT) sensors for better waste tracking [@wuSupportingCircularEconomy2021; @buiMunicipalSolidWaste2023].
+
+Progress in sustainability is possible but achieving results takes time and innovation. [@rapidtransitionsallianceTaiwanTransitionGarbage2019] credits the Taiwanese Homemakers United Foundation (財團法人主婦聯盟環境保護基金會) for initiating the transformation in 1987, suggesting a small group of people can have an outsized impact on the whole country. Their activity didn't stop there and [@CaiTuanFaRenZhuFuLianMengHuanJingBaoHuJiJinHuiBenHuiJianJie2020] recounts a timeline of their achievements on their website until the present day.
+
+[@DuJiaGuanChaDianZiFaPiao2025] reports 54.03% of invoices in Taiwan are digital. Since 2021 digital receipts are mandatory for all businesses. Taiwan's longstanding receipt lottery also has specific prizes available only for digital receipts [@XingDongZhiFuJieHeYunDuanFaPiao2018]. Several other countries, such as Singapore, South Korea, Japan, Sweden, Italy, Portugal, Brazil, Mexico, have comparable systems in use.
+
+### The Convergence of Money: Superapps to Rule Shopping, Saving, and Investing
 
 The meaning of *money* itself has been changing and becoming more diverse. Traditionally, money referred to the *fiat money* created by governments by law, using central banks, which loan money to commercial banks, that in turn make it available to the society. Now, we also have new types of money created by companies and individuals using cryptographic blockchain-based distributed databases (digital ledgers), which keep track of transactions (who-paid-whom). We have various types of tokens of value, such as cryptocurrencies, digital assets, loyalty points, etc., which can all function as types of money. Whatever the method of creation, in essence, money is a *system of trust* where *something* is used as a *medium of value exchange* and accepted by *other people* as payment.
 
@@ -720,6 +890,60 @@ Up-and-coming startups among fintech apps include:
 : Among up-and-coming startups there are some examples of sustainability-focused apps.
 
 All the apps discussed above are part of the wave of democratization of retail investing. Yet, very few of them offer sustainability features.
+
+Superapps are the most prevalent across Asia, with China, South-East Asia, Korea, Japan, and India leading the way, however newcomers in Latin America and the Middle East are also making strides; meanwhile, the US and Europe are lagging behind.
+
+| **App** | Origin | **Metric** | Payments (Wallet) | Savings | Investing | **Users** | **Date** |
+|---------|---------|---------|---------|---------|---------|---------|---------|
+| 微信 **/ WeChat (Tencent)** | China | Monthly Active Users (MAU) combined 微信 (China) & WeChat (International) | Yes | Yes | Yes | 1,4 billion | 2024 |
+| 支付寶 **Alipay (Ant Group)** | China | Annual Active Users (AAU) | Yes | Yes | Yes | 1.3 billion | 2020 |
+| 美團 **Meituan** | China | Annual Transacting Users (ATU) | Yes | No | No | 700 million | 2024 |
+| **PhonePe** | India | Registered Users (Lifetime) | Yes | Yes | Yes | 500 million | 2023 |
+| **LINE** | Japan | Monthly Active Users (MAU) | Yes | Yes | Yes | 200 million | 2023 |
+| **Tata Neu** | India | Members | Yes | Yes | No | 27 million | 2023 |
+| **Nubank** | Brazil | Customers | Yes | Yes | Yes | 114 million | 2024 |
+| **Zalo** | Vietnam | Monthly Active Users (MAU) | Yes | No | No | 75 million | 2023 |
+| **Paytm** | India | Monthly Transacting Users (MTU) | Yes | Yes | Yes | 100 million | 2023 |
+| **M-Pesa** | Kenya | Active Customers | Yes | Yes | No | 34 million | 2024 |
+| **Mercado Pago** | Argentina | Monthly Active Users (MAU) | Yes | Yes | Yes | 61 million | 2023 |
+| **PicPay** | Brazil | Active Customers | Yes | Yes | Yes | 35 million | 2023 |
+| **Cash App (Block)** | USA | Monthly Active Users (MAU) | Yes | Yes | Yes | 56 million | 2023 |
+| **KakaoTalk** | Korea | Monthly Active Users (MAU) | Yes | Yes | Yes | 48 million | 2024 |
+| **GoTo (Gojek/Tokopedia)** | Indonesia | Annual Transacting Users (ATU) | Yes | Yes | Yes | 51 million | 2023 |
+| **Revolut** | UK | Customers | Yes | Yes | Yes | 50 million | 2024 |
+| **Careem** | UAE (Aqcuired by US-based Uber and Etisalat but still keeps a separate brand) | Customers | Yes | No | No | 70 million | 2024 |
+| **Grab** | Singapore / Malaysia | Monthly Transacting Users (MTU) | Yes | Yes | No | 41 million | 2024 |
+| **Rappi** | Colombia | Users | Yes | Yes | No | 30 million | 2023 |
+
+: Global overview of superapps (or near-superapps) compiled from official company reports (IR, Press Releases), news reports, and company websites; various metric types (MAU, MTU, Annual Users, Customers, Registered Users) vary by company reporting and are reduced into a single "users" metric for simplicity. Each figure is sourced from official company reports, press releases, or investor disclosures. If no recent official update was available (as in the case of Alipay’s 2020 figure), the latest known official figure is provided. All values and dates reflect the latest data as of 2025. Data sourced from [@geUpdateAlibabasAnt2020; @jingMeituan0369020242025; @phonepePhonePeCrosses5002023; @lycorporationLYCorporationTakes2023; @shindeTataNeu202023; @shindeTataNeu202023; @polloNuHoldingsLtd2025; @nguyenVietnamsFirstUnicorn2023; @vermaPaytmQ3FY242024; @safaricomSafaricomsMPESAHits2024; @mercadolibre2024ImpactReport2024; @oostBrazilianFinTechPicPay2024; @kazaninsWhyCashApp2024; @tecentTecentHoldings20242024; @leeKakao2024Revenue2025; @gotoTransformationProgres2023; @revolutRevolutHits502024; @careemCareems2024Wrapup2025; @grabholdingslimitedGrabReportsFourth2025; @phocuswrightSuperConnectedRappi2023; @brownColombiasFirstUnicorn2025; @layaSoftBankBackedAppRappi2024].
+
+Uber is creating an all-purpose platform for travel; only 4.1% of rides were electric [@levyUberCEOSays2023]. In the UK, Uber launched and option to book flights, moving to a door-to-door travel solution where the same app brings you from home to the airport, the flight, and your final destination [@uberukUberTakesSkies2023].
+
+| App | Origin | Metric | Payments (Wallet) | Savings | Investing | Users (2025) |
+|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
+| Uber | USA | Users per month | No (Only for ride-hailing) | No | No | 171 million |
+| Bolt | Estonia | Lifetime users | No (Only for ride-hailing) | No | No | 200 million |
+
+: Not quite super-app yet. Data sourced from [@uberUberAnnouncesResults2025; @garciaBoltAcquiresDanish2025]
+
+Superapps offer a platform with key infrastructure such as payments already included, where ecosystem of mini-apps thrive [@perriWhatSuperapp2022; @heathRiseSuperApp2021]. Alipay, originally a payments' app, has build the digital infrastructure to provide thousands of services to billions of users across China. 59 million people use 支小寶 (Zhixiaobao), an Al-based assistant inside of Alipay, which can order taxis and meals, but also interact with the Ant Bridge, Ant Bridge, Ant Fortune and Ant Insurance services inside Alipay [@finextraAntGroupsSmart2024]. [@vecchiTwoTalesInternationalization2022] discusses the strategies Chinese apps are taking to expand to international markets. [@giudice2020wechat] finds WeChat has had a profound impact on changing China into a cashless society, underlining how one mobile app can transform social and financial interactions of an entire country. [@shabrinanurqamaraniEFFECTSMOBILESERVICE2020] discusses the system consistency and quality of South-East Asian superapps Gojek and Grab.
+
+Superapps are honeypots of data that is used for many types of behavior modeling. Guido Becher from Rappi defines their super-app as *"customer-centric high frequency multi-vertical ecosystem"* this enables cross-promotion, for example a hotel in Argentina targeted people who buy almond milk on Rappi with their offer of a yoga retreat [@phocuswrightSuperConnectedRappi2023; @suarezEnhancingUserIncome2021] suggests using alternative data from super-apps to estimate user income levels, including 4 types of data: *Personal Information*, *Consumption Patterns*, *Payment Information*, and *Financial Services*. [@roaSuperappBehavioralPatterns2021] finds super-app alternative data is especially useful for credit-scoring young, low-wealth individuals. However, data privacy is always a concern. For instance, Kakao Pay was found guilty of mishandling 40 million users' data by handing it over to Alipay without user consent; Alipay owns a 32 percent stake in Kakao Pay [@leeKakaoPayHanded2024].
+
+There are also many aspiring superapps, companies which aspire to build multi-vertical platforms but are hindered by various challenges. Telegram integrates Web3 apps into the chat and supports investing into cryptocurrencies without ever understanding the complex technology of wallets. [@pylarinouTelegramsJourneyWeb32024]. Likewise, LINE is integrating Web3 technologies based on the Kaia blockchain to provide decentralized mini-apps (dapps) for the LINE chat userbase and integrates with the LINE Pay wallet for financial interactions [@hintzyLINEsEvolutionSuper2025].
+
+*Platform Economy* marketplace companies like Airbnb and Uber, among many others, match demand to offer, which in the process can optimize how our cities work. The massive amounts of data generated by these companies are used by smart cities to re-design their physical environments, such as the collaboration between Bolt and the city of Seville in Spain [@boltSevilleModernisingPublic2025]. [@orozcoBudapestBicycleNetwork2020] shows how important data is for bicycle-network growth; in Budapest, small targeted investments combined with data-driven algorithmic strategies, boosted connectivity greatly above baseline approaches. Sustainable urban transportation networks require building infrastructure that supports eco-friendly modes of transportation - sidewalks, bicycle paths, streets, rails, - while encouraging a lively movement and socio-economic life in cities. Likewise, Google Environmental Insights Explorer enables local governments (cities) to measure CO~2~eq emissions and enact environmental policies that optimize city functions such as traffic flows [@MethodologyGoogleEnvironmental; @nicolelombardoReducingCityTransport2021]. Several cities such as Tokyo, Shenzhen (深圳), and Paris have voluntarily set carbon emissions caps [@songChinaBriefingShenzen2025; @zhijianShenzhenBecomesFirst2023; @koikeTokyoParisGlobal2018]. Integration with sustainability-services may help cities achieve these goals faster.
+
+| Platform Economy Enablers | Pros | Cons |
+|-------------------|------------------------|-----------------------------|
+| Network effects | The more people use a platform, the more valuable it becomes both for the company and the user. | Data is not portable or difficult to migrate. You can't leave because you'll lose the audience. There's a lock-in effect. |
+| Scalability |  |  |
+| Data-driven Design |  |  |
+| Behaviour Design |  |  |
+
+: Platform economy concepts from [@katzNetworkExternalitiesCompetition1985; @oinas-kukkonenPersuasiveSystemsDesign2009; @tiwanaResearchCommentaryPlatform2010; @chenBusinessIntelligenceAnalytics2012].
+
+[@cuppiniWhenCitiesMeet2022] gives a historical overview of how the rise of digital platforms, taking an expansive point of view, all the way from linear *Fordism*, the development of capitalism, through platform economy and the app-based logistics' revolution, which can provide data for circular economies to happen in a city; reshaping the cities through data-sharing with stakeholder from the citizens, to urban planner and policy-makers - not without conflict, as there is often tension between multiple perspectives.
 
 ### Democratization of Retail Investing: Prioritizing Sustainable Investments
 
