@@ -66,8 +66,8 @@ While Google is the most popular browser with over 3.45 billion users [@GoogleCh
 
 ```{python}
 #| label: fig-app-installs
-#| fig-cap: "Green Filter Google Chrome Extension Installs"
-#| fig-scap: "Green Filter Google Chrome Extension Installs"
+#| fig-cap: "Green Filter Google Chrome Momo extension installs"
+#| fig-scap: "Green Filter Google Chrome Momo extension installs"
 app_installs()
 ```
 
@@ -76,12 +76,12 @@ app_installs()
 The following screenshots are from the production version (live on the web for anyone to use) of the Green Filter AI companion application. 
 
 ::: {.content-hidden unless-format="pdf"}
-![Momo](./images/interactive/momo/momo.png){width="100%"}
+![Prototype: Momo Extension](./images/interactive/momo/momo.png){width="100%"}
 :::
 
 ```{=mdx}
 <Figure
-  caption="Momo"
+  caption="Prototype: Momo Extension"
   src={Momo}
 />
 ```
@@ -90,12 +90,12 @@ The following screenshots are from the production version (live on the web for a
 Overview of the ESG performance of this product and the company that made it.
 
 ::: {.content-hidden unless-format="pdf"}
-![Review](./images/interactive/momo/review.png){width="100%"}
+![Prototype: Review](./images/interactive/momo/review.png){width="100%"}
 :::
 
 ```{=mdx}
 <Figure
-  caption="Review"
+  caption="Prototype: Review"
   src={Review}
 />
 ```
@@ -104,26 +104,26 @@ Overview of the ESG performance of this product and the company that made it.
 Which other products (and the companies that made them) could I choose to reduce my personal pollution impact.
 
 ::: {.content-hidden unless-format="pdf"}
-![Save](./images/interactive/momo/save.png){width="100%"}
+![Prototype: Save](./images/interactive/momo/save.png){width="100%"}
 :::
 
 ```{=mdx}
 <Figure
-  caption="Save"
+  caption="Prototype: Save"
   src={Save}
 />
 ```
 #### Invest
 
-What if I like the products of this this company and want to invest in it?
+What if I like the products of this company and want to invest in it?
 
 ::: {.content-hidden unless-format="pdf"}
-![Invest](./images/interactive/momo/invest.png){width="100%"}
+![Prototype: Invest](./images/interactive/momo/invest.png){width="100%"}
 :::
 
 ```{=mdx}
 <Figure
-  caption="Invest"
+  caption="Prototype: Invest"
   src={Invest}
 />
 ```
@@ -132,12 +132,12 @@ What if I like the products of this this company and want to invest in it?
 The main view of the application with many embedded widgets for diverse AI companion features.
 
 ::: {.content-hidden unless-format="pdf"}
-![Home](./images/interactive/companion/home.png){width="100%"}
+![Prototype: Home Feed](./images/interactive/companion/home.png){width="100%"}
 :::
 
 ```{=mdx}
 <Figure
-  caption="Home"
+  caption="Prototype: Home Feed"
   src={Home}
 />
 ```
@@ -146,7 +146,7 @@ The main view of the application with many embedded widgets for diverse AI compa
 See where and how the product was made - in which factory and what are the conditions.
 
 ::: {.content-hidden unless-format="pdf"}
-![Factory](./images/interactive/companion/factory.png){width="100%"}
+![Prototype: Factory](./images/interactive/companion/factory.png){width="100%"}
 :::
 
 ```{=mdx}
@@ -160,12 +160,12 @@ See where and how the product was made - in which factory and what are the condi
 Where was the product physically made and how long was the transport route?
 
 ::: {.content-hidden unless-format="pdf"}
-![Map](./images/interactive/companion/map.png){width="100%"}
+![Prototype: Map](./images/interactive/companion/map.png){width="100%"}
 :::
 
 ```{=mdx}
 <Figure
-  caption="Map"
+  caption="Prototype: Map"
   src={Map}
 />
 ```
@@ -174,36 +174,36 @@ Where was the product physically made and how long was the transport route?
 The AI companion lists a number of basic questions to prompt the user to start a conversation. Feasibly, these could be personalized as the AI better understand the user and their experience thus far.
 
 ::: {.content-hidden unless-format="pdf"}
-![FAQ Shop](./images/interactive/companion/faq-shop.png){width="100%"}
+![Prototype: FAQ Shop](./images/interactive/companion/faq-shop.png){width="100%"}
 :::
 
 ```{=mdx}
 <Figure
-  caption="FAQ Shop"
+  caption="Prototype: FAQ Shop"
   src={FAQShop}
 />
 ```
 Everything starts with shopping; this is the first use-case for money.
 
 ::: {.content-hidden unless-format="pdf"}
-![FAQ Save](./images/interactive/companion/faq-save.png){width="100%"}
+![Prototype: FAQ Save](./images/interactive/companion/faq-save.png){width="100%"}
 :::
 
 ```{=mdx}
 <Figure
-  caption="FAQ Save"
+  caption="Prototype: FAQ Save"
   src={FAQSave}
 />
 ```
 One the user begins saving money, they'll have a source of funds to direct to investing.
 
 ::: {.content-hidden unless-format="pdf"}
-![FAQ Invest](./images/interactive/companion/faq-invest.png){width="100%"}
+![Prototype: FAQ Invest](./images/interactive/companion/faq-invest.png){width="100%"}
 :::
 
 ```{=mdx}
 <Figure
-  caption="FAQ Invest"
+  caption="Prototype: FAQ Invest"
   src={FAQInvest}
 />
 ```
@@ -214,22 +214,22 @@ Investing is the last, and most complicated step. This is where user probably ne
 The Green Filter AI companion can answer many types of sustainability questions.
 
 ::: {.content-hidden unless-format="pdf"}
-![Chat Ask](./images/interactive/companion/chat-ask.png){width="100%"}
+![Prototype: Chat Ask Questions](./images/interactive/companion/chat-ask.png){width="100%"}
 :::
 
 ```{=mdx}
 <Figure
-  caption="Chat Compare"
+  caption="Prototype: Chat Compare"
   src={ChatAsk}
 />
 ```
 ::: {.content-hidden unless-format="pdf"}
-![Chat Compare](./images/interactive/companion/chat-compare.png){width="100%"}
+![Prototype: Chat Compare](./images/interactive/companion/chat-compare.png){width="100%"}
 :::
 
 ```{=mdx}
 <Figure
-  caption="Chat Compare"
+  caption="Prototype: Chat Compare"
   src={ChatCompare}
 />
 ```

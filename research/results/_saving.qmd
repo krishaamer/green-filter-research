@@ -12,8 +12,8 @@ The following charts are based on the 你/妳覺得目前有任何投資嗎？ a
 
 ```{python}
 #| label: fig-survey-corr-invest-bar
-#| fig-cap: "Correlation Between Saving Levels and Investing (Sankey)"
-#| fig-scap: "Correlation Between Saving Levels and Investing (Sankey)"
+#| fig-cap: "Correlation between saving levels and investing (Bars)"
+#| fig-scap: "Correlation between saving levels and investing (Bars)"
 saving_to_investing_bars()
 ```
 
@@ -21,8 +21,8 @@ The same data plotted as a Sankey chart.
 
 ```{python}
 #| label: fig-survey-corr-invest-sankey
-#| fig-cap: "Correlation Between Saving Levels and Investing (Sankey)"
-#| fig-scap: "Correlation Between Saving Levels and Investing (Sankey)"
+#| fig-cap: "Correlation between saving levels and investing (Sankey)"
+#| fig-scap: "Correlation between Saving levels and investing (Sankey)"
 saving_to_investing_sankey()
 ```
 

@@ -16,7 +16,7 @@ import Geneve from "../images/college/geneve.jpg";
 import FinancialLiteracyYouTube from "../images/college/taiwan-financial-literacy-youtube.png";
 import Taipei from "../images/college/taipei.jpg";
 ```
-## Re-Designing Finance for Taiwanese College Students
+## Designing Finance for Taiwanese College Students
 
 ::: {.content-hidden unless-format="pdf"}
 ![Visual abstract for the finance chapter](./images/finance/abstract-finance.png)
@@ -943,7 +943,7 @@ There are also many aspiring superapps, companies which aspire to build multi-ve
 
 [@cuppiniWhenCitiesMeet2022] gives a historical overview of how the rise of digital platforms, taking an expansive point of view, all the way from linear *Fordism*, the development of capitalism, through platform economy and the app-based logistics' revolution, which can provide data for circular economies to happen in a city; reshaping the cities through data-sharing with stakeholder from the citizens, to urban planner and policy-makers - not without conflict, as there is often tension between multiple perspectives.
 
-### Democratization of Retail Investing: Prioritizing Sustainable Investments
+### The Democratization of Investing: Prioritizing Sustainability
 
 *Retail investing* can be seen as a form of financial inclusion. Ant Group's CEO Eric Jing remarked in [@turrinCashlessChinaDigital2021]: *"The financial system of the past 200 years was designed for the industrial era and served only 20% of the population and organizations. As we enter the digital age, we must better serve the remaining 80%".*
 
@@ -1069,8 +1069,8 @@ The volatility of the markets has notably shifted crypto research towards pricin
 
 ```{python}
 #| label: fig-crypto-price-theory
-#| fig-cap: "Crypto Pricing Theories"
-#| fig-scap: "Crypto Pricing Theories"
+#| fig-cap: "Crypto pricing theories"
+#| fig-scap: "Crypto pricing theories"
 crypto_pricing_theories()
 ```
 

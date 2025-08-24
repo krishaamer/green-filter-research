@@ -128,12 +128,12 @@ Current concept map focusing on sustainability:
 <MyEmbed src="https://miro.com/app/live-embed/uXjVPEUthh4=/?moveToViewport=-768,-439,1536,876&embedId=523854480229" text="Loading Concept Map..." />
 
 ::: {.content-hidden unless-format="pdf"}
-![Overall Concept Map](./images/discussion/everything.png){width="100%"}
+![Overall concept map](./images/discussion/everything.png){width="100%"}
 :::
 
 ```{=mdx}
 <Figure
-  caption="Overall Concept Map"
+  caption="Overall concept map"
   src={Everything}
 />
 ```
