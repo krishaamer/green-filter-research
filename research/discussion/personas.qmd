@@ -1,0 +1,15 @@
+---
+title: Design Process
+sidebar_position: 6
+editor:
+    render-on-save: false
+suppress-bibliography: true
+---
+
+```{python}
+import sys
+sys.path.append('..')
+```
+
+
+{{< include "_process.qmd" >}}

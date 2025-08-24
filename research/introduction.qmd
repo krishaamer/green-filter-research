@@ -4,6 +4,9 @@ sidebar_position: 2
 editor:
   render-on-save: false
 suppress-bibliography: true
+format:
+  gfm:
+    mermaid-format: png
 ---
 
 {{< include "_introduction.qmd" >}}

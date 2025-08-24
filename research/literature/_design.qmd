@@ -46,14 +46,14 @@ import Taipei from "../images/college/taipei.jpg";
 
 ### Designing for Taiwanese Youth in the Global Context
 
-Addressing the *research gap* when it comes to Taiwanese college students, it's clear there's lack of scientific research when it comes to understanding a range of Taiwanese college students' sustainability from attitudes towards eco-friendly diet to climate action, both in Chinese and foreign languages. Much of the research in Taiwan focuses on younger students, particularly those in primary and secondary schools. With regard to issues on the intersection of college students, sustainability, and financial actions, even less research is available. My project hopes to shed some light to how Taiwanese college students relate to sustainable finance.
+There's lack of scientific research when it comes to understanding a range of Taiwanese college students' sustainability attitudes, both in Chinese and foreign languages. Much of the research in Taiwan focuses on younger students, particularly those in primary and secondary schools. With regard to issues on the intersection of college students, sustainability, and financial actions, even less research is available. My project hopes to shed some light to how Taiwanese college students relate to sustainability, operationalized by designing an AI assistant.
 
 But first, let's look at the data that is available. [@kuo-huachenTransformingEnvironmentalValues2019] compares Taiwan to other countries in terms of *Post-Materialist Index Comparison*, noting Taiwanese society is materialistic.
 
 ```{python}
 #| label: fig-postmat-index
-#| fig-cap: "Postmaterialist Index across 59 countries (Taiwan highlighted)"
-#| fig-scap: "Postmaterialist Index (Taiwan Highlighted)"
+#| fig-cap: "Postmaterialist Index - Taiwan"
+#| fig-scap: "Postmaterialist Index - Taiwan"
 postmaterialist_chart()
 ```
 
@@ -61,8 +61,8 @@ World Values Survey
 
 ```{python}
 #| label: fig-world-values
-#| fig-cap: "World Values Survey"
-#| fig-scap: "World Values Survey"
+#| fig-cap: "World values survey"
+#| fig-scap: "World values survey"
 world_values_chart()
 ```
 
@@ -97,7 +97,7 @@ Comparing college students' education for sustainable development (ESD) in Taiwa
 ```{python}
 #| label: fig-tw-swe
 #| fig-cap: "Comparing college students' education for sustainable development in Taiwan and Sweden"
-#| fig-scap: "College Students' Sustainability Education: Taiwan vs Sweden"
+#| fig-scap: "College students' sustainability education: Taiwan vs Sweden"
 compare_taiwan_sweden()
 ```
 
@@ -113,8 +113,8 @@ The Taiwanese educational system in numbers shows students in the Gen-Z age brac
 
 ```{python}
 #| label: fig-tw-high-ed-enrollment
-#| fig-cap: "Enrollment in Taiwanese Higher Education"
-#| fig-scap: "Enrollment in Taiwanese Higher Education"
+#| fig-cap: "Enrollment in Taiwanese higher education"
+#| fig-scap: "Enrollment in Taiwanese higher education"
 genz_enrollment_chart()
 ```
 
@@ -122,8 +122,8 @@ As of 2024, Taiwan has a total of 148 universities, colleges, and junior college
 
 ```{python}
 #| label: fig-tw-high-ed-funding
-#| fig-cap: "Funding for Taiwanese Higher Education"
-#| fig-scap: "Funding for Taiwanese Higher Education"
+#| fig-cap: "Funding for Taiwanese higher education"
+#| fig-scap: "Funding for Taiwanese higher education"
 college_decline_chart()
 ```
 
@@ -131,8 +131,8 @@ While the overall number of students is declining, the share of international st
 
 ```{python}
 #| label: fig-tw-high-ed
-#| fig-cap: "Demographics of Taiwanese Higher Education"
-#| fig-scap: "Demographics of Taiwanese Higher Education"
+#| fig-cap: "Demographics of Taiwanese higher education"
+#| fig-scap: "Demographics of Taiwanese higher education"
 higher_education_chart()
 ```
 
@@ -156,7 +156,7 @@ The table below illustrates the types of emissions and environmental impacts lar
 | 亞泥 Asia Cement (花蓮新城山礦場) | N/A | In 2023 a single mining operation in Hualian was responsible for 4.14 Mtof raw limestone extracted (assumed to have a very high emissions potential) however no CO~2~eq figure is reported by the company | @asiacementcorporationYaZhouShuiNiGu2023 |
 | 可口可樂 Coca-Cola (TW) | N/A | 2024 brand audit in river pollution found 7.6 % (n = 28481) of PET plastic bottles were from Coca-Cola | @greenpeaceKuaYueJiangJie2024 |
 
-Table: Examples of large industrial polluters in Taiwan as reported in academic papers and the media. []{short-caption="Large Industrial Polluters in Taiwan"}
+Table: Examples of large industrial polluters in Taiwan as reported in academic papers and the media. []{short-caption="Large industrial polluters in Taiwan"}
 
 The experience of climate change in Taiwan is shaped by Taiwan’s recent climate challenges with over 4 decades of droughts, rising air temperatures, and shifting rainfall patterns, have impacted both water security and the performance of its vital semiconductor manufacturing industry ​[@voFourdecadeSpringDroughts2024]. Offshore, marine heatwaves, ocean acidification, and elevated sea surface temperatures are intensifying coral bleaching around Taiwan [@hsuInvestigationKuroshiocoastalCurrent2024]. The oceans are crucial for Taiwan to capture carbon emissions. Around 33% of Taiwanese CO~2~eq emissions is captured by the marine carbon sink, while the effect of forests in Taiwan needs further study [@hungAssessingCO2Sources2024].
 
@@ -182,10 +182,10 @@ The roots of sustainability lie in environmentalism. *"Nachhaltigkeit"* - *susta
 
 Defining sustainability perhaps more poetically, the American wildlife ecologist Aldo Leopold proposed the idea of *land ethics* in 1972 as *"\[a\] thing is right when it tends to preserve the integrity, stability, and beauty of the biotic community. It is wrong when it tends otherwise"* in his landmark work *A Sand County Almanac* [@leopoldSandCountyAlmanac1972]. In a similar vein, the 1987 United Nations' Brundtland Report titled "*Our Common Future"* defined *sustainable development* as *"Development that meets the needs of the present without compromising the ability of future generations to meet their own needs"* [@worldcommissiononenvironmentanddevelopmentOurCommonFuture1987]. Given these varied ideas for over 300 years, I believe some percentage of people have been concerned with our planet's natural environment and its preservation already for centuries. Yet, it is only in the last 100 and so years that human activities have begun to affect Earth's systems on a previously unseen scale - termed *Anthropocene* -, necessitating a deeper understanding of human-nature interactions, such as in the case of climate change, which is rapidly changing the face of our living environments.
 
-In a similar vein to previous generations, contemporary environmentally minded youth share the same values and concerns, albeit in a more degraded environment and with more access to communication tools, with student protests for climate justice being a key example. In August 2018, Swedish high-school student Greta Thunberg skipped class to start a climate justice strike in front of the Swedish parliament Riksdag. In 2019, Time magazine named Thunberg person of the year for *creating a global attitudinal shift* towards the environment [@deutschewelleFridaysFutureGlobal2019]. According to official statistics, 14 million participants joined her *Fridays for Future* strikes and the movement expanded to over 7,500 cities around the world [@fridaysforfutureStrikeStatistics2025]. A survey 64 climate protesters from Norway, the UK, USA, and Canada, found the climate-justice activists are non-homogeneous group, displaying differing levels of factual knowledge about climate change, a broad spectrum of emotions from anger to guilt and hope, with diverse lifestyles, consumption habits, dietary shifts, and political leanings [@martiskainenContextualizingClimateJustice2020].
+In a similar vein to previous generations, contemporary environmentally minded youth share the same values and concerns, albeit in a more degraded environment and with more access to communication tools, with student protests for climate justice being a key example. In August 2018, Swedish high-school student Greta Thunberg skipped class to start a climate justice strike in front of the Swedish parliament Riksdag. A year later, Time magazine named Thunberg person of the year for *creating a global attitudinal shift* towards the environment [@deutschewelleFridaysFutureGlobal2019]. According to official statistics, 14 million participants joined her *Fridays for Future* strikes and the movement expanded to over 7,500 cities around the world [@fridaysforfutureStrikeStatistics2025]. A survey 64 climate protesters from Norway, the UK, USA, and Canada, found the climate-justice activists are non-homogeneous group, displaying differing levels of factual knowledge about climate change, a broad spectrum of emotions from anger to guilt and hope, with diverse lifestyles, consumption habits, dietary shifts, and political leanings [@martiskainenContextualizingClimateJustice2020].
 
 ::: {.content-hidden unless-format="pdf"}
-![Climate protest in Geneva on September 27th, 2019 – 1 year after the start of Fridays for Future](./images/college/geneve.jpg){width="100%"}
+![Photo: Climate protest in Geneva on September 27th, 2019 – 1 year after the start of Fridays for Future - Photo in public domain from Wikimedia Commons](./images/college/geneve.jpg){width="100%"}
 :::
 
 ```{=mdx}
@@ -199,7 +199,7 @@ In a similar vein to previous generations, contemporary environmentally minded y
 In Indonesia, which had large protests at the time, now 7 years later activists are expressing disillusionment and frustration with the lack of progress and upholding environmental promises. [@dwitamaraGenClimateJustice2025] reports on a survey of 382 Gen-Z respondents in 5 areas of Jakarta, with 99.5% of the respondents having experienced extreme weather events first-hand, highlighting how respondents were affected by climate-related calamities, such as frequent flooding, which led to students missing school days, - education which they are entitled to. The Sharm El Sheikh climate policy implementation [@unfcccSharmElSheikhImplementation2023] text refers to "human right to a clean, healthy and sustainable environment". In Portugal, Estonia, and elsewhere young people have moved on from strikes to actually taking legal action at the courts suing companies for the environmental problems they have caused [@florIstoNaoAcaba2024].
 
 ::: {.content-hidden unless-format="pdf"}
-![Climate protest in Taipei in May 2019 in front of the Democratic Progressive Party (DPP) headquarters](./images/college/taipei.jpg){width="100%"}
+![Photo: Climate protest in Taipei in May 2019 in front of the Democratic Progressive Party (DPP) headquarters - Photo copyright by New Bloom Magazine](./images/college/taipei.jpg){width="100%" fig-lof-cap="Photo: Climate protest in Taipei in May 2019 in front of the Democratic Progressive Party (DPP) headquarters"}
 :::
 
 ```{=mdx}
@@ -214,11 +214,11 @@ Meanwhile, as the climate-justice protests unfolded around the world, in Taiwan,
 
 ### Digital Context Design for Taiwanese College Students
 
-For decades, marketing researchers have been looking into how to affect human behavior towards increasing purchase decisions in commerce, both offline and online, which is why the literature on behavioral design is massive. One of the key concepts is *nudge*, first coined in 2008 by the Nobel-winning economist Richard Thaler; nudges are based on a scientific understanding of human psychology and shortcuts and triggers that human brains use and leverages that knowledge to influence humans in small but powerful ways [@thalerNudgeImprovingDecisions2009].
+For decades, researchers have been looking into how to affect human behavior towards increasing purchase decisions in commerce, both offline and online, which is why the literature on behavioral design is massive. One of the key concepts is *nudge*, first coined in 2008 by the Nobel-winning economist Richard Thaler; nudges are based on a scientific understanding of human psychology and shortcuts and triggers that human brains use and leverages that knowledge to influence humans in small but powerful ways [@thalerNudgeImprovingDecisions2009].
 
 As Taiwan has a *high context* culture, designing the right context for an action to happen is crucial. In practice, the context could be behavioral nudges (or defaults) towards green (sustainable) choices in superapps, which they already use.
 
-The principles of nudge have already been applied to sustainability. For example, a small study (n = 33) in the Future Consumer Lab in Copenhagen by [@perez-cuetoNudgingPlantbasedMeals2021] found that designing a "dish-of-the-day" which was prominently displayed helped to increase vegetarian food choice by 85%. Experiments by [@GUATH2022101821] focused on environmentally friendly online purchases in Sweden (n = 200) suggest nudging can be effective in influencing online shopping behavior towards more sustainable options. A study of behavior change in Australia at large university setting (N = 156) by [@novoradovskayaMyCupTea2021] found nudging behavioral change had a significant effect and the author suggested it may help to avoid some of the *"16 billion paper coffee cups are being thrown away every year"* globally (based on the abstract - I was unable to access the full paper).
+The principles of nudge have already widely been applied to sustainability. For example, a small study (n = 33) in the Future Consumer Lab in Copenhagen by [@perez-cuetoNudgingPlantbasedMeals2021] found that designing a "dish-of-the-day" which was prominently displayed helped to increase vegetarian food choice by 85%. Experiments by [@GUATH2022101821] focused on environmentally friendly online purchases in Sweden (n = 200) suggest nudging can be effective in influencing online shopping behavior towards more sustainable options. A study of behavior change in Australia at large university setting (N = 156) by [@novoradovskayaMyCupTea2021] found nudging behavioral change had a significant effect and the author suggested it may help to avoid some of the *"16 billion paper coffee cups are being thrown away every year"* globally (based on the abstract - I was unable to access the full paper).
 
 Google uses nudges in Google Flights and Google Maps, which allow filtering flights and driving routes by the amount of CO~2~ emissions, as well as surfacing hotels with Green Key and EarthCheck credentials, while promising new sustainability features across its portfolio of products [@sundarpichaiGivingYouMore2021]. Such tools are small user interface nudges which Google's research calls *digital decarbonization*, defined by [@implementconsultinggroupHowDigitalSector2022] as *"\[m\]aximising the enabling role of digital technologies by accelerating already available digital solutions"*.
 
@@ -232,7 +232,7 @@ Google has launched eco–focused features across its range of products: search 
 | Google Flights suggests flights with lower CO~2~ emissions | Google Flights | Show flights with lower CO~2~ emissions |
 | Wizzair Check carbon impact [@OffsetYourFlight] | WizzAir | Offset on Checkout |
 
-: Examples of CO~2~ visibility in Google's products.
+: Examples of CO~2~ visibility in Google's products. []{short-caption="Examples of CO~2~ visibility in Google's products"}
 
 ::: {.content-hidden unless-format="pdf"}
 ![Google's view of flight emissions](./images/design/flight-emissions.png){width="100%"}
@@ -253,7 +253,7 @@ Google has launched eco–focused features across its range of products: search 
 | Labelling | Provide labels to influence choice (for example CO~2~ footprint labels) |
 | Functional Design | Design the environment and choice architecture so the desired behavior is more convenient |
 
-: Types of nudge documented by [@WEE2021100364]
+: Types of nudge documented by [@WEE2021100364] []{short-caption="Types of nudge"}
 
 [@ACUTI2023122151] makes the point that physical proximity to a drop-off point helps people participate in sustainability and metaphorical messaging alongside proximity can be powerful, enhancing the ease of information processing. In a field study in Northern Italy, a metaphor‐based message re-framed the factual statement "1g of mercury can pollute 1000L of water" as "7 bathtubs", and 354000000L as "140 Olympic swimming pools," (a projection of potential Italian mercury pollution at current disposal rates), which significantly boosted willingness to recycle mercury.
 
@@ -272,7 +272,7 @@ Alibaba's Ant Forest (螞蟻森林) has shown the potential gamified nature prot
 | 2024 | N/A         | 548 million | 3.87 million hectares                |
 | 2025 | N/A         | N/A         | N/A                                  |
 
-: Ant Forest assisted tree planting; data compiled from [@ZhuZiXun2017; @yangSwitchingGreenLifestyles2018; @unfcccAlipayAntForest2019; @wangFuelingProEnvironmentalBehaviors2020; @600MillionPeople2021; @zhangPromoteProenvironmentalBehaviour2022; @wangMotivationsInfluencingAlipay2022; @zhouUnpackingEffectGamified2023; @caoImpactArtificialIntelligence2023; @MaYiJiTuanESGBaoGao; @MaYiJiTuanGongBuZhongShu8Nian].
+: Ant Forest assisted tree planting; data compiled from [@ZhuZiXun2017; @yangSwitchingGreenLifestyles2018; @unfcccAlipayAntForest2019; @wangFuelingProEnvironmentalBehaviors2020; @600MillionPeople2021; @zhangPromoteProenvironmentalBehaviour2022; @wangMotivationsInfluencingAlipay2022; @zhouUnpackingEffectGamified2023; @caoImpactArtificialIntelligence2023; @MaYiJiTuanESGBaoGao; @MaYiJiTuanGongBuZhongShu8Nian]. []{short-caption="Ant Forest assisted tree planting"}
 
 ```{python}
 #| label: fig-ant-forest-growth
@@ -295,7 +295,7 @@ The small screen estate space of mobiles phones and smartwatches necessitates di
 | Moving               |
 | Seeing               |
 
-: Modes of Interaction
+: Modes of interaction []{short-caption="Modes of interaction"}
 
 Engineering persuasion with personalization has been the bread and butter of interaction design in social media apps. In 2010, [@kolkoThoughtsInteractionDesign2010; @ixdfWhatInteractionDesign] believed *Interaction Design* is still an emerging (and changing) field, and there are many versions of definitions. Instead of trying to define the limits of the field here, I prefer to simply say *interaction design is about creating a connection between the product and the user*, and focus on the tools of an interaction designer, which may be helpful for the goal of designing a sustainability-focused financial AI assistant (the stated goal of this research). And as what I'm designing here is an AI, the focus of the interaction design will be the interaction between the human and the AIs (possibly plural).
 
@@ -305,9 +305,9 @@ AI labs are putting a lot of effort into engineering likable AIs, working on hon
 
 > *"Interaction design isn’t about how interfaces behave, it’s about how people behave, and then adapting technology accordingly."* - [@uxpinInteractionDesignBest2020]
 
-[@lindenWhatRoleAI2021] from Meta's Artificial Intelligence team (which provides AI services to Facebook, Instagram, etc.), reframes *AI design* as a long-game alignment job: instead of thinking UI-only, designers focus on foresight, translating fuzzy, emerging patterns found in research, into product concepts that could benefit real people’s lives 2-3 years in the future, when the technology matures; the AI designer has five missions: (1) create proof-of-concept demos (the author gives examples of prototypes like "AI suggesting a caption for an IG post; AI suggesting where to buy shoes"), letting non-experts see what a new model might do, (2) understand research findings to steer raw computer-vision, speech or language breakthroughs toward human problems (examples such as "AI-based search for users with visual impairment, where touching a photo would let AI describe it"), (3) imagine user needs several years in the future and incubate AI-first products to meet those needs, (4) craft data-collection workflows, and (5) design internal tooling that helps engineers build on the platform. Likewise, [@stephaniedonaholeHowArtificialIntelligence2021] explores the impact of AI on UX/UI design itself, augmenting UX processes, such as analyzing large datasets for research insights, including surveys and qualitative analyzes, creating flow diagrams and wireframes, translating design between formats and levels of fidelity, and fundamentally enabling deep personalization of the design, freeing up the design professional to focus on higher-level tasks (such as the visioneering describe above).
+[@lindenWhatRoleAI2021] from Meta's Artificial Intelligence team (which provides AI services to Facebook, Instagram, etc.), reframes *AI design* as a long-game alignment job: instead of thinking UI-only, designers focus on foresight, translating fuzzy, emerging patterns found in research, into product concepts that could benefit real people’s lives 2–3 years in the future, when the technology matures; the AI designer has five missions: (1) create proof-of-concept demos (the author gives examples of prototypes like "AI suggesting a caption for an IG post; AI suggesting where to buy shoes"), letting non-experts see what a new model might do, (2) understand research findings to steer raw computer-vision, speech or language breakthroughs toward human problems (examples such as "AI-based search for users with visual impairment, where touching a photo would let AI describe it"), (3) imagine user needs several years in the future and incubate AI-first products to meet those needs, (4) craft data-collection workflows, and (5) design internal tooling that helps engineers build on the platform. Likewise, [@stephaniedonaholeHowArtificialIntelligence2021] explores the impact of AI on UX/UI design itself, augmenting UX processes, such as analyzing large datasets for research insights, including surveys and qualitative analyzes, creating flow diagrams and wireframes, translating design between formats and levels of fidelity, and fundamentally enabling deep personalization of the design, freeing up the design professional to focus on higher-level tasks (such as the visioneering describe above).
 
-The concept of *Social Objects* is relevant for interaction design as people need something to gather around and discuss feeling emotionally connected and safe [@labWhatSocialObject2015]. Increasingly, the social objects may be AI-generated, with the specific goal on *prompting humans* (in reverse, of humans prompting AIs, as is the norm now). Another part of the toolset for interaction designers is also *Narrative Design,* because humans also respond well to *storytelling*, making *character design* relevant to interactions. Stories help product designers focus on the *stickiness* of the product, meaning low attrition, meaning people keep coming back [@aidinardjomandiRoleNarrativeStorytelling2025].
+The concept of *Social Objects* is relevant for interaction design as people need something to gather around and discuss feeling emotionally connected and safe [@labWhatSocialObject2015]. Increasingly, the social objects may be AI-generated, with the specific goal on *prompting humans* (in reverse, of humans prompting AIs, as is the norm now). Another part of the toolset for interaction designers is also *Narrative Design,* because humans also respond well to *storytelling*, making *character design* relevant to interactions. Stories help product designers focus on the *stickiness* of the product, meaning low attrition, meaning people keep coming back [@aidinardjomandiRoleNarrativeStorytelling2025]. Thus, the AI companion might present a story of the materials and craftsmanship behind the product, so that the users form an emotional bond and resist disposability.
 
 This can mean that the product *has character* or literally - characters. Large language models are able to assume the personality of any character that exists inside its training data, creating opportunities for automated narrative design. [@appletonLanguageModelSketchbook2023] pushes for more creativity in UX for AI, calling chatbots the lazy and obvious solution; there is much more to be done for integrating AI into UX. [@aletheaaiAletheaAIAI2021] discusses writing AI Characters, creating a personality; stories start with a character. Noah Levin, one of the first employees and VP of Design at Figma, the most popular digital design app, believes AI is the next chapter in design, starting with small experimental AI-based plugins to becoming a core design platform capability, accelerating most design workflows [@figmaAINextChapter2023].
 
@@ -348,7 +348,7 @@ Already in 2017, a project funded by the EU Horizon 2020 title *"Instant Gratifi
 
 More recently, [@kommendaWouldCarbonFood2022] describes an interactive demo of Carbon Food Labels in the Financial Times, aimed at influence purchasing behavior by displaying Life Cycle Assessment (LCA) data directly on the products; for example - lentils (1kg CO~2~eq per 1 kg) v.s. beef (27kg CO~2~eq per 1 kg) - clearly illustrating the contrasting climate impact of different foods; moreover, shoppers could see the emissions in their shopping cart, enabling real-time comparisons and decision-making; an accompanying survey showed 68% of users were interested in choosing lower-emission products while a low 22% of the respondents trusted the data, highlighting a key challenge: standardizing and verifying supply-chain data.
 
-The founder of the Commons (formerly known as Joro) consumer CO~2e~ tracking app recounts how people have a gut feeling about the 2000 calories one needs to eat daily, so perhaps daily CO~2e~ tracking could develop a gut feeling about one's carbon footprint [@jasonjacobsEpisodeSanchaliPal2019]. Zhang's Personal Carbon Economy conceptualized the idea of carbon as a currency used for buying and selling goods and services, as well as an individual carbon exchange to trade one's carbon permits [@zhangPersonalCarbonEconomy2018]. These types of apps suggest CO~2~eq calculations will be part of our everyday experience. Nonetheless, sustaining user engagement over time in sustainability tracking apps is challenging, because the perceived personal benefit and measurable impact is so minimal - it may feel meaningless.​ Tracking sustainability may have collective benefits but tracking health has immediate personal benefits. Health apps feel tangible with increased well-being while sustainability apps often feel more collective, long-term and sometimes with benefits too small to matter, making it harder to motivate individual users.
+The founder of the Commons (formerly known as Joro) consumer CO~2e~ tracking app recounts how people have a gut feeling about the 2000 calories one needs to eat daily, so perhaps daily CO~2e~ tracking could develop a gut feeling about one's carbon footprint [@jasonjacobsEpisodeSanchaliPal2019]. Zhang's Personal Carbon Economy conceptualized the idea of carbon as a currency used for buying and selling goods and services, as well as an individual carbon exchange to trade one's carbon permits [@zhangPersonalCarbonEconomy2018]. These types of apps suggest CO~2~eq calculations will be part of our everyday experience. Nonetheless, sustaining user engagement over time in sustainability tracking apps is challenging, because the perceived personal benefit and measurable impact is so minimal - it may feel meaningless.​ Tracking sustainability may have collective benefits, but tracking health has immediate personal benefits. Health apps feel tangible with increased well-being while sustainability apps often feel more collective, long-term and sometimes with benefits too small to matter, making it harder to motivate individual users.
 
 Sustainability tracking, while perhaps less than health tracking, can also have a measurable impact. One study of personal carbon footprint tracking apps (aka CO~2~eq calculators) in a mid-sized German city (n = 216) helped overall emission reduction by 23% correlating with feedback from the app specifically reducing emissions from heating 26.9%, food 16.4%, household 34.7% reduction, and mobility 12% [@hoffmannCarbonFootprintTracking2024]. Better maps can also convince people to make changes; advanced maps which visualize erosion, heat, flooding, fire, drought, extreme weather, and other climate risks, can inform resilience planning; a map for transport, such as taxis, can visualize pickup / drop-off imbalances, coloring areas green where pickups exceed drop-offs and orange where drop-offs exceed pickups, can help users see spatial patterns and inform climate-resilient transport planning [@cartoClimateResilienceGeography2023].
 
@@ -369,25 +369,23 @@ A wide range of personal carbon footprint calculators have been released online,
 | LiveGreen |  |
 | Earth Hero |  |
 
-: A selection of personal sustainability apps.
+: A selection of personal sustainability apps. []{short-caption="A selection of personal sustainability apps"}
 
 [@shinWearableActivityTrackers2019]'s synthesis review of 463 studies shows wearable devices have potential to influence behavior change towards healthier lifestyles. While the behavior changes may sound simple - like switching from driving to walking - and would have and effect both on health and the environmental, they are hindered by factors from personal motivation to (lack of) suitable urban architecture. [@delclos-alioWalkingTransportationLarge2022] discusses walking in Latin-American cities. Walking is the most sustainable method or transport but requires the availability of city infrastructure, such as sidewalks, which many cities still lack. The urban environment has an influence on health. [@sanchezGreenBearLoRaWANbased2022] suggests tracking users using their smartphones and attributing points for actions deemed beneficial - yet this has potential privacy issues. For any service tracking the user's action, following privacy UX guidelines is crucial [@jarovskyYouAreProbably2022].
 
 ```{python}
 #| label: fig-bad-behav
-#| fig-cap: "Increase of Bad Behavior During the COVID19 Pandemic"
-#| fig-scap: "Increase of Bad Behavior During the COVID19 Pandemic"
+#| fig-cap: "Increase of bad behavior during the COVID-19 pandemic"
+#| fig-scap: "Increase of bad behavior during the COVID-19 pandemic"
 pandemic()
 # Data from @ceccatoDefecationLitteringOther2023
 ```
 
 Human behavior is affected by the environment. The above chart shows the incidence of bad behavior during the pandemic increased significantly in Sweden based on data from [@ceccatoDefecationLitteringOther2023].
 
-Continuing the thread, *Data-Driven Design* highlights an element essential for shaping effective and relevant outcomes. Attention is given to how it aligns with sustainability objectives and the study’s overall framework. Where appropriate, parallels are drawn to related sustainability initiatives.
+The design principles used in quantified-self apps suggest that tracking personal sustainability metrics (e.g. carbon or ESG scores) through an app could similarly motivate sustainable financial choices among students.
 
-Context design relies on understanding the user. Which in practice means gathering user data.
-
-The growth of digital platforms and superapps provides a learning opportunity to see how data-driven design could enable sustainability to become mainstream. Sustainability touches every facet of human existence and is thus an enormous undertaking. Making progress on sustainability is only possible if there's a large-scale coordinated effort by humans around the planet. For this to happen, appropriate technological tools are required - simplifying the complexity of sustainability.
+Context design relies on understanding the user which in practice means gathering data. Data-driven design is the key to the growth of digital platforms and superapps, providing a learning opportunity for sustainability-focused apps to become mainstream. Sustainability touches every facet of human existence and is thus an enormous undertaking. Making progress on sustainability is only possible if there's a large-scale coordinated effort by humans around the planet. For this to happen, appropriate technological tools are required - simplifying the complexity of sustainability.
 
 Digital platforms are focused on *growth design*, how to *attract* and *retain* users. Superapps are the latter stage of the economies of digital platforms, where previously vertically targeted apps expand horizontally to provide an ever-increasing number of services. For digital products (including superapps) the main application of interaction design is for *growth* in usage, how to get more people (user journey and conversion funnels) to use the product i.e. user acquisition, retention, engagement, and monetization and keep using it (retention and engagement), often optimizing on-boarding, features, and personalization [@stegerDefiningGrowthDesign2019; @kendeDifferenceProductDesign2023].
 
@@ -420,7 +418,7 @@ In theory, DPPs are able to capture and make usable the comprehensive trace of d
 | R1 Rethink | Use the product more intensively (sharing the product via online platforms, etc) |
 | R0 Refuse | Don't use product at all (or replace the function with a better alternative) |
 
-: The 9 R strategies from [@potting2017circular].
+: The 9 R strategies from [@potting2017circular]. []{short-caption="The 9 R strategies"}
 
 There's extensive literature on the use Digital Product Passports (DPP) at specific industries and for particular use cases, often focused on improved efficiencies. [@plociennikDigitalLifecyclePassport2022] details the use of Digital Product Passports and the cloud platform infrastructure to improve e-waste sorting when paired with ML-based object detection. [@bergerConfidentialitypreservingDataExchange2023] outlines data-science and machine-learning approaches (for example sharing models) to enable the exchange of sensitive EV-battery life-cycle data through Digital Product Passports, while preserving confidentiality, helping overcome stakeholder reluctance. [@jensenDigitalProductPassports2023] study of mechatronics supply chains found DPPs *"support decision-making throughout product life cycles in favor of a circular economy"*; specifically:
 
@@ -442,14 +440,14 @@ Meanwhile, the enablers include:
 
 > Clear legal requirements Relative advantages (reputation gains, access to new markets access, risk avoidance, marketing) Monetary incentives (such as payments for data) Intrinsic motivation (compatibility with the values)
 
-Focusing on food production industries, a brief historical overview of previous efforts in this area may be helpful, to contextualize the discussion. CO~2e~ labeling initiatives represent an early attempt to communicate the environmental cost of each product. Using carbon labels to convey CO~2e~ emission of consumer products has been a topic of discussion for decades [@adamcornerWhyWeNeed2012]. Academic literature has looked at minute details such as color and positioning of the label [@zhouCarbonLabelsHorizontal2019]. There's some indication consumers are willing to pay a small premium for low-CO~2e~ products; all else being equal, consumers choose the option with a lower CO~2e~ number [@xuLowcarbonEconomyCarbon2022; @carlssonSustainableFoodCan2022]. [@cohenPotentialRoleCarbon2012] argues labeling the carbon footprint of products does help inform consumer choice towards sustainability and help promote a green economy. A large-scale study of UK university students finds some evidence to suggest labeling low CO~2e~ food enables people to choose a *climatarian diet*, however the impact of carbon labels on the market share of low-carbon meals is negligible [@lohmannCarbonFootprintLabels2022].
+Focusing on food production industries, a brief historical overview of previous efforts in this area may be helpful, to contextualize the discussion. CO~2e~ labeling initiatives represent an early attempt to communicate the environmental cost of each product. Using carbon labels to convey CO~2e~ emission of consumer products has been a topic of discussion for decades [@adamcornerWhyWeNeed2012]. Academic literature has looked at minute details such as color and positioning of the label [@zhouCarbonLabelsHorizontal2019]. There are some indications consumers are willing to pay a small premium for low-CO~2e~ products; all else being equal, consumers choose the option with a lower CO~2e~ number [@xuLowcarbonEconomyCarbon2022; @carlssonSustainableFoodCan2022]. [@cohenPotentialRoleCarbon2012] argues labeling the carbon footprint of products does help inform consumer choice towards sustainability and help promote a green economy. A large-scale study of UK university students finds some evidence to suggest labeling low CO~2e~ food enables people to choose a *climatarian diet*, however the impact of carbon labels on the market share of low-carbon meals is negligible [@lohmannCarbonFootprintLabels2022].
 
 Similar to *Nutritional Facts Labeling*, *Carbon Labels* provide basic information regarding the emissions' profile of each product, yet taken alone, without a systemic push for carbon reduction, they are insufficient to drive significant behavioral change. A study in Sweden underlines a negative correlation between worrying about climate impact and interest in climate information on products [@edenbrandtConsumerPerceptionsAttitudes2022]. This latter finding may be interpreted to suggest a need for wider environmental education programs among consumers. [@asioliConsumersValuationCultured2022] found differences between countries, where Spanish and British consumers chose meat products with *'no antibiotics ever'* over a *Carbon Trust* label, whereas French consumers chose CO~2~ labeled meat products. The industry in general still has ways to go, with [@marclienHowGreenGap2022] finding 4 millions British SMEs have no plan for net-zero transition and [@wareGreenSkillsGap2024] adds, British workers lack skills for green transition, according to a 2024 National Environmental Services Survey.
 
 ```{python}
 #| label: fig-br-comp-rank
-#| fig-cap: "British Company Ranking"
-#| fig-scap: "British Company Ranking"
+#| fig-cap: "British company ranking"
+#| fig-scap: "British company ranking"
 company_rank_chart()
 ```
 
@@ -462,7 +460,7 @@ Despite ongoing interest, several studies have shown that the overall impact of 
 | Oatly      | U.K.    |
 | IKEA       | Sweden  |
 
-: Companies with Carbon Labels [@briankatemanCarbonLabelsAre2020]
+: Examples of companies using carbon labeling from [@briankatemanCarbonLabelsAre2020]. []{short-caption="Examples of companies using carbon labeling"}
 
 | Organization    | Number of Certified Products |
 |-----------------|------------------------------|
@@ -470,7 +468,7 @@ Despite ongoing interest, several studies have shown that the overall impact of 
 | Carbon Calories |                              |
 | Carbon Trust    | 27000                        |
 
-: Organizations Who Certify Carbon Labels [@climatepartnerLabellingCarbonFootprint2020].
+: Organizations that certify carbon labels [@climatepartnerLabellingCarbonFootprint2020]. []{short-caption="Organizations that certify carbon labels "}
 
 Transitioning from simpler carbon labels to data-driven *Digital Product Passports* requires comprehensive data collection on product's history, composition, and environmental impact, digital infrastructure, industry collaboration, regulatory frameworks, and consumer engagement.
 
@@ -481,7 +479,7 @@ Transitioning from simpler carbon labels to data-driven *Digital Product Passpor
 | Consumers to make more informed purchasing decisions        |
 | Verify compliance with legal obligations                    |
 
-: Digital Product Passport goals [@strettonDigitalProductPassports2022].
+: Digital Product Passport goals from [@strettonDigitalProductPassports2022]. []{short-caption="Digital Product Passport goals"}
 
 [@vancapelleveenAnatomyPassportCircular2023] conducted a comprehensive, structured review of 200 academic papers on Digital Product Passports and related concepts, including circular, product, material, resource, recycling, and cradle-to-cradle variants, assessing dimensions such as historical developments, stakeholders, goals, challenges, and designs for solutions, in order to formalize the concept and its boundaries, finally synthesizing a unified definition:
 
@@ -491,8 +489,8 @@ Circularise, a leader in providing digital product passports as a service, lists
 
 ```{python}
 #| label: fig-digit-prod-pass
-#| fig-cap: "Digital Product Passport Data Categories"
-#| fig-scap: "Digital Product Passport Data Categories"
+#| fig-cap: "Digital Product Passports' data categories"
+#| fig-scap: "Digital Product Passports' data categories"
 digital_product_passport_data_categories()
 ```
 
@@ -528,7 +526,7 @@ In the context of the European Union, *eco-design* has gained political support 
 | Energy Efficient | Reduce product's CO~2~eq footprint and operating costs |
 | Resource Efficient | Reduce product's use of raw materials and energy during production and life-cycle |
 
-: The 9 qualities of *eco-designed products* based on the Eco-Design for Sustainable Products Regulation (ESPR) enacted as law in the EU as of July 2024 [@luttinFullOverviewEU2025; @europeanparliamentEcodesignSustainableProducts2022].
+: The 9 qualities of *eco-designed products* based on the Eco-Design for Sustainable Products Regulation (ESPR) enacted as law in the EU as of July 2024 [@luttinFullOverviewEU2025; @europeanparliamentEcodesignSustainableProducts2022]. []{short-caption="Qualities of eco-designed products"}
 
 Eco-Design for Sustainable Products is a key EU sustainable policy design tool and each product covered by the ESPR is required to have a *Digital Product Passport* (DPP) which enables improved processing within the supply chain and includes detailed information to empower consumers to understand the environmental footprint of their purchases [@europeancommissionEcodesignSustainableProducts2022].
 
@@ -537,7 +535,7 @@ It's safe to say the large majority of products available today do not meet thes
 The European Commission is set to propose a legally-binding 90% emissions reduction from 1990 levels to be achieved by 2040; however, political pushback by governments is likely to weaken the goal; the EU climate chief Teresa Ribera is looking for ways to find pragmatic solutions, by, for example, considering some use of carbon credits (thus far, all the goals needed to be achieved within the borders of EU; buying carbon credits from places outside the EU would not be counted as emissions reduction) [@weiseBrusselsProposePragmatic2025; @taylorQAEUPropose2025].
 
 ::: {.content-hidden unless-format="pdf"}
-![EU Policy Context Timeline](./images/sustainability/eu-policy-context.png){width="100%"}
+![EU policy context timeline](./images/sustainability/eu-policy-context.png){width="100%"}
 :::
 
 ```{=mdx}
@@ -586,7 +584,7 @@ Popular blogs such as [@kohliHowDesignersCan2019] and [@loseWaysUXDesign2023] of
 
 Extended Producer Responsibility (EPR) is a policy tool first proposed by Thomas Lindhqvist in Sweden in 1990 and described in detail in his PhD thesis [@lindhqvist1990modeller; @lindhqvistExtendedProducerResponsibility2000], aimed to encourage producers take responsibility for the entire life-cycle of their products, thus leading to more eco-friendly products. In essence, Extended Producer Responsibility enables companies to be responsible for the entire life-cycle of the product. For example, in California, part of the EPR regulation is a large pool of funding for cleaning up historic pollution resulting from industry [@heffernanPlasticRecyclingPodcast2024 @moolmanEcoModulationEPRNew2024]. N
 
-onetheless, EPR schemes do not guarantee circularity and may instead be designed around fees to finance waste management in linear economy models [@christiansenExtendedProducerResponsibility2021]. The French EPR scheme was upgraded in 2020 to become more circular [@jacquesvernierExtendedProducerResponsibility2021]. In July 2024, Latvia was the 4th EU country to join the textile-EPR scheme [@NewEPRRequirements2024]. Strong consumer protection legislation (such as EPR) has a direct influence on producers' actions. For example, in [@hktdcresearchFranceExpandsProducer2022], the Hong Kong Trade Development Council notified textile producers in July 2022 reminding factories to produce to French standards in order to be able to enter the EU market.
+Nonetheless, EPR schemes do not guarantee circularity and may instead be designed around fees to finance waste management in linear economy models [@christiansenExtendedProducerResponsibility2021]. The French EPR scheme was upgraded in 2020 to become more circular [@jacquesvernierExtendedProducerResponsibility2021]. In July 2024, Latvia was the 4th EU country to join the textile-EPR scheme [@NewEPRRequirements2024]. Strong consumer protection legislation (such as EPR) has a direct influence on producers' actions. For example, in [@hktdcresearchFranceExpandsProducer2022], the Hong Kong Trade Development Council notified textile producers in July 2022 reminding factories to produce to French standards in order to be able to enter the EU market.
 
 In Europe, there's large variance between member states when in comes to textile recycling: while Estonia and France are the only EU countries where separate collection of textiles is required by law, in Estonia 100% of the textiles were burned in an incinerator (as of 2018) while in France textiles are covered by an Extended Producer Responsibility (EPR) scheme leading to higher recovery and recycling rates [@europeancommission.jointresearchcentre.CircularEconomyPerspectives2021; @NordicCouncilMinisters2020]. Yet, some countries like Germany (75%), Netherlands (45 %), and Denmark (43%), which have no specific EPR scheme for textiles, report higher collection rates than France, which with EPR collected only 38% of the textiles, however recovered 95% of that through reuse and recycling [@2025SeparateCollection2020; @eurostatTreatmentWasteWaste2022].
 
@@ -596,7 +594,7 @@ While recycling rates are improving, [@steenmansFosteringCircularEconomy2023] ar
 
 Packaging is a rapidly growing industry, expanding on the back of online shopping, which generates large amounts of waste materials, which, if not reused or recycled, easily becomes garbage. Over 161 million tonnes of plastic packaging is produced every year [@bradleyLiteratureReviewAnalytical2023]. Already more than a decade ago, [@DetailrichSustainablePackaging2010]proposed a database of green packaging to compare hundreds of sustainable packaging materials and guide designers through environmental, performance, and cost trade-offs in one unified tool, in order to help producers choose better packaging - yet the problem is far from solved. More recently, [@bradleyLiteratureReviewAnalytical2023] developed an analytical framework of key sustainability factors, from an overview of 107 studies on reusable packaging, finding customer acceptance, high return rates, supply-chain shortening, and system standardization, as the key factors critical to unlocking reusable packaging solutions at scale. A survey by PMMI, the Association for Packaging and Processing Technologies, among industry professional, found legacy equipment, higher material costs, and supply consistency as the top barriers to sustainable packaging; in turn, vital enablers were clear vendor guidance, proven material and equipment solutions, and customer demand [@ChallengesOpportunitiesSustainable2022]. In response to legacy equipment issues, [@SulapacReplacingPlastic] a large producer of packaging, has proposed a wood-based, microplastic-free composites to serve as drop-in replacements for plastics; a material even compatible with existing molding, extrusion, and thermoforming production lines, while slashing cradle-to-gate CO~2~ emissions and preventing microplastic pollution.
 
-In food packaging specifically, [@adaChallengesCircularFood2023] identified distinct challenges from consumer acceptance to material-supply mismatches, collection logistics, and regulatory gaps, underscoring the multifaceted barriers to circular food packaging. Over 85% of companies in the "protein industry": meat, poultry, seafood, and alternative proteins have some type of sustainability initiative [@ProteinBrandsConsumers2022]. Yet, having sustainability programs does not make a company sustainable, case in point being Coca Cola in the beverage industry. [@lernerHowCocaColaUndermines2019] describes Coca-Cola's plastic pollution problem, based on leaked audio, detailing how Coca-Cola was exposed for lobbying against container-deposit laws - aka Deposit Return Schemes (DRS), - aiming to misrepresented recycling as a complete solution; strategies that stalled effective legislation and maintained a "green" facade despite obstructing real sustainability progress.
+In food packaging specifically, [@adaChallengesCircularFood2023] identified distinct challenges from consumer acceptance to material-supply mismatches, collection logistics, and regulatory gaps, underscoring the multifaceted barriers to circular food packaging. Over 85% of companies in the "protein industry": meat, poultry, seafood, and alternative proteins have some type of sustainability initiative [@ProteinBrandsConsumers2022]. Yet, having sustainability programs does not make a company sustainable, case in point being Coca-Cola in the beverage industry. [@lernerHowCocaColaUndermines2019] describes Coca-Cola's plastic pollution problem, based on leaked audio, detailing how Coca-Cola was exposed for lobbying against container-deposit laws - aka Deposit Return Schemes (DRS), - aiming to misrepresented recycling as a complete solution; strategies that stalled effective legislation and maintained a "green" facade despite obstructing real sustainability progress.
 
 The *"Plastic Waste Makers Index"* report lists large corporations which produce plastic waste globally and provides some useful statistics: single-use plastic rose by 6 million tonnes from 2019 to 2021, while just 3 million tonnes of recycling capacity was planned by 2027 (as of the report date, 2023); in total, single-use plastic generated 450 million tonnes of CO~2~eq emissions per year; up to 98% of the single-use plastic was produced from virgin petrochemicals, while 2% was from recycled material; meanwhile in Taiwan, the Far Eastern New Century company boosted recycled content from 2% to 11% in 2021 and plans to double its recycling capacity [@minderoofoundationPlasticWasteMakers2023]. [@yapLifeCycleAssessment2023] Singapore disposes of 900,000 tonnes of plastic waste each year, out of which only 4% is recycled. Single-use plastics make up 44-68% of all waste mapped by citizen scientists [@kiesslingWhatPotentialDoes2023].
 
@@ -636,20 +634,16 @@ There are several technologies for tracking goods across the supply chain, from 
 
 : A sample of blockchain-based supply chain companies as of summer 2023.
 
-Electronics contain valuable materials which can be recovered. Meanwhile, [@liuGlobalPerspectiveEwaste2023] reports e-waste is growing 3%-5% every year, globally. [@thukralExploratoryStudyProducer2023] identifies several barriers to e-waste management among producers including lack of awareness and infrastructure, attitudinal barriers, existing *informal* e-waste sector, and the need for an e-waste license.
+Electronics contain valuable materials which can be recovered. Meanwhile, [@liuGlobalPerspectiveEwaste2023] reports e-waste is growing 3-5% every year, globally. [@thukralExploratoryStudyProducer2023] identifies several barriers to e-waste management among producers including lack of awareness and infrastructure, attitudinal barriers, existing *informal* e-waste sector, and the need for an e-waste license.
 
 [@buildersforclimateactionMakingRealZero2021] finds embodied carbon averages 250 kg CO~2~eq per m² of floor area for new Canadian homes, varying from 175-400 kg CO~2~eq per m² based on building material choices; one standard house emits 32–75 t CO~2~eq; the authors believe however, using *biogenic materials* (e.g. naturally grown materials including wood, bamboo, straw, hemp, cork, and mycelium), could make the houses carbon negative, storing 9–60 t CO~2~eq emissions - enough to meet the 2030 of the entire building sector.
 
-Extending the discussion, **Open Data Enables Interoperability** translates conceptual principles into targeted design approaches. The following discussion examines its mechanisms, implications, and boundaries in the context of this study. Relevant cases and literature provide depth to this perspective.
-
-Data is the *interface* between idle resources and retail demand, which makes *exchange of value* possible. Yet often data is expensive, hard-to-get, and inaccessible. If done well, open data can enhance interoperability and enable collaboration [@WhatOpenData].
-
-While not officially a member, Taiwan is a proponent of Open Government Partnership (OGP), and has launched its Open Government National Action Plan, promoting open data, information transparency, and expanding inclusive public participation [@opengovernmentpartnershipOGPParticipationCoCreation2021; @labTaiwanTakesActions2021]. Taiwan’s Government Open Data Platform (資料開放平臺), managed by the Ministry of Digital Affairs, centralizes hundreds of datasets; from spatial information to energy use [@ministryofdigitalaffairsPingTai2024]. Open Knowledge International's Global Open Data Index (GODI) ranked Taiwan as number 1 in its global index in 2017; the project has since been discontinued, so the ranking may be out of date in 2024 [@openknowledgefoundationGlobalOpenData2017].
+Open data enables interoperability, becoming the *interface* between idle resources and retail demand, which makes *exchange of value* possible. Yet often data is expensive, hard-to-get, and inaccessible. If done well, open data can enhance interoperability and enable collaboration [@WhatOpenData]. While not officially a member, Taiwan is a proponent of Open Government Partnership (OGP), and has launched its Open Government National Action Plan, promoting open data, information transparency, and expanding inclusive public participation [@opengovernmentpartnershipOGPParticipationCoCreation2021; @labTaiwanTakesActions2021]. Taiwan’s Government Open Data Platform (資料開放平臺), managed by the Ministry of Digital Affairs, centralizes hundreds of datasets; from spatial information to energy use [@ministryofdigitalaffairsPingTai2024]. Open Knowledge International's Global Open Data Index (GODI) ranked Taiwan as number 1 in its global index in 2017; the project has since been discontinued, so the ranking may be out of date in 2024 [@openknowledgefoundationGlobalOpenData2017].
 
 ```{python}
 #| label: fig-open-data-index
-#| fig-cap: "Open Data Index"
-#| fig-scap: "Open Data Index"
+#| fig-cap: "Open data index"
+#| fig-scap: "Open data index"
 open_data_index()
 ```
 
@@ -657,8 +651,8 @@ Other indexes do not include Taiwan in the TOP 10.
 
 ```{python}
 #| label: fig-open-data-compare
-#| fig-cap: "Alternative Open Data Indexes"
-#| fig-scap: "Alternative Open Data Indexes"
+#| fig-cap: "Alternative open data indexes"
+#| fig-scap: "Alternative open data indexes"
 open_data_compare()
 ```
 
@@ -670,14 +664,14 @@ Data-driven design requires access to data, making the movement towards *open da
 | Malaysia  | Malaysian open data portal       |
 | Singapore | Singapore ESG open data platform |
 
-: Examples of cities and countries that share data openly. Data sourced from [@SverigesDataportal2025; @governmentofmalaysiaDatagovmy2025; @monetaryauthorityofsingaporeMASLaunchesDigital2023]
+: Examples of cities and countries sharing data openly; sourced from [@SverigesDataportal2025; @governmentofmalaysiaDatagovmy2025; @monetaryauthorityofsingaporeMASLaunchesDigital2023] []{short-caption="Examples of cities and countries sharing data openly"}
 
 To give a concrete example of the usefulness of open data, for instance, the Open Data Portal of Malaysia shows a steady decline in Permanent Reserved Forests (PRF) for anyone interested, without having to submit any letter of request or communicate with officials; the data is just directly accessible and includes a permissive license [@malaysiaPermanentForestReserve2024]. Likewise, in Singapore, the Monetary Authority has launched an open data portal for ESG information, allowing anyone to delve into environmental, social, and governmental topics [@monetaryauthorityofsingaporeMASLaunchesDigital2023].
 
 ```{python}
 #| label: fig-mal-forests
-#| fig-cap: "Open Data As An Information Source for Environmental Decline"
-#| fig-scap: "Open Data As An Information Source for Environmental Decline"
+#| fig-cap: "Open data on environmental decline"
+#| fig-scap: "Open data on environmental decline"
 malaysia_forests()
 ```
 
@@ -687,8 +681,8 @@ No matter the design tool in use, sustainability requires thinking in systems. I
 
 ```{python}
 #| label: fig-dfs-history
-#| fig-cap: "History of Design for Sustainability"
-#| fig-scap: "History of Design for Sustainability"
+#| fig-cap: "History of design for sustainability"
+#| fig-scap: "History of design for sustainability"
 dfs_history()
 ```
 
@@ -698,7 +692,7 @@ While *Human-Centered Design* focuses exactly on what it says - humans - *Life-C
 
 If we're including *other* lifeforms among our stakeholders, what can we learn from them? *Biomimicry* is about being inspired by nature while *Biodesign* focuses on design involving biology in the design itself. Janine Benyus, who coined the word *Biomimicry* [@benyusBiomimicryInnovationInspired2009] looks at very practical cases of innovation where engineers and biologist meet and [@dicksBiomimicryRevolutionLearning2023] provides a much more philosophical account of following the example of nature. Focusing on the financial sector, [@thomasDesignFinancialSustainability2022]'s philosophical account advocates for an "inside-out" design pattern, much like natural systems, starting from the smallest structures to guarantee resilience and survival, instead of trying to control their external environment.
 
-In a similar vein, *Material Ecology* is the wording preferred by the architect Neri Oxman based at the MIT Media Lab working with biomaterials as a proponent of *Nature-Centric Design* that adheres to the principles of ecological sustainability with both an ecologically conscious mindset and practical toolset [@henczNeriOxmanMaterial2022]. Language and our mental concepts shape our reality, which makes language-creation an important tool for sustainability. Neri Oxman's expressions in her [@worldeconomicforumBioInspiredDesignNeri2016] interview introduce some new vocabulary: *"ecology-indifferent"*, *"naturing"*, *"mother naturing"*, *"design is a practice of letting go of all that is unnecessary"*, *"nature should be our single client"*, which reminds me how self-invented language gives an child-like freedom to imagine new worlds.
+In a similar vein, *Material Ecology* is the wording preferred by the architect Neri Oxman based at the MIT Media Lab working with biomaterials as a proponent of *Nature-Centric Design* that adheres to the principles of ecological sustainability with both an ecologically conscious mindset and practical toolset [@henczNeriOxmanMaterial2022]. Language and our mental concepts shape our reality, which makes language-creation an important tool for sustainability. Neri Oxman's expressions in her [@worldeconomicforumBioInspiredDesignNeri2016] interview introduce some new vocabulary: *"ecology-indifferent"*, *"naturing"*, *"mother naturing"*, *"design is a practice of letting go of all that is unnecessary"*, *"nature should be our single client"*, which reminds me how self-invented language gives child-like freedom to imagine new worlds.
 
 *Regenerative Design* suggests *de*materializing (digitizing) economies is not enough to be sustainable (by reduction of physical impact). Design should look beyond reducing harm and find avenues to *regenerate* damaged or even completely destroyed natural systems – ecosystems, biodiversity, land, forests, lakes, rivers - natural habitats.
 
@@ -726,14 +720,14 @@ As the above shows, there are many partially overlapping design words created by
 
 ### Re-Designing Student Essentials for Sustainability
 
-Food, clothes, and consumer goods (I'm omitting housing and transport here for the sake of brevity) are part of the immediate environmental impact of college students. I will here focus on 3 industries that are relevant for college students.
+Food, clothes, and consumer goods (I'm omitting housing and transport here for the sake of brevity) are part of the immediate environmental impact of college students. These 3 industries could potentially be tracked by my proposed AI companion, showing products' environmental footprints as students make buying decisions.
 
 Fast-Moving Consumer Goods (FMCG) also known as Consumer Packaged Goods (CPG) are large global conglomerates operating with low margins and high volumes [@tohFastForwardEverything2024]. The largest of them have several billions in revenue [@kentonFastMovingConsumerGoods2024]. Rise of e-commerce has pushed logistics companies to increase delivery efficiency to keep up with FMCG sales [@deliverectDeliverectUSWhat2024].
 
 ```{python}
 #| label: fig-consumer-goods
-#| fig-cap: "Consumer Goods"
-#| fig-scap: "Consumer Goods"
+#| fig-cap: "Fast-moving consumer goods"
+#| fig-scap: "Fast-moving consumer goods"
 fast_consumer_goods()
 ```
 
@@ -756,9 +750,7 @@ The story of Patagonia has inspired many to see that a financially successful, e
 
 Digital Product Passports will be mandatory for fashion under EU Eco-design and EPR rules between 2026 and 2030, enabling ethical shopping [@TransparencySustainabilityPlatform2023]. New apps make alterations and repairs made easy: SOJO door-to-Door service raised USD 2.4 million pre-seed funding for a clothes repairs service, cutting waste and emissions [@SOJODoortodoorClothing2023].
 
-Against this backdrop, **The (Fast) Food Industry** becomes a natural progression, linking the earlier discussion to practical design considerations. Attention is given to how it aligns with sustainability objectives and the study’s overall framework. Where appropriate, parallels are drawn to related sustainability initiatives.
-
-Food production is a large greenhouse gas emitter. Global warming causes droughts and extreme weather, wars and conflicts, which in turn increases the volatility in food prices [@eshenelsonHeatWarTrade2023]. [@nabipourafrouziComprehensiveReviewCarbon2023] reports the agricultural sector contributes approximately 25% of the total CO~2~ emissions and 13.5% of the total global anthropogenic greenhouse gas emissions. [@pooreReducingFoodEnvironmental2018] suggests a slightly higher 26% of carbon emissions come from food production. [@FoodPrints2015] reports dairy (46%), meat and fish (29%) products making up the largest GHG emission potential. Livestock products (meat) are 15% of agricultural foods valued at €152 billion in 2018 globally [@patelBlockchainTechnologyFood2023]. [@baileyMappingActorsArguments2020] shows how the Norwegian government plans to increase salmon production 5x by 2050; the demand for food is increasing.
+The (fast) food industry is a large greenhouse gas emitter. Global warming causes droughts and extreme weather, wars and conflicts, which in turn increases the volatility in food prices [@eshenelsonHeatWarTrade2023]. [@nabipourafrouziComprehensiveReviewCarbon2023] reports the agricultural sector contributes approximately 25% of the total CO~2~ emissions and 13.5% of the total global anthropogenic greenhouse gas emissions. [@pooreReducingFoodEnvironmental2018] suggests a slightly higher 26% of carbon emissions come from food production. [@FoodPrints2015] reports dairy (46%), meat and fish (29%) products making up the largest GHG emission potential. Livestock products (meat) are 15% of agricultural foods valued at €152 billion in 2018 globally [@patelBlockchainTechnologyFood2023]. [@baileyMappingActorsArguments2020] shows how the Norwegian government plans to increase salmon production 5x by 2050; the demand for food is increasing.
 
 Re-designing the industrial food systems for an increasing global population is a challenge - yet improvements are possible at every step of the way. For example, an Italian retail supermarkets worried about their carbon footprint ran a pilot program, which cut food + packaging waste emissions from 436 kg CO~2~eq to 339 kg CO~2~eq per store per year (total 22% emissions reduction) [@marrucciImprovingCarbonFootprint2020]. Perennial (multi-year) crops are less carbon intensive, reducing inputs of gasoline, labor, etc. [@aubreystreitkrugPathwaysPerennialFood2023], yet large agritech companies like Monsanto rely on selling seeds annually for profits putting them at odds with perennial crops; single-year seeds have led to farmer suicides when crops fail in poor communities.
 
@@ -798,7 +790,7 @@ Coming back to apps, there are several initiatives aimed at reducing food waste 
 | Kuri | [@hajejankampsKuriAppThat2022] Less impact of food |
 | Social media groups (no app) |  |
 
-: Food saving apps
+: Food saving apps []{short-caption="Food saving apps"}
 
 As with any contentious issue, when it comes to food, people have differing points of view. [@ERIKSSON2023229] discusses best practices for reducing food waste in Sweden and [@ROOS2023107623] identified 5 perspectives in a small study (n = 106) of views on the Swedish food system.
 
@@ -810,7 +802,7 @@ As with any contentious issue, when it comes to food, people have differing poin
 | *"The consumer-driven perspective"* | *"A wish-list of healthy, high-quality and climate-friendly foods"* |
 | "The hands-on perspective" | "Tangible solutions within the reach of consumers and the food industry" |
 
-: Perspective on food systems in Sweden from [@ROOS2023107623].
+: Perspectives on sustainable food systems in Sweden from [@ROOS2023107623]. []{short-caption="Perspectives on sustainable food systems"}
 
 Scenario-building is a key tool for sustainability, because sustainability is so complex, and helpful for avoiding the worst futures and designing for a high quality of life. Sustainable design cannot always predict certain outcomes - instead, it can make use of scenarios to prepare for several possibilities. In sustainability, there are rarely good choices. Rather it's a question of avoiding the worst choices. One existing tool, which has been widely used, is the En-ROADS climate change solutions simulator; governments, organizations and individuals around the world have used it explore climate scenarios based on interactive changes and visualizations [@czaikaModelUseSustainability2017; @creutzigEngageDonPreach2020; @climateinteractiveLIVECOP28EnROADS2023; @climateinteractiveEnROADSOnlineSimulator]. Likewise, [@RooneyVargaClimateActionSimulation2019] shows the effectiveness of *The Climate Action Simulation* in educating users about *success scenarios*. *Life Cycle Assessment* and *Environmental Impact Analysis* are another set of useful tools to provide eco-design scenarios [@DELAPUENTEDIAZDEOTAZU2022718].
 
@@ -839,7 +831,7 @@ On an international level, looking at companies operating on the European Single
 Studies of Earth's climate go back for over 200 years, starting with Alexander von Humboldt, the founder of climatology, who revolutionized cartography by inventing the first *isothermal maps* in 1816; these maps showed areas with similar temperature, variations in altitude and seasons in different colors [@hontonForgottenFatherClimatology2022] now available as 3D computer models [@IsothermsSimplyEarth2023]. Already in 1896, the Nobel Prize winner Svante Arrhenius first calculated how an increase in CO~2~ levels could have a warming effect on our global climate [@andersonCO2GreenhouseEffect2016; @wulffPetterLegacy2020]. In 1938, Guy Stewart Callendar was the first scientist to demonstrate the warming of Earth's land surface as well as linking the production of fossil fuels to increased CO~2~e and changing climate [@hawkinsIncreasingGlobalTemperatures2013]. Early scientists pioneered climate modeling by calculating the first climate interactions which precede today's complex computer-based *Earth System Models (ESMs)* that integrate the various Earth systems and cycles run on supercomputers [@andersonCO2GreenhouseEffect2016].
 
 ::: {.content-hidden unless-format="pdf"}
-![Humboldt's Naturgemälde, early data visualization of ecology, rain, temperature, elevation, etc](./images/sustainability/humboldt.jpg){width="100%"}
+![Humboldt's Naturgemälde, early data visualization of ecology, rain, temperature, elevation, etc](./images/sustainability/humboldt.jpg){width="100%" fig-scap="Humboldt's Naturgemälde, early data visualization"}
 :::
 
 ```{=mdx}
@@ -852,7 +844,7 @@ April 2025 was Earth's 2nd-warmest April on record, with global temperatures rea
 The Keeling Curve apparatus measures absorption of infrared light, which allows one to detect the amount of CO~2~eq in the air. It also has an advanced calibration system where it makes measurements in air with a known quantity of gases [@worthingtonMakingAmericaDumb2025].
 
 ::: {.content-hidden unless-format="pdf"}
-![CO~2~ concentration in the atmosphere as of 2025. Image Credit: Scripps Institution of Oceanography at UC San Diego.](./images/sustainability/co2-concentration.png){#fig-co2-concentration fig-scap="Atmospheric CO~2~ Concentration (2025)"}
+![CO~2~ concentration in the atmosphere as of 2025. Image Credit: Scripps Institution of Oceanography at UC San Diego.](./images/sustainability/co2-concentration.png){#fig-co2-concentration fig-scap="Atmospheric CO~2~ concentration (2025)"}
 :::
 
 ```{=mdx}
@@ -863,7 +855,7 @@ The Keeling Curve apparatus measures absorption of infrared light, which allows 
   refTitle="Scripps Institution of Oceanography at UC San Diego"
 />
 ```
-The latest data from 2023 shows our current world population of 8 Billion people emitted 37.2 gigatonnes (i.e. billion metric tons) of CO~2~e per year, the highest emissions recorded in history [@statistaAnnualCO2Emissions2023]. Since 1751, cumulative CO~2~eq emissions have exceeded 1.5 trillion tonnes globally or when expressed in CO~2~eq for all green house gases, total historic emissions would reach roughly 1.7 trillion tonnes CO~2~eq since the start of the Industrial Revolution.[@globalcarbonbudgetCumulativeCOEmissions2023; @marvelOpinionClimateScientist2023]. In order to limit global warming to 1.5 °C as agreed by the world nations in Paris, removal of 5-20 gigatons of CO~2~e per year would be needed according to reduction pathways calculated by the Intergovernmental Panel on Climate Change (IPCC) [@wadeMoisturedrivenCO2Pump2023; @unfcccNDC2022]. Yet, most countries are missing the mark [@climateanalyticsClimateActionTracker2023; @unitednationsenvironmentprogrammeEmissionsGapReport2023]. The European Union’s Copernicus Climate Change Service (C3S) reports 1.5 °C global warming has already been breached in 2024 temperatures [@WorldFirstYearlong2024; @FirstTimeWorld2024]. Given the current pace of climate change action, the G7 countries (Canada, France, Germany, Italy, Japan, United Kingdom, United States) are heading for 2.7 °C of warming by 2050 [@cdpMissingMarkCDP2022].
+The latest data from 2023 shows our current world population of 8 Billion people emitted 37.2 gigatons (i.e. 37.2 billion metric tons) of CO~2~e per year, the highest emissions recorded in history [@statistaAnnualCO2Emissions2023]. Since 1751, cumulative CO~2~eq emissions have exceeded 1.5 trillion tonnes globally or when expressed in CO~2~eq for all green house gases, total historic emissions would reach roughly 1.7 trillion tonnes CO~2~eq since the start of the Industrial Revolution.[@globalcarbonbudgetCumulativeCOEmissions2023; @marvelOpinionClimateScientist2023]. In order to limit global warming to 1.5 °C as agreed by the world nations in Paris, removal of 5–20 gigatons of CO~2~e per year would be needed according to reduction pathways calculated by the Intergovernmental Panel on Climate Change (IPCC) [@wadeMoisturedrivenCO2Pump2023; @unfcccNDC2022]. Yet, most countries are missing the mark [@climateanalyticsClimateActionTracker2023; @unitednationsenvironmentprogrammeEmissionsGapReport2023]. The European Union’s Copernicus Climate Change Service (C3S) reports 1.5 °C global warming has already been breached in 2024 temperatures [@WorldFirstYearlong2024; @FirstTimeWorld2024]. Given the current pace of climate change action, the G7 countries (Canada, France, Germany, Italy, Japan, United Kingdom, United States) are heading for 2.7 °C of warming by 2050 [@cdpMissingMarkCDP2022].
 
 [@unitednationsenvironmentprogrammeunepEmissionsGapReport2021] reported as of 2021 updated national climate pledges (NDCs) and other mitigation measures are projected to lead to a global temperature increase of approximately 2.7°C by 2100, significantly surpassing the Paris Agreement's aspirational goal to keep global warming below 1.5°C this century; effective implementation of net-zero emissions pledges could still keep warming around 2.2°C (approaching the Paris Agreement’s goal of below 2°C), if countries cut methane emissions from fossil fuel, waste, and agricultural sectors, bridging the current emissions gap - and carbon markets might significantly cut emissions, if they are governed by clear rules ensuring genuine emission reductions, alongside transparent systems for monitoring and tracking progress - however, numerous national climate strategies postpone substantial action until after 2030. A year later, the 2022 Emissions Gap report showed a somewhat worsening situation, with existing national pledges leading the world for around 2.8 °C of warming by 2100 [@unitednationsenvironmentprogrammeEmissionsGapReport2022]
 
@@ -873,12 +865,12 @@ Earth's physical systems are very sensitive to small changes in temperature, whi
 
 ```{python}
 #| label: fig-climate-tip
-#| fig-cap: "Climate Tipping Points"
-#| fig-scap: "Climate Tipping Points"
+#| fig-cap: "Climate change tipping points"
+#| fig-scap: "Climate change tipping points"
 climate_tipping_points()
 ```
 
-The myriad of approaches to measuring how our planet is doing range from Planetary Health to Earth System Law, and the Social Cost of Carbon. Scientists in cross-disciplinary teams have been working on integrating Earth systems and human society into cohesive frameworks. [@wardaniBoundariesSpacesKnowledge2023] stresses that every facet of Earth’s life-support system—living biota and the "abiotic" foundations of climate, water, soils, and geology—co-produces the conditions for civilization: *"long-term human well-being is dependent on the well-being of the planet, including both biotic and abiotic systems. It recognizes interlinkages across environmental sustainability, public health, and socioeconomic development."*
+The myriad of approaches to measuring how our planet is doing range from Planetary Health to Earth System Law, and the Social Cost of Carbon. Scientists in cross-disciplinary teams have been working on integrating Earth systems and human society into cohesive frameworks. [@wardaniBoundariesSpacesKnowledge2023] stresses that every facet of Earth’s life-support system—living biota and the "abiotic" foundations of climate, water, soils, and geology—co-produces the conditions for civilization: *"long-term human well-being is dependent on the well-being of the planet, including both biotic and abiotic systems. It recognizes interlinkages across environmental sustainability, public health, and socio-economic development."*
 
 There are 3 approaches that address the complex interdependence of humans with our physical environment, that have the potential to be complementary - *Planetary Health*, *Social Cost of Carbon*, and *Earth System Law*.
 
@@ -888,9 +880,9 @@ There are 3 approaches that address the complex interdependence of humans with o
 
 *Earth System Law* is a framework rooted in the legal sciences for addressing interconnected environmental challenges in a hyper-connected Earth, where climate feedbacks, and environmental thresholds don't respect country borders; in practice, this line of thinking helps to develop carbon-budget clauses inside trade deals and biodiversity "safety brakes" that trigger when monitoring data shows an Earth boundary overshoot, potentially acting as the legal scaffolding that lets Planetary Health prescriptions and Social Cost of Carbon price signals be effective [@dutoitReimaginingInternationalEnvironmental2022].
 
-More recently, because of the complex interdependence, [@zhangBordersAssessingGlobal2025] proposes a new sustainability index that systematically considers pertinent indicators of interdependencies and interactions across different dimensions of sustainability. Moreover, [@lentonQuantifyingHumanCost2023] proposed a new innovative way to quantify the "cost" of global warming in human terms by counting the number of people forced outside the "human climate niche" (temperatures historically occupied by most humanity); climate change has already exposed ≈9% of today’s population (\>600 million) unprecedented heat stress, risking increased mortality, morbidity and displacement; if current trends continue by 2100, \~2.7 °C, 21–39 % or 2–4 billion people will be exposed by 2080–2100.
+More recently, because of the complex interdependence, [@zhangBordersAssessingGlobal2025] proposed a new sustainability index that systematically considers pertinent indicators of interdependencies and interactions across different dimensions of sustainability. Moreover, [@lentonQuantifyingHumanCost2023] proposed a new innovative way to quantify the "cost" of global warming in human terms by counting the number of people forced outside the "human climate niche" (temperatures historically occupied by most humanity); climate change has already exposed ≈9% of today’s population (\>600 million) unprecedented heat stress, risking increased mortality, morbidity and displacement; if current trends continue by 2100, \~2.7 °C, 21–39 % or 2–4 billion people will be exposed by 2080–2100.
 
-Measuring biodiversity loss, ecological indicators and environmental degradation helps building scenarios for meaningful action.Sustainability can be measured using a variety of *ecological indicators*. Ecological indicators for Earth *- I would like to coin the word "ecomarkers" -* are like *biomarkers* in human health. Technological advances help scientist better understand nature. Cutting edge research uses AI-based voice recognition for listening to nature, assessing biodiversity based on species' sounds in the forest. Millions of detections of different species with machine learning passive acoustic AI models, can also assess species' response to climate change [@aiforgoodListeningNatureHarnessing2023; @guerreroAcousticAnimalIdentification2023].
+For building scenarios of meaningful action, it's useful to measure environmental degradation, biodiversity loss, ecological indicators, etc. Sustainability can be measured using a variety of Earth's ecological indicators *- I would like to coin the word "ecomarkers" -*, which are akin to *biomarkers* in human health. For example, cutting edge research uses AI-based voice recognition for listening to nature, assessing the biodiversity situation based on species' sounds in the forest; combining millions of detections of different species with machine learning passive acoustic AI models, can also assess species' response to climate change [@aiforgoodListeningNatureHarnessing2023; @guerreroAcousticAnimalIdentification2023]. This is just once instance of how technological advances help scientist better understand nature.
 
 Around the world, pressure on ecosystems is rapidly increasing, with biodiversity destruction ever prevalent, making protecting biodiversity as urgent as protecting the climate. [@livingPlanetReport2022] reported, the number of species killed, mass destruction of nature:
 
@@ -911,12 +903,12 @@ Similarly to climate protection, the UN has taken a leadership role in biodivers
 | Plant species extinct                         | 600 in 500 years           |
 | Species under threat of extinction            | 1 million                  |
 
-: Biodiversity loss data from [@bradshawUnderestimatingChallengesAvoiding2021].
+: Biodiversity loss data from [@bradshawUnderestimatingChallengesAvoiding2021]. []{short-caption="Biodiversity loss data"}
 
 ```{python}
 #| label: fig-biod-loss
-#| fig-cap: "Biodiversity Loss"
-#| fig-scap: "Biodiversity Loss"
+#| fig-cap: "Biodiversity loss trends"
+#| fig-scap: "Biodiversity loss trends"
 biodiversity_chart()
 ```
 
@@ -935,12 +927,12 @@ Starting with the simple question: why protect biodiversity. [@mayWhyShouldWe201
 
 There is some progress in biodiversity conservation as "\[\*b\]iodiversity awareness is now at 72% or higher in all countries sampled, compared to only 29% or higher across countries sampled in 2009"\* [@uebtBiodiversityBarometer2022]
 
-Tracking pollution in the air, water, as well as soil degradation enables prioritizing the worst environmental offences. In Taiwan, this is the ranking of pollution reports by citizens [@ministryofdigitalaffairsZhengFuZiLiaoKaiFangPingTai2024]:
+Tracking pollution in the air, water, as well as soil degradation enables prioritizing the worst environmental offenses. In Taiwan, this is the ranking of pollution reports by citizens [@ministryofdigitalaffairsZhengFuZiLiaoKaiFangPingTai2024]:
 
 ```{python}
 #| label: fig-tw-poll-reports
-#| fig-cap: "Pollution Reports in Taiwan by County"
-#| fig-scap: "Pollution Reports in Taiwan by County"
+#| fig-cap: "Pollution reports in Taiwan by county"
+#| fig-scap: "Pollution reports in Taiwan by county"
 taiwan_pollution_reports()
 ```
 
@@ -948,8 +940,8 @@ Pollution Reports in Taiwan by District.
 
 ```{python}
 #| label: fig-tw-poll-reports-stack
-#| fig-cap: "Pollution Reports in Taiwan by District"
-#| fig-scap: "Pollution Reports in Taiwan by District"
+#| fig-cap: "Pollution reports in Taiwan by district"
+#| fig-scap: "Pollution reports in Taiwan by district"
 taiwan_pollution_reports_stacked()
 ```
 
@@ -981,8 +973,8 @@ Plastic pollution is pervasive around the Earth and is fundamentally linked to c
 
 ```{python}
 #| label: fig-microplastics
-#| fig-cap: "Microplastics in the Human Body"
-#| fig-scap: "Microplastics in the Human Body"
+#| fig-cap: "Microplastics in the human body"
+#| fig-scap: "Microplastics in the human body"
 microplastics_body_chart()
 ```
 
@@ -995,7 +987,7 @@ In the biosphere, mass extinctions are underway. An analysis of population trend
 Responding to the crisis, the Guardian newspaper in the UK has taken a clear stance, covering stories of extinction; the *Area de Conservación Guanacaste* is one of the protected areas listed by the UNESCO World Heritage Centre, providing data on the State of Conservation (SOC) by year [@mcclureHalfTreeLife2025; @centreAreaConservacioacutenGuanacaste1999]
 
 ::: {.content-hidden unless-format="pdf"}
-![Planetary Boundaries 2023 update. Azote for Stockholm Resilience Centre, based on analysis in Richardson et al 2023](./images/sustainability/planetary-boundaries-2023.png){#fig:planetary-boundaries width="100%" fig-scap="Planetary Boundaries 2023 Update"}
+![Planetary Boundaries 2023 update. Azote for Stockholm Resilience Centre, based on analysis in Richardson et al 2023](./images/sustainability/planetary-boundaries-2023.png){#fig:planetary-boundaries width="100%" fig-scap="Planetary boundaries 2023 update"}
 :::
 
 ```{=mdx}
@@ -1035,7 +1027,7 @@ CO~2~e emissions by region (per year), comparing highest per capita CO~2e~ emiss
 |  | Australia | Turkey |
 |  | United States | South Africa |
 
-: CO~2~ Emissions Comparison [@ivanovaQuantifyingPotentialClimate2020; @worldresourcesinstituteCO2EmissionsMetric2020; @europeancommission.jointresearchcentre.CO2EmissionsAll2022; @crippaFossilCO2GHG2020; @liuMonitoringGlobalCarbon2023].
+: CO~2~ emissions comparison [@ivanovaQuantifyingPotentialClimate2020; @worldresourcesinstituteCO2EmissionsMetric2020; @europeancommission.jointresearchcentre.CO2EmissionsAll2022; @crippaFossilCO2GHG2020; @liuMonitoringGlobalCarbon2023]. []{short-caption="CO~2~ emissions comparison"}
 
 *Scoping* CO~2e~ *emissions* into 4 main categories helps to organize calculating CO~2e~ emissions and corresponding reduction targets by looking at direct and indirect emissions separately. The U.S. National Public Utilities Council (NPUC) decarbonization report provides a useful categorization of *emission scopes* applicable to companies which helps organize emission reduction schemes [@nationalpublicutilitiescouncilAnnualUtilityDecarbonization2022] based on the Greenhouse Gas Protocol defined in the 1990s [@ghgprotocolUsGHGProtocol]. For example, for consumers in Australian states and territories in 2018, 83% of the GHG emissions are Scope 3, meaning indirect emissions in the value chain [@goodwinTargetingDegreesGlobal2023]. A newer concept is Scope 4 emissions also known as avoided emissions, proposed by the World Resources Institute (WRI) in 2013 [@planaWhatAreScope].
 
@@ -1047,7 +1039,7 @@ CO~2~e emissions by region (per year), comparing highest per capita CO~2e~ emiss
 | Scope 3        | Value chain emissions          |
 | Scope 4        | Avoided emissions              |
 
-: Definition of Emission Scopes From [@nationalpublicutilitiescouncilAnnualUtilityDecarbonization2022]. One's scope 3 emissions are someone else's scope 1 emissions.
+: Definition of Emissions' Scopes From [@nationalpublicutilitiescouncilAnnualUtilityDecarbonization2022]. One's scope 3 emissions are someone else's scope 1 emissions. []{short-caption="Emissions' Scopes"}
 
 Countries have agreed up CO~2e~ Reduction Targets known as Country-Level Nationally Determined Contributions (NDCs). While most countries have not reached their Nationally Determined Contributions, the Climate Action Tracker data portal allows comparing countries by their NDC performance [@climateanalyticsClimateActionTracker2023]. [@fransenStateNationallyDetermined2022] notes that the majority of Nationally Determined Contributions (NDCs) are dependent on financial assistance from the international community.
 
@@ -1094,7 +1086,7 @@ Founded a few months before BeZero in early 2020, *Sylvera* tackles the same qua
 | Fragmented, slow, OTC trading | N/A | Consolidates registries, offers 24 / 7 liquidity and smart-contract settlement |
 | Need to move big capital fast | Gives financiers a common risk language | Cuts friction so large orders can clear quickly |
 
-*Bottlenecks in Carbon Markets*
+*Bottlenecks in carbon markets*
 
 Sustainability is a complex web of interconnections. To treat nature as commodity is a category mistake: it is impossible to bring back already destroyed biodiversity that took millennia to develop. Humans create hugely complex systems using technology, instead of simply conserving nature. In a sense, climate action as an asset-liability problem, however the assets are non-fungible. They are rare and incredibly valuable.
 
@@ -1105,7 +1097,7 @@ There are 2 main approaches to protecting nature: commodification of nature vs n
 | **Economics of Nature Commodification** | **Economics of Sacred Nature** |
 | Measure and assign monetary value to nature. | Nature is Sacred - such as are religious holy places - and can't be touched [@eisensteinSacredEconomicsMoney2011; @eisensteinClimateNewStory2018] |
 
-: Economics of Nature Commodification vs Sacred Economics
+: Economics of nature commodification vs sacred economics
 
 Whether we should put a price on nature (or is it time to leave utilitarian environmentalism behind?) is still openly debated, with pro-financialization voices arguing assigning monetary figures to nature’s benefits legible to policymakers and markets, channeling large sums into conservation (e.g. carbon/biodiversity credits), while critics argue monetary metrics flatten relational, cultural and intrinsic values of ecosystems into exchange-value and commoditize nature, which may legitimize offsetting schemes that displace rather than prevent damage [@MonetaryValuationNature2023].
 
@@ -1123,7 +1115,7 @@ Ecosystem services literature defines a "Nature’s Contributions to People" fra
 | Create ecosystem service markets               |
 | Commodify nature                               |
 
-: Defining Ecosystem Services Concepts from [@MonetaryValuationNature2023]
+: Defining *Ecosystem Services* concepts from [@MonetaryValuationNature2023] []{short-caption="Defining *Ecosystem Services* concepts"}
 
 A practical example of ecosystem services becoming a common language comes from [@zhangIntegratingEcosystemServices2023] who proposes integrating ecosystem services conservation into urban planning, so biodiversity could become part of city planning. Another example is tourism, a large industrial sector which relies on ecosystem services [@liDistinguishingImpactTourism2023]. In Taiwan, [@leeDevelopingIndicatorFramework2021] developed a framework of indicators to assess sustainable tourism.
 
@@ -1138,7 +1130,7 @@ Pricing, tracing, and trading ecosystem services, and nature-backed assets enabl
 | Natural Asset Companies (NACs) | Represents a SEC-backed structure allowing public trading of ecosystem ownership rights |
 | Tokenized Natural Resources | Represent blockchain-based representations of nature (e.g., tokenized forest) |
 
-: Types of nature-backed assets and tradeable ecosystem services [@fiegenbaumComplementingCarbonCredits2024; @rossbergMetricTradableBiodiversity2024; @deloitteDecarbonizingH2OFinancing2024; @pwcCanFinancialInnovation2025; @borgesStandingForestCoin2022; @secNACListing2023]
+: Types of nature-backed assets and tradable ecosystem services from [@fiegenbaumComplementingCarbonCredits2024; @rossbergMetricTradableBiodiversity2024; @deloitteDecarbonizingH2OFinancing2024; @pwcCanFinancialInnovation2025; @borgesStandingForestCoin2022; @secNACListing2023]. []{short-caption="Nature-backed assets and tradable ecosystem services"}
 
 Carbon accounting and emissions trading schemes enable trading CO~2e~ emissions. These can be divided into 2 categories, namely *Compliance Carbon Markets* (CCM) and *Voluntary Carbon Markets* (VCM). The legislative baseline for Compliance Carbon Markets is so low, people want to retire more CO~2e~, which they can do through *Voluntary Carbon Markets.*
 
@@ -1154,7 +1146,7 @@ As of 2024 there's no single global CO~2~ trading market but rather several loca
 | New Zealand | 2008 | New Zealand [@rontardPoliticalConstructionCarbon2022] (need access, important NCKU doesn't subscribe) |
 | Canada | 2013 |  |
 
-: CO~2~ credit trading markets around the world from [@InternationalCarbonMarket].
+: CO~2~ credit trading markets around the world from [@InternationalCarbonMarket]. []{short-caption="CO~2~ credit trading markets"}
 
 The price of CO~2e~ differs across markets, as assigning a monetary value to reducing CO~2e~ emissions depends on several variables. [@sternCarbonNeutralEconomy2022] argues carbon-neutral economy needs higher CO~2e~ prices and believes [@rennertComprehensiveEvidenceImplies2022] CO~2e~ price per ton should be 3,6x higher that it is currently. Contrary, [@ritzGlobalCarbonPrice2022] argues optimal CO~2~ prices could be highly asymmetric, low in some countries and high (above the social cost of CO~2e~) in countries where production is very polluting. The total size of carbon markets reached 949 billion USD in 2023, including Chinese, European, and North American CO~2~ trading [@lsegGlobalCarbonMarkets2024].
 
@@ -1171,7 +1163,7 @@ The prices between compliance and voluntary markets differ substantially.
 | South Korea               | 5.84 USD               |
 | China                     | 8.29 USD               |
 
-: Compliance market CO~2~ prices on August 12, 2023; data from [@emberCarbonPriceTracker2023; @tradingeconomicsEUCarbonPermits2023; @carboncreditsLiveCarbonPrices2023].
+: Compliance market CO~2~ prices on August 12, 2023; data from [@emberCarbonPriceTracker2023; @tradingeconomicsEUCarbonPermits2023; @carboncreditsLiveCarbonPrices2023]. []{short-caption="Compliance market CO~2~ prices"}
 
 |                          |                        |
 |--------------------------|------------------------|
@@ -1180,12 +1172,12 @@ The prices between compliance and voluntary markets differ substantially.
 | Nature Based Offset      | \$1.80                 |
 | Tech Based Offset        | \$0.77                 |
 
-: Voluntary market CO~2~ prices on August 12, 2023; data from [@carboncreditsLiveCarbonPrices2023].
+: Voluntary market CO~2~ prices on August 12, 2023; data from [@carboncreditsLiveCarbonPrices2023]. []{short-caption="Voluntary market CO~2~ prices"}
 
 ```{python}
 #| label: fig-carbon-cred
-#| fig-cap: "Carbon Credits"
-#| fig-scap: "Carbon Credits"
+#| fig-cap: "Carbon credits"
+#| fig-scap: "Carbon credits"
 carbon_credits_chart()
 ```
 
@@ -1200,7 +1192,7 @@ Markets are centered around carbon credits, nature-backed financial derivatives 
 | Permanence | Carbon storage time (should be long-term) |
 | Leakage | Risk of shift to causing emissions (for example because of deforestation) |
 
-: Criteria for carbon credit projects from [@verraVerraReleasesRevised2023].
+: Criteria for carbon credit projects from [@verraVerraReleasesRevised2023]. []{short-caption="Criteria for carbon credit projects"}
 
 For the individual person, there's no direct access to CO~2~ markets. However, brokers do buy large amounts of carbon credits to resell in smaller quantities to retail investors. Facilitating citizens' access to CO~2~ emissions trading may be an efficient method to organize large-scale CO~2~ retiring [@rousseEnvironmentalEconomicBenefits2008]. [@sipthorpeBlockchainSolutionsCarbon2022] compares traditional and blockchain-based solutions to carbon trading, arguing that blockchain solutions for CO~2~eq markets are nearing maturity, and offer many improvements, such as enhancing transparency, trust, and efficiency.
 
@@ -1216,8 +1208,8 @@ Decarbonization scenarios include the possibility of decoupling economic growth 
 
 ```{python}
 #| label: fig-clim-scen
-#| fig-cap: "Climate Scenarios"
-#| fig-scap: "Climate Scenarios"
+#| fig-cap: "Climate change scenarios"
+#| fig-scap: "Climate change scenarios"
 climate_scenarios_chart()
 ```
 
@@ -1225,8 +1217,8 @@ Looking at the United Kingdom, [@harrissonAnalysisWhyUK2019] concludes UK's CO~2
 
 ```{python}
 #| label: fig-uk-emissions-trends
-#| fig-cap: "UK Energy Emissions' Trends"
-#| fig-scap: "UK Energy Emissions' Trends"
+#| fig-cap: "UK energy emissions' trends"
+#| fig-scap: "UK energy emissions' trends"
 uk_energy_emissions_trend()
 ```
 
@@ -1236,8 +1228,8 @@ CO~2~e emissions and GDP growth per capita follow a similar path in the BRICS co
 
 ```{python}
 #| label: fig-brics-emissions-trends
-#| fig-cap: "BRICS Emissions' vs GDP Growth Trends"
-#| fig-scap: "BRICS Emissions' vs GDP Growth Trends"
+#| fig-cap: "BRICS emissions' vs GDP growth trends"
+#| fig-scap: "BRICS emissions' vs GDP growth trends"
 growth_brics()
 ```
 
@@ -1245,7 +1237,7 @@ In practice, there's ample evidence from several countries suggesting moving to 
 
 There are still low-hanging fruits to be picked in terms of energy efficiency. [@devlinRegionalSupplyChains2022] analyzed regional steel supply chains between Australia and Japan, finding that co-locating steel manufacturing with renewable energy sources would provide the highest energy efficiency, reducing energy consumption by up to 45%; moreover, a carbon tax of 43-123 USD per tonne of CO~2~eq would mitigate the "green premium". [@stefanklebertCarbonneutralManufacturingPossible2022] CEO of GEA, a large producer of machinery and heat pumps, highlights that heating and cooling account for between 50-90% of energy use in processing plants; deploying state-of-the-art heat pump technology can half CO~2~eq emissions; large-scale carbon-neutral manufacturing is already possible with existing technologies.
 
-One example is Innocent’s Rotterdam juice plant, which operates a carbon-neutral facility (in terms or energy use for processing) by integrating heat pumps to capture and reuse waste heat across the production process; the article does not cover emissions from the juice source materials [@InnocentOpens200m]. Palsgaard, a large producer of emulsifiers and stabilizers for food industries, reports similar results of carbon-neutral production, through using advanced heat-management and green energy (hydro-power in Denmark) sources [@CO2neutralFactories]. The Green Transition Denmark think-thank has published a report calculating that the complete decarbonization of Denmark by 2040 would cost about 6.2 billion Danish krone (close to \$1 Billion USD) per year, achieving full net-zero emissions, full electrification of road transport, electrification of 75% of industry and 30% of heating, capping biomass use at 10.5 PJ (petajoules) to boost forest carbon storage by 1.6 Mt CO~2~, expand forests by 290 000 ha, and reduce farmland by 34%, while producing 90 PJ of green fuels [@mollerEnergyPlanetaryBoundaries2024].
+One example is Innocent’s Rotterdam juice plant, which operates a carbon-neutral facility (in terms or energy use for processing) by integrating heat pumps to capture and reuse waste heat across the production process; the article does not cover emissions from the juice source materials [@InnocentOpens200m]. Palsgaard, a large producer of emulsifiers and stabilizers for food industries, reports similar results of carbon-neutral production, through using advanced heat-management and green energy (hydropower in Denmark) sources [@CO2neutralFactories]. The Green Transition Denmark think-thank has published a report calculating that the complete decarbonization of Denmark by 2040 would cost about 6.2 billion Danish krone (close to \$1 Billion USD) per year, achieving full net-zero emissions, full electrification of road transport, electrification of 75% of industry and 30% of heating, capping biomass use at 10.5 PJ (petajoules) to boost forest carbon storage by 1.6 Mt CO~2~, expand forests by 290 000 ha, and reduce farmland by 34%, while producing 90 PJ of green fuels [@mollerEnergyPlanetaryBoundaries2024].
 
 Already in 2019, Alois Müller built an example "Green Factory" in Ungerhausen, where a 1.1 MW rooftop photovoltaic system supplies 2/3 of the electricity (feeding excess power to the grid), combined with a heat and power boiler powered by biogas and pellets (note: pellets have become very controversial as their sustainability highly depends on the source material), a 100000 liter buffer tank for waste heat, and a 230 kWh lithium battery [@vdizentrumressourceneffizienzCarbonneutralGreenFactory2020].
 
@@ -1257,7 +1249,7 @@ While it can be assumed much of the flora and fauna are crucial for Earth's syst
 
 The most complex computer models which attempt to capture ever more interactions happening in the physical realm are called *digital twins.* The EU is developing a digital twin of Earth to help sustainability prediction and planning, integrating Earth's various systems such as climate, hydrology, ecology, etc., into a single model [@hoffmannDestinationEarthDigital2023; @DestinationEarthShaping2023]. For instance, AI is being used to map icebergs and measure the change in size [@europeanspaceagencyAIMapsIcebergs2023]. We can use all the data being recorded to provide a digital twin of the planet, nature, ecosystems and human actions to help us change our behavior and optimize for planetary wellbeing.
 
-Ecological restoration includes building carbon sinks and biodiversity reservoirs, gealing damaged ecosystems, agroforestry and permaculture. Forests are a crucial part of Earth's carbon cycle and the main natural CO~2~ capture system; due to deforestation, Europe rapidly losing its forest carbon sink [@fredericsimonEuropeRapidlyLosing2022]. Beyond their role in locking away carbon, recent field work shows forest actively scrub methane from the air as tree bark absorbs methane [@gauciGlobalAtmosphericMethane2024]. Around 27% of Earth's land area is still covered by forests, yet *deforestation* is widespread all around the world; highest rates of deforestation happened in the tropical rainforests of South America and Africa, mainly caused by agricultural cropland expansion (50% of all deforestation) and grazing land for farm animals to produce meat (38.5%), totaling close to 90% of global deforestation [@FRA2020Remote2022]. The global forest cover change is visible on Google's Earth Engine [@hansenHighResolutionGlobalMaps2013].
+Ecological restoration includes building carbon sinks and biodiversity reservoirs, healing damaged ecosystems, agroforestry and permaculture. Forests are a crucial part of Earth's carbon cycle and the main natural CO~2~ capture system; due to deforestation, Europe rapidly losing its forest carbon sink [@fredericsimonEuropeRapidlyLosing2022]. Beyond their role in locking away carbon, recent field work shows forest actively scrub methane from the air as tree bark absorbs methane [@gauciGlobalAtmosphericMethane2024]. Around 27% of Earth's land area is still covered by forests, yet *deforestation* is widespread all around the world; highest rates of deforestation happened in the tropical rainforests of South America and Africa, mainly caused by agricultural cropland expansion (50% of all deforestation) and grazing land for farm animals to produce meat (38.5%), totaling close to 90% of global deforestation [@FRA2020Remote2022]. The global forest cover change is visible on Google's Earth Engine [@hansenHighResolutionGlobalMaps2013].
 
 Around the world, there are many initiatives to increase forest cover, for example the *1 billion tree project* [@greenfieldVeNeverSaid2021; @ErratumReportGlobal2020; @bastinGlobalTreeRestoration2019]. However, it's important to not planting trees (*afforestation)* is not the full solution, as *afforestation* is different from *reforestation*, which takes into account biodiversity. Also, while using remote-sensing and machine-learning to assess reforestation potential [see @klostermanMappingGlobalPotential2022], it doesn't take into account local political realities, and socioeconomic issues such as education, poverty and access to green jobs. Taking these aspects into account may be beneficial, for example [@bousfieldCarbonPaymentsCan2022] reports there's evidence paying landowners for the ecosystem services their forests provide may reduce deforestation.
 
@@ -1269,7 +1261,7 @@ The concept of how a public resource is over-used until breaking down as each us
 | Wetland restoration                         |
 | ...                                         |
 
-: Non-Exhaustive list of Regenerative Actions from [@hanEmbeddingNaturebasedSolutions2022]
+: Non-exhaustive list of regenerative actions from [@hanEmbeddingNaturebasedSolutions2022] []{short-caption="Non-exhaustive list of regenerative actions"}
 
 Growing organic food poses many challenges, which farmers need to adapt to, in order to participate in regenerative food systems. One approach is growing food forests, also known as agroforestry, which integrates farming into natural environments, achieving CO~2~eq storage in the soil through agriculture and forestry using agroecological practices. To take one example industry, the organic food and drink market is growing worldwide, with gross sales in 2019 totaling over 106 billion euros, albeit being a small percentage of total food industry [@gamageRoleOrganicFarming2023].
 
@@ -1289,8 +1281,8 @@ EU's energy mix in 2024:
 
 ```{python}
 #| label: fig-eu-energy-brakdown
-#| fig-cap: "The EU's Energy Production Breakdown"
-#| fig-scap: "The EU's Energy Production Breakdown"
+#| fig-cap: "The EU's energy production breakdown"
+#| fig-scap: "The EU's energy production breakdown"
 eu_energy_breakdown()
 ```
 
@@ -1298,8 +1290,8 @@ Wind and solar energy overtook fossil energy in Europe:
 
 ```{python}
 #| label: fig-eu-renew-vs-fossil
-#| fig-cap: "The EU's Renewables vs Fossil Energy"
-#| fig-scap: "The EU's Renewables vs Fossil Energy"
+#| fig-cap: "The EU's renewables vs fossil energy"
+#| fig-scap: "The EU's renewables vs fossil energy"
 eu_renewable_vs_fossil()
 ```
 
@@ -1307,8 +1299,8 @@ Globally, renewables also overtook fossil fuels [@ieaElectricityMidYearUpdate202
 
 ```{python}
 #| label: fig-global-renew-vs-fossil
-#| fig-cap: "Global Renewables vs Fossil Energy"
-#| fig-scap: "Global Renewables vs Fossil Energy"
+#| fig-cap: "Global renewables vs fossil energy"
+#| fig-scap: "Global renewables vs fossil energy"
 global_renewables_vs_fossil()
 ```
 
@@ -1316,15 +1308,15 @@ Meanwhile, reduction in coal-power was also possible. Coal is a large CO~2~eq em
 
 ```{python}
 #| label: fig-renew-vs-fossil
-#| fig-cap: "The EU's Reduction of Coal Energy"
-#| fig-scap: "The EU's Reduction of Coal Energy"
+#| fig-cap: "The EU's reduction of Coal Energy"
+#| fig-scap: "The EU's reduction of Coal Energy"
 eu_coal_reduction()
 ```
 
 ```{python}
 #| label: fig-tw-energy-prod
-#| fig-cap: "Taiwanese Energy Production"
-#| fig-scap: "Taiwanese Energy Production"
+#| fig-cap: "Taiwanese energy production"
+#| fig-scap: "Taiwanese energy production"
 taiwan_energy_production()
 ```
 
@@ -1346,8 +1338,8 @@ For instance, companies like Autodesk have introduced CO~2e~ calculations inside
 
 ```{python}
 #| label: fig-ai-sust-six
-#| fig-cap: "AI Use in Sustainability"
-#| fig-scap: "AI Use in Sustainability"
+#| fig-cap: "AI use in sustainability"
+#| fig-scap: "AI use in sustainability"
 sustainability_ai_six_dimensions()
 ```
 
@@ -1371,18 +1363,18 @@ While the numbers on overconsumption are clear, the debate on overconsumption is
 | 34%            | Mobility |
 | 15%            | Other    |
 
-: Daily human activities emission contribution, on average, in France, Germany, Norway and Sweden from [@mobergMobilityFoodHousing2019].
+: Daily human activities emissions' contribution, on average, in France, Germany, Norway and Sweden from [@mobergMobilityFoodHousing2019]. []{short-caption="Daily human activities emissions' contribution"}
 
 Taking a broader view, [@hannahritchieSectorSectorWhere2020; @usepaGlobalGreenhouseGas2016] dissect GHG emissions inventory by sector and put the blame squarely on the type of energy used.
 
 | Sector | Share | Description |
 |-----------------|----------------:|--------------------------------------|
-| Energy Use (inc. electricity, heat and transport) | 73.2 % | Total CO~2~eq emissions from all fuel combustion and related fugitive losses. Energy use in industry (24.2%) in processing metals (iron and steel), chemicals and petrochemicals, food and tobacco, non ferrous metals, paper, machinery, other industry; transport (16.2%) road, aviation, shipping, rail; buildings (17.5%) including residential and commercial; fugitive emissions (5.8%) such as methane leaks from oil and gas exploitation and coal mining; plus other, unallocated fuel combustion related emissions (7.8%) |
+| Energy Use (inc. electricity, heat and transport) | 73.2 % | Total CO~2~eq emissions from all fuel combustion and related fugitive losses. Energy use in industry (24.2%) in processing metals (iron and steel), chemicals and petrochemicals, food and tobacco, non-ferrous metals, paper, machinery, other industry; transport (16.2%) road, aviation, shipping, rail; buildings (17.5%) including residential and commercial; fugitive emissions (5.8%) such as methane leaks from oil and gas exploitation and coal mining; plus other, unallocated fuel combustion related emissions (7.8%) |
 | Direct Industrial Processes | 5.2 % | Direct CO~2~eq emissions from chemical reactions in cement and in chemicals and petrochemicals. |
 | Waste | 3.2 % | Wastewater methane and NO2 emissions; landfill methane. |
 | Agriculture + LULUCF (Land Use, Land-Use Change & Forestry) | 18.4 % | Emissions from grassland, cropland, deforestation, crop burning, rice cultivation, agricultural soils, livestock and manure. |
 
-: Industrial Emissions [@hannahritchieSectorSectorWhere2020; @usepaGlobalGreenhouseGas2016].
+: Industrial activities emissions' contribution from [@hannahritchieSectorSectorWhere2020; @usepaGlobalGreenhouseGas2016]. []{short-caption="Industrial activities emissions' contribution"}
 
 Earth's growing population reached 8 Billion people In November 2022 and population projections by predict 8.5B people by 2030 and 9.7B by 2050 [@theeconomictimesClimateChangeEarth2022; @unWorldPopulationProspects2022]. Indeed, making *anything* consumes natural resources, which are limited on planet Earth. [@hassounFoodProcessingCurrent2023] forecasts increase of global food demand by 62% driven by the impact of climate change. Yet, while population growth puts higher pressure on Earth's resources, some researchers propose the effect is higher from wasteful lifestyles than the raw number of people [@cardinaleBiodiversityLossIts2012]. Meanwhile, others, such as [@cafaroOverpopulationMajorCause2022], believe *\[o\]verpopulation is a major cause of biodiversity loss and smaller human populations are necessary to preserve what is left."*
 
@@ -1390,8 +1382,8 @@ Shopping's environmental footprint is every-increasing. It may seem impossible t
 
 ```{python}
 #| label: fig-shopping-growth
-#| fig-cap: "Growth of Consumerism"
-#| fig-scap: "Growth of Consumerism"
+#| fig-cap: "Growth of consumerism"
+#| fig-scap: "Growth of consumerism"
 shopping_growth()
 ```
 
@@ -1399,8 +1391,8 @@ Double Eleven 11/11 celebrated on November 11 is the world's largest shopping fe
 
 ```{python}
 #| label: fig-soc-com
-#| fig-cap: "Social Commerce"
-#| fig-scap: "Social Commerce"
+#| fig-cap: "Growth of social commerce"
+#| fig-scap: "Growth of social commerce"
 social_commerce_chart()
 ```
 

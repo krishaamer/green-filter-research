@@ -140,6 +140,10 @@ warnings.filterwarnings("ignore")
 
 \newpage
 
+{{< include "discussion/_personas.qmd" >}}
+
+\newpage
+
 {{< include "discussion/_ideas.qmd" >}}
 
 \newpage
