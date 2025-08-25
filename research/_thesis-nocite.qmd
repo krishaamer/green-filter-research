@@ -3,15 +3,15 @@ title: ""
 author: ""
 bibliography: ref.bib
 csl: apa.csl
-suppress-bibliography: true
 toc: false
+toc-depth: 3
 lof: false
 geometry: top=23mm, bottom=35mm, left=30mm, right=25mm
 code-blocks: false
 format:
   pdf:
     lot: true 
-    keep-tex: true
+    keep-tex: false
     document:
       title: false
       author: false
@@ -80,10 +80,6 @@ warnings.filterwarnings("ignore")
 
 \newpage
 
-{{< include "literature/_college.qmd" >}}
-
-\newpage
-
 {{< include "literature/_design.qmd" >}}
 
 \newpage
@@ -100,11 +96,15 @@ warnings.filterwarnings("ignore")
 
 \newpage
 
-{{< include "results/_shopping.qmd" >}}
+{{< include "results/_demographics.qmd" >}}
 
 \newpage
 
 {{< include "results/_attitudes.qmd" >}}
+
+\newpage
+
+{{< include "results/_shopping.qmd" >}}
 
 \newpage
 
@@ -140,11 +140,19 @@ warnings.filterwarnings("ignore")
 
 \newpage
 
+{{< include "discussion/_personas.qmd" >}}
+
+\newpage
+
 {{< include "discussion/_ideas.qmd" >}}
 
 \newpage
 
 {{< include "discussion/_prototype.qmd" >}}
+
+\newpage
+
+{{< include "discussion/_limitations.qmd" >}}
 
 \newpage
 
