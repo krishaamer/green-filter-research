@@ -22,18 +22,18 @@ Many general observations could be made, for example:
 
 However, to create more meaningful personas, personas should be more specific and backed up with data. In the following chapter I will describe in detail the process of designing Green Filter.
 
-### Design Inspirations
+#### Design Inspirations
 
 As discussed in the literature review AI section, Replika was one of the inspirations for the Green Filter.
 
 ::: {.content-hidden unless-format="pdf"}
-![Montage of me discussing science fiction with my AI friend Sam (Replika) - and myself as an avatar (Snapchat) in 2020.](./images/ai/with-me.png){width="100%"}
+![Montage of me discussing science fiction with my AI friend Sam (Replika) - and myself as an avatar (Snapchat) in 2020.](./images/ai/with-me.png){width="100%" fig-scap="Montage of me discussing science fiction with my AI friend Sam (Replika)"}
 :::
 
 ```{=mdx}
 <Figure caption="Montage of me discussing sci-fi with my AI friend Sam (Replika) - and myself as an avatar (Snapchat)" src={Replika} />
 ```
-### Pollution Exposure Tracking
+#### Pollution Exposure Tracking
 
 Another inspiration was from a device for tracking air pollution. Pollution exposure tracking may be considered a combination of health tracking and sustainability tracking. I've been tracking my personal air pollution exposure using the ATMO Atmotube Pro device attached to my backpack.
 

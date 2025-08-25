@@ -22,7 +22,7 @@ import warnings
 warnings.filterwarnings("ignore")
 ```
 
-## Prototype Design, Development, and Features
+### Prototype Design, Development, and Features
 
 The interactive prototype of Green Filter is publicly available at the Google Chrome extensions store and separately at the AI companion's website.
 
@@ -30,7 +30,7 @@ The interactive prototype of Green Filter is publicly available at the Google Ch
 
 -   Green Filter "Ziran AI" Website: https://ai.ziran.tw/
 
-### Prototype Architecture
+#### Prototype Architecture
 
 -   Google Chrome browser extension
 -   API micro-service
@@ -60,7 +60,7 @@ Other Tools Used:
 
 -   Postman for API testing
 
-### Google Chrome Extension App Installs
+#### Google Chrome Extension App Installs
 
 While Google is the most popular browser with over 3.45 billion users [@GoogleChromeStatistics2023], extensions are a relatively less known feature of the browser. Most popular extensions are Grammarly, for Taiwanese students End Note is familiar. However, it's only available for computers (extensions don't run on phones and tablets).
 
@@ -71,7 +71,7 @@ While Google is the most popular browser with over 3.45 billion users [@GoogleCh
 app_installs()
 ```
 
-### Momo AI Extension
+#### Momo AI Extension
 
 The following screenshots are from the production version (live on the web for anyone to use) of the Green Filter AI companion application. 
 
@@ -127,7 +127,7 @@ What if I like the products of this company and want to invest in it?
   src={Invest}
 />
 ```
-### AI Companion
+#### AI Companion
 
 The main view of the application with many embedded widgets for diverse AI companion features.
 

@@ -4,7 +4,7 @@ import warnings
 warnings.filterwarnings("ignore")
 ```
 
-## Personas
+## Developing Personas
 
 ### Clustering College Students to Build Personas
 
@@ -15,7 +15,7 @@ Personas are created using K-means clustering, an unsupervised machine learning 
 The Likert scale is a psychometric scale developed by Rensis Likert already in the 1930s, and it's commonly used to this day in questionnaires to measure respondents' attitudes, opinions, and perceptions [@sullivanAnalyzingInterpretingData2013]. K-Means, K-Modes, and K-Prototypes are unsupervised machine learning algorithms, used for finding patterns in the data. Here I've opted to use K-Means and Principal Component Analysis (PCA), which is used to convert data to lower dimension space (this is a simpler predecessor of *embeddings* used in large-language models).
 
 | Persona | Color/marker | Rough **attitude signal** along PC 1 | Cluster Centre (PC 1, PC 2) | Size |
-|-----------|-----------|---------------------------|-----------|-----------|
+|-------------|-------------|----------------------|-------------|-------------|
 | **1. Eco-Friendly** | blue ★ | Leans pro-environment, willing to pay or act for green goals | (\~ +2.2, +0.7) | n = 278 |
 | **2. Moderate** | orange ★ | Sits in the middle, balanced or undecided on most trade-offs | (\~ 0.0, –1.5) | n = 356 |
 | **3. Frugal** | green ★ | Cost-first, cautious about spending for eco causes | (\~ –2.0, +0.8) | n = 242 |
@@ -60,7 +60,9 @@ Questions Most Affecting Persona Creation include...
 show_single_persona(2)
 ```
 
-### Clustering Heatmap
+### Summary of Personas
+
+#### Clustering Heatmap
 
 ```{python}
 #| label: fig-survey-heatmap
@@ -69,7 +71,7 @@ show_single_persona(2)
 show_clustering_heatmap()
 ```
 
-### Mean Answer Scores
+#### Mean Answer Scores
 
 Mean response values for each Likert question in each cluster:
 
@@ -80,7 +82,7 @@ Mean response values for each Likert question in each cluster:
 get_kmeans_table()
 ```
 
-### Agreement Between Personas
+#### Agreement Between Personas
 
 There is some similarity between clusters. All 3 personas report a high level of financial anxiety and below-average satisfaction with their financial literacy. Highest agreement between personas is about health, safety, pollution and climate concerns.
 
@@ -91,26 +93,28 @@ There is some similarity between clusters. All 3 personas report a high level of
 treemap()
 ```
 
-| Rank | Category (Mean¹) | Why the take mostly holds | Any nuance to note |
-|-------------|-------------|-----------------------|-------------------------|
-| 1 | **Health & Safety (4.20)** | Highest average → students *actively* click with personal well-being. | The spread is tight; nearly everyone agrees, so messaging can be broad. |
-| 2 | **Climate & Pollution (4.00)** | Strong support for big-picture environmental stakes. | Scores cluster a hair lower than #1, but difference isn’t huge. |
-| 3 | **Env. Awareness & Action (3.80)** | They *like* the idea of acting green, just slightly less pumped than broad “save the planet” statements. | Some questions in this bucket may have asked for concrete effort (reuse cups, etc.), which drags the mean a bit. |
-| 4 | **Personal Finance & Investment (3.50)** | Mid-3s says “interested, not obsessed.” Your “money talk sits mid-tier” line is spot-on. | Variance is wider; a sub-segment rates it high, others shrug. |
-| 5 | **Ethical Consumption & Labor (3.20)** | Agreement exists but lags — real people far away feel abstract. | If you spotlight specific worker stories, expect this score to climb. |
-| 6 | **Tech & AI Engagement (3.10)** | Curiosity tempered by caution, exactly as you wrote. | The topic is newer, so opinions are still forming. |
-| 7 | **Economic Growth vs Sustainability (2.90)** | Lowest mean = hardest sell; “trade-off” framing pushes folks to neutral/disagree. | If you rephrase questions to show win-win economics, this block can leap upward. |
+| Agreement Between Personas | Design Implications |
+|-------------------------|------------------------------------------|
+| **Health & Safety (4.20)** | Highest average means students *actively* engage with personal well-being. Nearly everyone agrees, so messaging can be broad. |
+| **Climate & Pollution (4.00)** | Strong support for big-picture environmental stakes. Scores cluster only a bit lower than #1, but difference isn’t huge. |
+| **Env. Awareness & Action (3.80)** | Students *like* the idea of acting green, but concrete effort lowers the mean a bit. |
+| **Personal Finance & Investment (3.50)** | Variance is wider; a sub-segment rates it high, others are less engaged. |
+| **Ethical Consumption & Labor (3.20)** | Agreement exists but real people far away feel abstract. Spotlighting specific worker stories, may help this score to climb. |
+| **Tech & AI Engagement (3.10)** | Curiosity tempered by caution. The topic is newer, so opinions are still forming. |
+| **Economic Growth vs Sustainability (2.90)** | Lowest mean = hardest sell; “trade-off” framing pushes students to disagree. |
 
-In summary, *Safety \> Planet \> Personal Eco-action*. Students first protect themselves (food safety, health), then the planet, then think about their habits. Money talk sits mid-tier. Finance topics aren’t ignored (3.5 / 5) but aren’t hype either. Ethical labor & AI still feel abstract. Sweat-shop worries and AI curiosity land in the low-3’s. Economic trade-offs are the hardest sell. When sustainability sounds like “sacrifice growth,” support tanks (\< 3).
+In summary, *Safety \> Planet \> Personal Eco-action*. Students first protect themselves (food safety, health), then the planet, then think about their habits. Money talk sits mid-tier. Finance topics aren’t ignored (3.5 / 5) but aren’t hype either. Ethical labor and AI still feel abstract. Sweat-shop worries and AI curiosity land in the middle. Economic trade-offs are the hardest sell. When sustainability sounds like “sacrifice growth,” support drops (\< 3).
 
-*Design Implications*: Frame eco-features around personal health wins to boost engagement. App idea: Link sustainable investing to tangible health or climate outcomes to lift enthusiasm. Communications angle: Storytelling about real human impact behind labor issues and show AI as a practical helper, not sci-fi. Policy framing: Highlight win-win scenarios (green jobs, savings) instead of “growth vs. green” rhetoric.
+> *Overall Design Implications*:
+>
+> For the widest support between all personas, frame eco-features around personal health wins to boost engagement. Link sustainable investing to tangible health or climate outcomes to lift enthusiasm. Communications angle: Storytelling about real human impact behind labor issues and show AI as a practical helper, not sci-fi. Policy framing: Highlight win-win scenarios (green jobs, savings) instead of “growth vs. green” rhetoric.
 
-### Notable Quotes from the Survey
+#### Notable Quotes from the Survey
 
 The survey also included textual fields where college students could express their ideas in their owns words. Here are some quotes, which show the attitudes and feelings of the students.
 
 | **Original Quote (Chinese)** | **English Translation** | **Category** |
-|------------------|---------------------------------|-----------------|
+|-------------------|----------------------------------|------------------|
 | 黑心商品不健康或老闆品德不佳 | “Black-hearted products are unhealthy, and the boss has poor morals.” | Opinionated/Emotional |
 | 因為味全以前使用黑心油所以再也不買他們家的產品 | “Because Wei Chuan used gutter oil in the past, I will never buy their products again.” | Emotional |
 | 有食安問題、政治立場不同 | “They have food safety issues and \[hold\] different political stances.” | Thematic (Food safety/Political) |

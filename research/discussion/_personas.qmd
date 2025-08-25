@@ -11,7 +11,7 @@ warnings.filterwarnings("ignore")
 
 Persona-based app features match the 3 personas shown in the results section.
 
-### Eco-Friendly
+### "Eco-Friendly"
 
 ```{mermaid}
 %%| echo: false
@@ -56,7 +56,7 @@ Design Features for “Eco-Friendly” College Students
 
 : Actionable advice designing features for “Eco-Friendly” college students
 
-### Moderate
+### "Moderate"
 
 ```{mermaid}
 %%| echo: false
@@ -99,7 +99,7 @@ Design features for “Moderate” college students.
 
 : Actionable advice designing features for “Moderate” college students
 
-### Frugal
+### "Frugal"
 
 ```{mermaid}
 %%| echo: false
@@ -142,7 +142,7 @@ Design features for “Frugal” college students.
 
 : Actionable advice designing features for “Frugal” college students
 
-## Disregarded Features
+### Disregarded Features
 
 These type of social features universally received the lowest preference scores from all the personas.
 

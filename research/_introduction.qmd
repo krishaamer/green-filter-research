@@ -12,7 +12,7 @@ How can college students find sustainable companies? Furthermore, if given appro
 My research describes the process of designing an AI companion for college students to help with sustainable shopping, saving, and investing. Money spent shopping, saving, and investing in sustainable companies serves as an incentive to adopt more sustainable practices. If used wisely, money can reward companies for becoming more sustainable. Encourage the least sustainable companies to improve their performance, raising the overall baseline. Facilitate the formation of communities centered around environmental stewardship. Build closer relationships with sustainability.
 
 ::: {.content-hidden unless-format="pdf"}
-![College Students' Concept Map](./images/introduction/abstract.png){#fig-college-students-concepts width="100%" fig-lof-cap="College Students' Concept Map"}
+![College Students' Concept Map](./images/introduction/abstract.png){#fig-college-students-concepts width="100%" fig-scap="College Students' Concept Map"}
 :::
 
 ```{=mdx}
@@ -26,7 +26,7 @@ My research describes the process of designing an AI companion for college stude
 My research addresses the *"attitude-behavior gap"* among Taiwanese college students in taking sustainable financial action. Although Taiwanese students express strong concern for sustainability, companies often obscure environmental impacts and existing sustainability data remains fragmented and inaccessible. Without transparent, user-friendly digital tools, students struggle to connect their values with financial choices. This thesis addresses this attitude-behavior gap by designing an AI companion that translates complex supply-chain data, ESG metrics, and product sustainability information into clear, actionable insights for everyday financial decisions. In general, Icek Ajzen's *Theory of Planned Behavior* frames the gap between attitude and behavior by showing that (1) attitude, (2) perceived social norms, and (3) perceived control, must all converge, before intention can translate into any action [@ajzenTheoryPlannedBehavior1991] - in this case, taking sustainable financial action.
 
 ::: {.content-hidden unless-format="pdf"}
-![Research Gap(s)](./images/introduction/research-gaps.png){#fig-research-gap width="100%" fig-lof-cap="Research Gap(s)"}
+![Research Gap(s)](./images/introduction/research-gaps.png){#fig-research-gap width="100%" fig-scap="Research Gap(s)"}
 :::
 
 ```{=mdx}
@@ -53,7 +53,7 @@ In terms of the global context, the convergence of the following 5 trends makes 
 I grew up as an avid science fiction reader, which influenced my outlook towards future possibilities. In particular, the Star Trek universe had an imaginary portable device called a *tricorder* enabling scientists to scan anything for insights. Be it precious minerals inside a cave or scanning the human bodies for medical data, its sensors would show up with some useful data. In daily life, I would love to have such a device for consumer choices and financial investment decisions, translating ESG data into actionable insights - to know what to buy and which businesses to support with my money and approval.
 
 ::: {.content-hidden unless-format="pdf"}
-![Star Trek’s Captain Sulu using a tricorder (futuristic device example) - Photo copyright by Paramount Pictures](./images/introduction/tricorder.jpg){#fig-co2-tricorder width="50%" fig-lof-cap="Star Trek’s Captain Sulu using a tricorder (futuristic device example)"}
+![Star Trek’s Captain Sulu using a tricorder (futuristic device example) - Photo copyright by Paramount Pictures](./images/introduction/tricorder.jpg){#fig-co2-tricorder width="50%" fig-scap="Star Trek’s Captain Sulu using a tricorder (futuristic device example)"}
 :::
 
 ```{=mdx}

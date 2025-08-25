@@ -100,11 +100,11 @@ warnings.filterwarnings("ignore")
 
 \newpage
 
-{{< include "results/_shopping.qmd" >}}
+{{< include "results/_attitudes.qmd" >}}
 
 \newpage
 
-{{< include "results/_attitudes.qmd" >}}
+{{< include "results/_shopping.qmd" >}}
 
 \newpage
 

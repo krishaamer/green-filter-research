@@ -2,7 +2,30 @@
 import Figure from "/src/components/Figure";
 import Screenshots from "../images/testing/user-screenshots-2.jpg";
 ```
-## Student Testing Interview Template
+
+## 2nd Wave of Prototype Testing (Fall 2024 - Spring 2025)
+
+Interviews and testing survey were conducted anonymously in hopes to have more honest responses from the responders.
+
+-   32 anonymous Gen-Z participants in face-to-face interviews at 7 universities
+-   Over 100 anonymous self-testing participants at over 20 universities
+-   Testing is anonymous
+
+Below you can see some of the images testers uploaded from their own devices (there were too many to be displayed here fully).
+
+::: {.content-hidden unless-format="pdf"}
+![User-uploaded screenshots of the Green Filter prototype](./images/testing/user-screenshots-2.jpg){width="100%"}
+:::
+
+```{=mdx}
+<Figure
+  caption="User-uploaded screenshots of the Green Filter prototype"
+  src={Screenshots}
+  refURL="https://chromewebstore.google.com/detail/%E7%B6%A0%E6%BF%BE-green-filter/jmpnmeefjlcbpmoklhhljcigffdmmjeg?hl=zh-TW"
+  refTitle="Green Filter"
+/>
+```
+#### Student Testing Interview Template
 
 This is the basic interview script, which was used with small modifications at each interview.
 
@@ -28,29 +51,7 @@ On Momo:
 -   Front page: explain the helper takes into account your personal info and goals.
 -   Ask: what kind of information do you think important to share with the helper?
 
-## 2nd Wave of Testing (Fall 2024 - Spring 2025) - Prototype
-
-Interviews and testing survey were conducted anonymously in hopes to have more honest responses from the responders.
-
--   32 anonymous Gen-Z participants in face-to-face interviews at 7 universities
--   Over 100 anonymous self-testing participants at over 20 universities
--   Testing is anonymous
-
-Below you can see some of the images testers uploaded from their own devices (there were too many to be displayed here fully).
-
-::: {.content-hidden unless-format="pdf"}
-![User-uploaded screenshots of the Green Filter prototype](./images/testing/user-screenshots-2.jpg){width="100%"}
-:::
-
-```{=mdx}
-<Figure
-  caption="User-uploaded screenshots of the Green Filter prototype"
-  src={Screenshots}
-  refURL="https://chromewebstore.google.com/detail/%E7%B6%A0%E6%BF%BE-green-filter/jmpnmeefjlcbpmoklhhljcigffdmmjeg?hl=zh-TW"
-  refTitle="Green Filter"
-/>
-```
-### Testing Summary
+#### Testing Summary
 
 In-person interviews highlighted that participants generally appreciated the transparency provided by the Green Filter app regarding sustainability of products. Interviewees mentioned that the visibility of *"Material Sustainability"* and the historical and environmental impact of products influenced their perception and purchasing intentions, sometimes causing them to reconsider previously unquestioned consumption habits. Participants were particularly intrigued by the comprehensive information on carbon emissions, labor issues, and potential health risks from certain ingredients, emphasizing that such details were rarely accessible in typical shopping experiences. Additionally, participants valued AI-generated comparative data that offered alternative sustainable brands and products, which helped them better understand environmental impacts and make more informed choices.
 
@@ -105,12 +106,12 @@ However, usability issues surfaced regarding terminology and interface clarity. 
 | **APNOO** | 1\) **How-to & safety info** 2) Brand intro & specs 3) Country of origin | Similar to 6N9ZO: cares about safe use, material quality, and safety perception tied to origin. |
 | **CBYNQ** | 1\) **Price / discounts & coins** 2) Product description 3) Compliance / warning notices | Price & perks matter; still reads description; safety/compliance warnings can become deal-breakers. |
 
-### Known Issues
+#### Known Issues
 
 -   The Green Filter (Ziran) Chrome Extension is unable to record activity due to browser security restrictions for plugins.
 -   Meanwhile, the web-only version at "ai.ziran.tw" (without direct access to user's screen), can record user activity.
 
-### Notable Quotes from In-Person Testing
+#### Notable Quotes from In-Person Testing
 
 > “But I didn’t think that maybe the facial mask could contain some unknown plant extracts and chemical preservatives.”, anonymous student at Tainan Chang Jung Christian University (CJCU)
 
@@ -126,7 +127,7 @@ However, usability issues surfaced regarding terminology and interface clarity. 
 
 > “You can understand the product better. Before buying, you’ll know its info in more detail and what happens after you buy it...”, anonymous student at Tainan National Cheng Kung University (NCKU)
 
-### Notable Quotes from Self-Testing (Survey)
+#### Notable Quotes from Self-Testing (Survey)
 
 Apart from the in-person testing, there were also over 100 college students who tested the Green Filter app on their own and reported their ideas in a survey. Here' are some excerpts.
 
@@ -145,7 +146,7 @@ Apart from the in-person testing, there were also over 100 college students who 
 | 11 | **Trusted brand** | “Fresh Milk Village (*Xian-Niu-Fang*) — <https://www.bettermilk.com.tw/”> |
 | 12 | **Biggest influence on eco attitude** | “Documentaries on ecological collapse—melting ice, desertification, grassland retreat, forest fires—make me reflect on humanity’s impact.” |
 
-### Example Interview: 25 December 2024
+#### Example Interview: 25 December 2024
 
 Location: Taichung, National Chung Hsing University (NCHU) Anonymous Tester Code: \[3G1RL\]
 
@@ -188,11 +189,13 @@ Location: Taichung, National Chung Hsing University (NCHU) Anonymous Tester Code
 | **Interviewer** | Great. Thanks for your help today. |
 | **Participant** | No problem. |
 
-## 1st Wave of Testing (Spring 2024) - Prototype
+## 1st Wave of Prototype Testing (Spring 2024)
 
-Semi-structured interviews were conducted in Chinese. The interviewer (me) took notes of the interviews. Some gaps in the data exist due to the limited chinese language skills of the interviewer (me).
+Semi-structured interviews were conducted in Chinese. The interviewer (me) took notes of the interviews. Some gaps in the data exist due to the limited Chinese language skills of the interviewer (me).
 
-### 1st Wave Interview Samples
+#### 1st Wave Interview Samples
+
+The following are some of the notes taken during the interviews.
 
 #### Sunday, 14. April 2024, 22h at D24
 
@@ -209,7 +212,7 @@ User Profile: NCKU student, Gen-Z. Anonymous Tester Code: \[REDACTED\]
 
 Note: There's dropoff on every step of the user journey. Note 2: Add carbon indicators, other labels to the analysis, add report code, calculate report code from URL? Save as KV. Note 3: Make use of the Chinese term: 有意識的消費主義
 
-RQ: To what extend can shopping become and entry point for saving and investing. RQ: Can shopping serve as an entry point for sustainable saving and investing?
+RQ: To what extent can shopping become and entry point for saving and investing. RQ: Can shopping serve as an entry point for sustainable saving and investing?
 
 #### Wednesday May 8, 2024
 

@@ -1,8 +1,9 @@
 ```{python}
 #| echo: false
-from literature.charts.finance import money_chart, fintech_chart, asset_classes, shopping_growth, world_bank_bonds, growth_brics, esg_fintech_chart, esg_fintech_heatmap, social_commerce_chart, fund_types_chart, conventional_vs_sri_funds, ck_energy_productivity, ck_carbon_productivity, ck_board_diversity, esg_rating_agencies_chart, climate_finance_gap_sectors_timeline, climate_finance_gap_sectors, csrd_timeline, esg_vs_board_diversity, msci_esg_leaders, uk_energy_emissions_trend, econ_history_chart, climate_scenarios_chart, companies_triple_perf, retail_green_vs_nongreen, crypto_pricing_theories, bitcoin_vs_gold_futures, slavery_laws, slavery_map, msci_board_sustainability_experts, companies_large_emitters_climate_experts, companies_large_emitters_criteria, sustainable_consumption_relationships, air_quality_southasia_vs_taiwan
+from literature.charts.finance import money_chart, fintech_chart, asset_classes, shopping_growth, world_bank_bonds, growth_brics, esg_fintech_chart, esg_fintech_heatmap, social_commerce_chart, fund_types_chart, conventional_vs_sri_funds, ck_energy_productivity, ck_carbon_productivity, ck_board_diversity, esg_rating_agencies_chart, climate_finance_gap_sectors_timeline, climate_finance_gap_sectors, csrd_timeline, esg_vs_board_diversity, msci_esg_leaders, uk_energy_emissions_trend, econ_history_chart, climate_scenarios_chart, companies_triple_perf, retail_green_vs_nongreen, crypto_pricing_theories, bitcoin_vs_gold_futures, slavery_laws, slavery_map, msci_board_sustainability_experts, companies_large_emitters_climate_experts, companies_large_emitters_criteria, sustainable_consumption_relationships, air_quality_southasia_vs_taiwan, retail_green_vs_nongreen, climate_finance_gap_sectors_timeline, climate_finance_gap_sectors, money_chart, sustainable_consumption_relationships
 from literature.charts.college import company_rank_chart, genz_enrollment_chart, college_decline_chart, higher_education_chart, compare_taiwan_sweden, taiwanese_company_ranking_chart, green_millenials, mean_global_attitudes, postmaterialist_chart, postmaterialist_chart, world_values_chart, college_chatbot
-from literature.charts.finance import retail_green_vs_nongreen, climate_finance_gap_sectors_timeline, climate_finance_gap_sectors, money_chart, sustainable_consumption_relationships
+from literature.charts.sustainability import biodiversity_chart, carbon_credits_chart, ndc_chart, eu_energy_breakdown, eu_renewable_vs_fossil, global_renewables_vs_fossil, eu_coal_reduction, microplastics_body_chart, taiwan_pollution_reports, taiwan_pollution_reports_stacked, taiwan_energy_production, climate_tipping_points
+
 import warnings
 warnings.filterwarnings("ignore")
 ```
@@ -77,6 +78,78 @@ Psychological factors influencing millennials to engage with sustainability [@na
 #| fig-scap: "Psychological Factors Influencing Millennials to Engage with Sustainability"
 green_millenials()
 ```
+
+### Measuring the Global Eco-Investment Gap
+
+By the latest estimates sustainability lacks several trillions of USD in investment. Even with massive financing already in the pipeline, the estimate for the global *financing gap* for low-carbon energy production was 5.2 trillion USD as of 2016 [@MappingGapRoad2016; @earthdayEarthDay20232023]. Ray Dalio puts the needed climate investment at \$5T and believes these financial goals won't be met [@raydalioFourthBigForce2023]. A newer United Nations Environmental Programme (UNEP) calculation lowered the world needs an additional 4.1 Trillion USD of financing in nature-based solutions by 2050 to meet climate change, biodiversity, and land degradation reduction targets [@unepUNEPGreenFinance2022]. According to [@therockefellerfoundationWhatGetsMeasured2022] a slightly lower 2.5-3.2 Trillion USD would be sufficient.
+
+```{python}
+#| label: fig-climate-fin-funding
+#| fig-cap: "Climate Finance Funding Gap"
+#| fig-scap: "Climate Finance Funding Gap"
+climate_finance_gap_sectors_timeline()
+```
+
+What if 10% of annual consumer spending – *ten percent is about \$2,8T* - went towards protecting our climate. The theme for the 2023 Earth Day was *"Invest In Our Planet"*.
+
+```{python}
+#| label: fig-climate-fin-funding-sectors
+#| fig-cap: "Climate Finance By Sector"
+#| fig-scap: "Climate Finance By Sector"
+climate_finance_gap_sectors()
+```
+
+The needed investment doesn't seem so large, around 5% of the global GDP, if one compares it to the *per year* Global Gross Domestic Product (GDP) estimated at around 100 Trillion USD in 2022 and growing to 105 Trillion USD in 2023 [@aarononeillGlobalGDP198520282023; @imfWorldEconomicOutlook2023GDPgrowth]. In essence, the estimated total investment gap in climate fits into the economic growth of 1–2 years of the global economy. [@oecdOECDEconomicOutlook2024] projects steady economic growth 3.1% in 2024 and 3.2% in 2025 while the [@worldbankGlobalEconomicProspects2024] is more conservative projecting 2.6% and 2.7% respectively.
+
+The lack of funding in green energy especially affects emerging economies [@MobilizingCapitalEmerging2022]. *"We can and must channel private capital into nature-based solutions. This will require policy and regulatory support, catalytic capital and financial innovation"* argued the CEO Green Finance Institute, Dr Rhian-Mari Thomas, ahead of COP27 in Egypt [@GreenFinanceInstitute2023]. It's not happening fast enough.
+
+```{python}
+#| label: fig-high-value-assets
+#| fig-cap: "Climate Funding Gap vs High Value Assets"
+#| fig-scap: "Climate Funding Gap vs High Value Assets"
+money_chart()
+```
+
+| High-Value Assets (Trillions of USD) |   |
+|----------------------------------------------------|--------------------|
+| Global Real Estate (2020, valuation) | \$326T |
+| Global Equity Markets (2023, valuation) | \$108T |
+| Global GDP (2024, estimated) | \$110T |
+| Global GDP (2023, per year) | \$105T |
+| Global GDP (2022, per year) | \$100T |
+| *Global Pension Funds (2023, valuation)* | *\$47.9T* |
+| U.S. Equity Markets (2023, valuation) | \$46.2T |
+| U.S. National Debt (2023, valuation) | \$32.6T |
+| *Millennials Inheriting Money from Parents in the U.S., U.K. and Australia (2022-2032)* | *\$30T* |
+| Global Retail Sales of Goods and Services to Consumers (2023, per year) | \$28.2T |
+| GDP of U.S.A. (2023, per year) | \$26.8T |
+| GDP of China (2023, per year) | \$19.3T |
+| Global Private Market Assets (2023, per year) | \$11.7T |
+| *Unpriced Externalities (2023, per year)* | *\$7.3T* |
+| Global E-Commerce Sales (2021, per year) | \$5.2T |
+| *Missing Climate Investment (2022, estimate per year)* | *\$4.1T* |
+| Industrial & Commercial Bank of China (2019, total assets) | \$4T |
+| Global Real Estate Sales (2021, per year) | \$3.7T |
+| Apple Computers (2024, market value) | \$3.1T |
+| GDP of Japan (2023, per year) | \$4.5T |
+| GDP of Germany (2023, per year) | \$4.3T |
+| GDP of India (2023, per year) | \$3.7T |
+| U.S. Gen-Z and Millennials Consumer Spending (2022, per year) | \$2.5T |
+| NVIDIA 英偉達 (2024, market value) | \$2.5T |
+| *Retail Investors (2023, liquid assets)* | *\$1.8T* |
+| Blackstone (2023, total assets) | \$1T |
+| Bitcoin (2024, market cap) | \$1T |
+| GDP of Taiwan (2023, per year) | \$0.8T |
+| GDP of Finland (2023) | \$0.3T |
+| Ethereum (2024, market cap) | \$0.3T |
+| *Individual Climate Investors* (2020, per year) | \$0.1T |
+| GDP of Estonia (2023, per year) | \$0.04T |
+
+Table: Comparative data on needed climate investment and other valuable assets; all figures in Trillions of USD [@s&pglobalWorld100Largest2019; @grandviewresearchRealEstateMarket2021; @aarononeillGlobalGDP198520282023; @imfWorldEconomicOutlook2023; @stephanieaaronsonHowAppleBecame2023; @statistaRetailMarketWorldwide2023; @statistaGlobalRetailEcommerce2021; @sifmaResearchQuarterlyEquities2023; @ustreasuryFiscalDataExplains2023; @raoVisualizing105Trillion2023; @thinkingaheadinstituteGlobalPensionAssets2023; @blockworksBitcoinPriceBTC2023; @blockworksEthereumPriceETH2023; @mckinsey&companyMcKinseyGlobalPrivate2023; @oguhBlackstoneReachesRecord2023; @foxRetailInvestorsWill2023; @trucostNaturalCapitalRisk2023] []{short-caption="Comparative Data on Needed Climate Investment and Other Valuable Assets"}
+
+While these assets and GDP values reflect different aspects of the global economy, the comparison illustrates that redirecting a relatively small fraction of global wealth and economic activity towards sustainable investments can close the investment gap. This perspective should inspire confidence that the goal is achievable with coordinated effort and policy support. Indeed, it would be easier for large institutional investors to move their money to sustainable assets than for retail investors to move their relatively small investments.
+
+By putting students’ spending in the context of these global sustainability funding needs, underlines how small individual actions are in comparion, and how meaningful impact requires working together to hold companies responsible and empowering tools to support re-designing industrial practices.
 
 ### Taiwanese Financial Literacy and Education
 
@@ -200,75 +273,6 @@ University of California also followed suit with divestment of its \$126B USD po
 
 By extension, it may sound feasible that divesting could have a meaningful impact on companies if many retail investors collaborate on 'banning' the company to send a message to the board, yet in practice small individual divestments may be negligible to governance decisions.
 
-### Measuring the Global Eco-Investment Gap
-
-By the latest estimates sustainability lacks several trillions of USD in investment. Even with massive financing already in the pipeline, the estimate for the global *financing gap* for low-carbon energy production was 5.2 trillion USD as of 2016 [@MappingGapRoad2016; @earthdayEarthDay20232023]. Ray Dalio puts the needed climate investment at \$5T and believes these financial goals won't be met [@raydalioFourthBigForce2023]. A newer United Nations Environmental Programme (UNEP) calculation lowered the world needs an additional 4.1 Trillion USD of financing in nature-based solutions by 2050 to meet climate change, biodiversity, and land degradation reduction targets [@unepUNEPGreenFinance2022]. According to [@therockefellerfoundationWhatGetsMeasured2022] a slightly lower 2.5-3.2 Trillion USD would be sufficient.
-
-```{python}
-#| label: fig-climate-fin-funding
-#| fig-cap: "Climate Finance Funding Gap"
-#| fig-scap: "Climate Finance Funding Gap"
-climate_finance_gap_sectors_timeline()
-```
-
-What if 10% of annual consumer spending – *ten percent is about \$2,8T* - went towards protecting our climate. The theme for the 2023 Earth Day was *"Invest In Our Planet"*.
-
-```{python}
-#| label: fig-climate-fin-funding-sectors
-#| fig-cap: "Climate Finance By Sector"
-#| fig-scap: "Climate Finance By Sector"
-climate_finance_gap_sectors()
-```
-
-The needed investment doesn't seem so large, around 5% of the global GDP, if one compares it to the *per year* Global Gross Domestic Product (GDP) estimated at around 100 Trillion USD in 2022 and growing to 105 Trillion USD in 2023 [@aarononeillGlobalGDP198520282023; @imfWorldEconomicOutlook2023GDPgrowth]. In essence, the estimated total investment gap in climate fits into the economic growth of 1–2 years of the global economy. [@oecdOECDEconomicOutlook2024] projects steady economic growth 3.1% in 2024 and 3.2% in 2025 while the [@worldbankGlobalEconomicProspects2024] is more conservative projecting 2.6% and 2.7% respectively.
-
-The lack of funding in green energy especially affects emerging economies [@MobilizingCapitalEmerging2022]. *"We can and must channel private capital into nature-based solutions. This will require policy and regulatory support, catalytic capital and financial innovation"* argued the CEO Green Finance Institute, Dr Rhian-Mari Thomas, ahead of COP27 in Egypt [@GreenFinanceInstitute2023]. It's not happening fast enough.
-
-```{python}
-#| label: fig-high-value-assets
-#| fig-cap: "Climate Funding Gap vs High Value Assets"
-#| fig-scap: "Climate Funding Gap vs High Value Assets"
-money_chart()
-```
-
-| High-Value Assets (Trillions of USD) |   |
-|----------------------------------------------------|--------------------|
-| Global Real Estate (2020, valuation) | \$326T |
-| Global Equity Markets (2023, valuation) | \$108T |
-| Global GDP (2024, estimated) | \$110T |
-| Global GDP (2023, per year) | \$105T |
-| Global GDP (2022, per year) | \$100T |
-| *Global Pension Funds (2023, valuation)* | *\$47.9T* |
-| U.S. Equity Markets (2023, valuation) | \$46.2T |
-| U.S. National Debt (2023, valuation) | \$32.6T |
-| *Millennials Inheriting Money from Parents in the U.S., U.K. and Australia (2022-2032)* | *\$30T* |
-| Global Retail Sales of Goods and Services to Consumers (2023, per year) | \$28.2T |
-| GDP of U.S.A. (2023, per year) | \$26.8T |
-| GDP of China (2023, per year) | \$19.3T |
-| Global Private Market Assets (2023, per year) | \$11.7T |
-| *Unpriced Externalities (2023, per year)* | *\$7.3T* |
-| Global E-Commerce Sales (2021, per year) | \$5.2T |
-| *Missing Climate Investment (2022, estimate per year)* | *\$4.1T* |
-| Industrial & Commercial Bank of China (2019, total assets) | \$4T |
-| Global Real Estate Sales (2021, per year) | \$3.7T |
-| Apple Computers (2024, market value) | \$3.1T |
-| GDP of Japan (2023, per year) | \$4.5T |
-| GDP of Germany (2023, per year) | \$4.3T |
-| GDP of India (2023, per year) | \$3.7T |
-| U.S. Gen-Z and Millennials Consumer Spending (2022, per year) | \$2.5T |
-| NVIDIA 英偉達 (2024, market value) | \$2.5T |
-| *Retail Investors (2023, liquid assets)* | *\$1.8T* |
-| Blackstone (2023, total assets) | \$1T |
-| Bitcoin (2024, market cap) | \$1T |
-| GDP of Taiwan (2023, per year) | \$0.8T |
-| GDP of Finland (2023) | \$0.3T |
-| Ethereum (2024, market cap) | \$0.3T |
-| *Individual Climate Investors* (2020, per year) | \$0.1T |
-| GDP of Estonia (2023, per year) | \$0.04T |
-
-Table: Comparative data on needed climate investment and other valuable assets; all figures in Trillions of USD [@s&pglobalWorld100Largest2019; @grandviewresearchRealEstateMarket2021; @aarononeillGlobalGDP198520282023; @imfWorldEconomicOutlook2023; @stephanieaaronsonHowAppleBecame2023; @statistaRetailMarketWorldwide2023; @statistaGlobalRetailEcommerce2021; @sifmaResearchQuarterlyEquities2023; @ustreasuryFiscalDataExplains2023; @raoVisualizing105Trillion2023; @thinkingaheadinstituteGlobalPensionAssets2023; @blockworksBitcoinPriceBTC2023; @blockworksEthereumPriceETH2023; @mckinsey&companyMcKinseyGlobalPrivate2023; @oguhBlackstoneReachesRecord2023; @foxRetailInvestorsWill2023; @trucostNaturalCapitalRisk2023] []{short-caption="Comparative Data on Needed Climate Investment and Other Valuable Assets"}
-
-While these assets and GDP values reflect different aspects of the global economy, the comparison illustrates that redirecting a relatively small fraction of global wealth and economic activity towards sustainable investments can close the investment gap. This perspective should inspire confidence that the goal is achievable with coordinated effort and policy support. Indeed, it would be easier for large institutional investors to move their money to sustainable assets than for retail investors to move their relatively small investments.
 
 ### ESG Crisis: Towards A Shared Language of Sustainability Risk
 
@@ -340,7 +344,7 @@ Yet, the question remains, whether one can trust financial professional to hold 
 
 In early 2025, ESG investing saw \$8.6 billion in global outflows, mainly due to political pushback in the U.S., including rollbacks of climate and DEI policies under the Trump administration. U.S. sustainable funds lost \$6.1 billion, and Europe saw its first net outflow since 2018; ESG is shifting toward a more practical phase, with less focus on branding and more on measurable outcomes [@johnsonESGFundOutflows2025; @bioyGlobalESGFunds2025; @vosburgWhatRollbacksMean2025; @mitchellSustainableFutureHortenseBioy2025].
 
-### Towards ESG Transparency with Real-Time Data Streams and Product Lifecycle Traceability
+### ESG Transparency: Product Lifecycle Traceability with Real-Time Data 
 
 For AI-powered assistants to be able to provide guidance, metrics are needed to evaluate sustainable assets, and ESG provides the current state-of-the-art for this. Tracking ethics and cruelty is only possible with transparent factories and supply chains. The largest obstacle to eco-friendly investing is greenwashing where companies and governments try to portray an asset as green when in reality it's not. A personal investing assistant can provide an interface to focus on transparency, highlighting data sources and limitations, to help users feel in control of their investment decisions, and potentially even provide large-scale consumer feedback on negative practices.
 
@@ -535,7 +539,7 @@ Maintaining that trust matters. In 2017, Etsy lost the certification after faili
 
 Citywealth’s *"ESG branding with B-Corps"* guide shows how companies can leverage their B Corp status—using consistent logo placement, stakeholder storytelling, and transparent impact data to avoid greenwashing and attract impact-focused investors [@citywealthESGBrandingBCorps2021]. [@SocialEnterprisesCorps2025] explains how the true social and financial value of mission-driven enterprises comes from aligning the documentation with the reality.
 
-### Good Governance, Appropriate Legislation, and Digitization Hold Potential for ESG Accessibility
+### ESG Accessibility: Good Governance, Legislation, Digitization
 
 ESG accessibility is a new term meant to capture the concept of ESG success for a wide range of stakeholders where each has access to the benefits of ESG.
 
@@ -712,7 +716,7 @@ Progress in sustainability is possible but achieving results takes time and inno
 
 [@DuJiaGuanChaDianZiFaPiao2025] reports 54.03% of invoices in Taiwan are digital. Since 2021 digital receipts are mandatory for all businesses. Taiwan's longstanding receipt lottery also has specific prizes available only for digital receipts [@XingDongZhiFuJieHeYunDuanFaPiao2018]. Several other countries, such as Singapore, South Korea, Japan, Sweden, Italy, Portugal, Brazil, Mexico, have comparable systems in use.
 
-### The Convergence of Money: Superapps to Rule Shopping, Saving, and Investing
+### Convergence of Money: Superapps for Shopping, Saving, and Investing
 
 The meaning of *money* itself has been changing and becoming more diverse. Traditionally, money referred to the *fiat money* created by governments by law, using central banks, which loan money to commercial banks, that in turn make it available to the society. Now, we also have new types of money created by companies and individuals using cryptographic blockchain-based distributed databases (digital ledgers), which keep track of transactions (who-paid-whom). We have various types of tokens of value, such as cryptocurrencies, digital assets, loyalty points, etc., which can all function as types of money. Whatever the method of creation, in essence, money is a *system of trust* where *something* is used as a *medium of value exchange* and accepted by *other people* as payment.
 
@@ -1094,9 +1098,263 @@ Financial tooling from traditional finance (called Trad-Fi in crypto circles) ha
 
 Oracles provide the intersection between finance and real world sustainability data. A data oracle is the concept of a source of real-world data which can be ingested through an application programming interface (API) to a blockchain system. There are many databases of sustainability information which could serve as an oracle for carbon labeling, packaging, transportation, consumption, and waste. For example, crypto crop insurance provided by IBISA Network uses blockchain triggers and satellite data to offer transparent, automated payouts for farmers facing weather-related risks [@IBISANetworkEnabling]. While [@caldarelliOvercomingBlockchainOracle2020] notes it's a challenge to ensure the accuracy and trustworthiness of real-world data from Oracles, the largest Oracle provider ChainLink founder Sergey Nazarov believes the collaboration of oracles and blockchains can make carbon credits more trustworthy. [@bradydaleChainlinkFounderSays2021; @chainlinkNewReportBlockchains2022].
 
-### Economics of Decoupling: Growth, Degradation, Pricing Externalities and Hidden Costs
+### Probabilistic Risk-Based Assessments for Sustainable Finance
 
-The "eco" in ecology and economy are same? Oîkos, the Greek word for “household”, seeds two modern disciplines: ecology studies how the home works; economy sets the rules for managing it. The two have drifted apart: one guarding planetary health, the other chasing growth. This chapter reunites them by asking: how do we measure prosperity without wrecking our home?
+Designing for sustainability boils down to building tools for protecting nature which navigate complexity with data.
+
+In order to make a difference in sustainability, with large capital flowing into the environment at scale to deliver climate action, the markets for ecosystem assets would need to scale urgently, starting with carbon credits. BeZero is a startup innovating in the Voluntary Carbon Credit Market (VCM) by providing *risk-scoring*, a language financial professionals are accustomed to working with in other types of asset classes [@bezeroScalingCarbonMarkets2022; @tommyrickettsNavigatingNetZero2023]. The VCM is limited by immature market structures, which means market participants still struggle to price and manage risk properly; BeZero ratings frame carbon credits in a probabilistic, risk-based language familiar to large investors who oversee roughly 200 trillion USD of global assets [@bezeroFocusRatings2022].
+
+> *“The challenge is to make these instruments as recognizable as tradable assets, as measurable as financial securities, and as investable as other asset classes. Efficient financial markets allocate and manage risk based on effective price mechanisms, and this relies on access to credible information.”* [@bezeroScalingCarbonMarkets2022]
+
+Founded a few months before BeZero in early 2020, *Sylvera* tackles the same quality-signal problem in carbon, utilizing a scientific toolkit including analysis of high-resolution satellite imagery, LiDAR point clouds, and machine-learning models to assign granular AAA–D scores that break out carbon efficacy, additionality, permanence, and co-benefits; the company is active world-wide, including opening a regional hub in Singapore and holding an event earlier this year in Taiwan to promote carbon credit accountancy as a pathway to sustainability in collaboration with the Welhunt Group [@welhuntWelhuntSylveraCohost2025; @sylveraSylveraSingaporeEmpowering2023].
+
+| Bottleneck in VCM | BeZero | Carbonmark |
+|-------------------|------------------------|-----------------------------|
+| Hard to gauge quality and downside risk | Provides probabilistic ratings investors already understand | N/A |
+| Fragmented, slow, OTC trading | N/A | Consolidates registries, offers 24 / 7 liquidity and smart-contract settlement |
+| Need to move big capital fast | Gives financiers a common risk language | Cuts friction so large orders can clear quickly |
+
+*Bottlenecks in carbon markets*
+
+Sustainability is a complex web of interconnections. To treat nature as commodity is a category mistake: it is impossible to bring back already destroyed biodiversity that took millennia to develop. Humans create hugely complex systems using technology, instead of simply conserving nature. In a sense, climate action as an asset-liability problem, however the assets are non-fungible. They are rare and incredibly valuable.
+
+There are 2 main approaches to protecting nature: commodification of nature vs nature's sacred value.
+
+|  |  |
+|--------------------------|----------------------------------------------|
+| **Economics of Nature Commodification** | **Economics of Sacred Nature** |
+| Measure and assign monetary value to nature. | Nature is Sacred - such as are religious holy places - and can't be touched [@eisensteinSacredEconomicsMoney2011; @eisensteinClimateNewStory2018] |
+
+: Economics of nature commodification vs sacred economics
+
+Whether we should put a price on nature (or is it time to leave utilitarian environmentalism behind?) is still openly debated, with pro-financialization voices arguing assigning monetary figures to nature’s benefits legible to policymakers and markets, channeling large sums into conservation (e.g. carbon/biodiversity credits), while critics argue monetary metrics flatten relational, cultural and intrinsic values of ecosystems into exchange-value and commoditize nature, which may legitimize offsetting schemes that displace rather than prevent damage [@MonetaryValuationNature2023].
+
+Ecosystem services literature defines a "Nature’s Contributions to People" framework, originally proposed by the Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services (IPBES). [@diazAssessingNaturesContributions2018]. [@muradianEcosystemServicesNature2021] critically assesses the framework, arguing utilitarian and anthropocentric views of the ecosystem services concept perpetuates problematic dualisms (humans and nature are separate) - and call for a new approach centered on ecology.
+
+|                                                |
+|------------------------------------------------|
+| 9 Steps Towards Defining Ecosystem Services    |
+| Identify ecosystem functions                   |
+| Quantify ecosystem functions                   |
+| Identify ecosystem services                    |
+| Quantify ecosystem services                    |
+| Quantify financial value of ecosystem services |
+| Assign property rights                         |
+| Create ecosystem service markets               |
+| Commodify nature                               |
+
+: Defining *Ecosystem Services* concepts from [@MonetaryValuationNature2023] []{short-caption="Defining *Ecosystem Services* concepts"}
+
+A practical example of ecosystem services becoming a common language comes from [@zhangIntegratingEcosystemServices2023] who proposes integrating ecosystem services conservation into urban planning, so biodiversity could become part of city planning. Another example is tourism, a large industrial sector which relies on ecosystem services [@liDistinguishingImpactTourism2023]. In Taiwan, [@leeDevelopingIndicatorFramework2021] developed a framework of indicators to assess sustainable tourism.
+
+Pricing, tracing, and trading ecosystem services, and nature-backed assets enable financialize the natural world on markets. Similarly to carbon markets, markets for nature-backed assets and ecosystem services are centered around different types of credits.
+
+| **Asset Type** | **Description** |
+|------------------------|------------------------------------------------|
+| Carbon Credits and Offsets | Represent avoided or removed CO~2~eq emissions through reforestation, soil health improvements, regenerative farming practices that sequester carbon, etc |
+| Biodiversity Credits | Represent conservation and restoration of species or ecosystems quantified by some standard or criteria such as provided by Verra and Gold Standard |
+| Water Rights and Wetland Credits | Represent rights to access water or preserve/restore wetlands which can be traded |
+| Conservation Finance Instruments | Represent bonds or funds that protect forests, coral reefs, or species habitats |
+| Natural Asset Companies (NACs) | Represents a SEC-backed structure allowing public trading of ecosystem ownership rights |
+| Tokenized Natural Resources | Represent blockchain-based representations of nature (e.g., tokenized forest) |
+
+: Types of nature-backed assets and tradable ecosystem services from [@fiegenbaumComplementingCarbonCredits2024; @rossbergMetricTradableBiodiversity2024; @deloitteDecarbonizingH2OFinancing2024; @pwcCanFinancialInnovation2025; @borgesStandingForestCoin2022; @secNACListing2023]. []{short-caption="Nature-backed assets and tradable ecosystem services"}
+
+Carbon accounting and emissions trading schemes enable trading CO~2e~ emissions. These can be divided into 2 categories, namely *Compliance Carbon Markets* (CCM) and *Voluntary Carbon Markets* (VCM). The legislative baseline for Compliance Carbon Markets is so low, people want to retire more CO~2e~, which they can do through *Voluntary Carbon Markets.*
+
+As of 2024 there's no single global CO~2~ trading market but rather several local markets as described in the table below. Most of the world is not part of a CO~2~ market.
+
+|  |  |  |
+|-------------------|-------------------|----------------------------------|
+| CO~2~ Market | Launch Date | Comments |
+| EU | 2005 | EU: [@araujoEuropeanUnionMembership2020] |
+| South Korea | 2015 |  |
+| China | 2021 | China's national emissions trading scheme (ETS) started in 2021 priced at 48 yuan per tonne of CO~2~, averaged at 58 yuan in 2022 [@liuIndepthWillChina2021; @ivyyinCommodities2023China2023]. |
+| U.S. | 2013 | No country-wide market; local CO~2~ markets in California, Connecticut, Delaware, Maine, Maryland, Massachusetts, New Hampshire, New York, Rhode Island, and Vermont |
+| New Zealand | 2008 | New Zealand [@rontardPoliticalConstructionCarbon2022] (need access, important NCKU doesn't subscribe) |
+| Canada | 2013 |  |
+
+: CO~2~ credit trading markets around the world from [@InternationalCarbonMarket]. []{short-caption="CO~2~ credit trading markets"}
+
+The price of CO~2e~ differs across markets, as assigning a monetary value to reducing CO~2e~ emissions depends on several variables. [@sternCarbonNeutralEconomy2022] argues carbon-neutral economy needs higher CO~2e~ prices and believes [@rennertComprehensiveEvidenceImplies2022] CO~2e~ price per ton should be 3,6x higher that it is currently. Contrary, [@ritzGlobalCarbonPrice2022] argues optimal CO~2~ prices could be highly asymmetric, low in some countries and high (above the social cost of CO~2e~) in countries where production is very polluting. The total size of carbon markets reached 949 billion USD in 2023, including Chinese, European, and North American CO~2~ trading [@lsegGlobalCarbonMarkets2024].
+
+The prices between compliance and voluntary markets differ substantially.
+
+|                           |                        |
+|---------------------------|------------------------|
+| Compliance Carbon Markets | Price (Tonne of CO~2~) |
+| EU                        | 83 EUR                 |
+| UK                        | 40 Pounds              |
+| US (California)           | 29 USD                 |
+| Australia                 | 32 USD                 |
+| New Zealand               | 50 USD                 |
+| South Korea               | 5.84 USD               |
+| China                     | 8.29 USD               |
+
+: Compliance market CO~2~ prices on August 12, 2023; data from [@emberCarbonPriceTracker2023; @tradingeconomicsEUCarbonPermits2023; @carboncreditsLiveCarbonPrices2023]. []{short-caption="Compliance market CO~2~ prices"}
+
+|                          |                        |
+|--------------------------|------------------------|
+| Voluntary Carbon Markets | Price (Tonne of CO~2~) |
+| Aviation Industry Offset | \$0.93                 |
+| Nature Based Offset      | \$1.80                 |
+| Tech Based Offset        | \$0.77                 |
+
+: Voluntary market CO~2~ prices on August 12, 2023; data from [@carboncreditsLiveCarbonPrices2023]. []{short-caption="Voluntary market CO~2~ prices"}
+
+```{python}
+#| label: fig-carbon-cred
+#| fig-cap: "Carbon credits"
+#| fig-scap: "Carbon credits"
+carbon_credits_chart()
+```
+
+Voluntary Carbon Markets are a decentralized system where private entities voluntarily buy and sell carbon credits [@icvcmVoluntaryCarbonMarket2025]. Carbon credits are useful for private companies who wish to claim *carbon neutrality, climate positivity*, or other related claim, which might be viewed in good light by their clients or allow the companies to adhere to certain legislative requirements. In the simplest terms, a carbon credit represents 1T of CO~2~eq that has been prevented from entering the atmosphere - or has been removed from circulation (aka Carbon Credit Retirement) [@annawatsonCarbonCreditRetirements2023; @annawatsonCarbonDioxideRemoval2022]. However it's important to look at the details of these deal as Voluntary Carbon Markets (VCM) lack standardization and transparency [@elakhodaiWhyVCMNeeds2023]. For example, Flickr only invested around 3000 USD in carbon credits and got a carbon-neutral rating, which hardly seems enough for an organization of its size [@climateneutralFlickrClimateLabel2024].
+
+Markets are centered around carbon credits, nature-backed financial derivatives dependent on science-based methodologies for measurement, reporting, and verification (MRV), which are managed and regularly updated by certification organizations such as Gold Standard, Verra, and others. Some standards released in the past few years include the Verra Agricultural Land Management methodology for Verified Carbon Standard (VCS) [@verraVerraReleasesRevised2023]. Gold Standard recently released a methodology for Mangrove-based carbon credits [@goldstandardSustainableMangroveManagement2024]. Regen Network released a methodology for regenerative grazing systems, proposing remote-sensing analysis with field-sampled soil carbon data, quantifying GHG sequestration and ecological co-benefits (biodiversity, water-infiltration, etc.) for robust MRV and carbon-credit issuance [@MethodologyGHGCoBenefits2022]. KlimaDAO, unhappy with the current standards, published “An open call for alternative carbon standards” inviting carbon-credit issuers and communities to propose next-generation registry frameworks and leverage blockchain for transparency, liquidity and interoperability in the voluntary carbon market [@klimadaoOpenCallAlternative2023].
+
+| Criteria | Description |
+|------------------------------------|------------------------------------|
+| Baseline | Ecosystem carbon sequestration rate without the intervention (project) |
+| Additionality | New carbon capture or prevention of emissions |
+| Permanence | Carbon storage time (should be long-term) |
+| Leakage | Risk of shift to causing emissions (for example because of deforestation) |
+
+: Criteria for carbon credit projects from [@verraVerraReleasesRevised2023]. []{short-caption="Criteria for carbon credit projects"}
+
+For the individual person, there's no direct access to CO~2~ markets. However, brokers do buy large amounts of carbon credits to resell in smaller quantities to retail investors. Facilitating citizens' access to CO~2~ emissions trading may be an efficient method to organize large-scale CO~2~ retiring [@rousseEnvironmentalEconomicBenefits2008]. [@sipthorpeBlockchainSolutionsCarbon2022] compares traditional and blockchain-based solutions to carbon trading, arguing that blockchain solutions for CO~2~eq markets are nearing maturity, and offer many improvements, such as enhancing transparency, trust, and efficiency.
+
+CO~2e~ credits have given rise to the Carbon Accounting industry, to help companies meet legal emissions reduction targets in Compliance Carbon Markets, with many companies like Watershed, Greenly, and Sustaxo providing services. [@quatriniChallengesOpportunitiesScale2021] admits sustainability assessments are often complex and may give flawed results. Nonetheless, CO~2~ emission reduction has the added positive effect of boosting corporate morale [@caoImpactLoweringCarbon2023].
+
+There are many companies which facilitate buy carbon credits as well as a few organizations focused on carbon credit verification. In Estonia, startups Arbonics and Single.Earth are trialing this approach in several forests. The most established certifiers or carbon credits include the Verified Carbon Standard (VCS), the Gold Standard, Climate Action Reserve (CAR)‍, and the American Carbon Registry (ACR).
+
+*"Carbon pricing is not there to punish people,"* says Lion Hirth [@lionhirthLionHirthTwitter]. *"It's there to remind us, when we take travel, heating, consumption decisions that the true cost of fossil fuels comprises not only mining and processing, but also the damage done by the CO~2~ they release."* Long term cost of insufficient climate action is more than short-term gains from delaying efforts to reduce carbon emissions. In addition to the damages from global warming, the fossil energy production that's a large part of global CO~2~eq emissions has caused several high-profile pollution events. Large ones that got international news coverage include Exxon Valdez and Deepwater Horizon.
+
+Carbon credit prices should reflect the quality of the carbon reduction. Nature-based carbon removal solutions (for example, forest-backed carbon credits) rank among the top solutions for mitigating climate change but require price signals that reflect their true value; Pachama’s (an AI-based carbon removal company) calculation from bottom up cost modeling across more than 150 reforestation projects indicate that high quality forest carbon removal credits must trade at a minimum of USD 50-82 per tonne of CO~2~eq to be competitive with alternative land uses (IPCC AR6 guidance sets the price spread wider, from USD 50-200); reduced land-use change (basically this means not cutting down forests, IPCC groups together as LULUCF, Land Use, Land-Use Change and Forestry) ranks 2nd to solar energy in terms of carbon reduction potential [@pachamaHowMuchShould2023; @luikWhereDoesCarbon2025].
+
+Decarbonization scenarios include the possibility of decoupling economic growth from CO~2~e emissions (also known as decarbonizing the economy or eco-economic decoupling) and is hotly debated (pun intended) among scientists. [@keysserDegrowthScenariosSuggest2021] provides several scenarios for low, medium, and high levels of decoupling titled Degrowth, IPCC, and Dec-Extreme.
+
+```{python}
+#| label: fig-clim-scen
+#| fig-cap: "Climate change scenarios"
+#| fig-scap: "Climate change scenarios"
+climate_scenarios_chart()
+```
+
+Looking at the United Kingdom, [@harrissonAnalysisWhyUK2019] concludes UK's CO~2e~ emissions have fallen 43% from 1990 to 2017 through the use of less carbon-intensive energy sources and argues for moderate policies in [@hausfatherEmissionsBusinessUsual2020].
+
+```{python}
+#| label: fig-uk-emissions-trends
+#| fig-cap: "UK energy emissions' trends"
+#| fig-scap: "UK energy emissions' trends"
+uk_energy_emissions_trend()
+```
+
+Meanwhile, the cumulative CO~2e~ emissions trend in the UK in the same time-frame show the historic responsibility of UK [@globalcarbonbudgetCumulativeCOEmissions2023].
+
+CO~2~e emissions and GDP growth per capita follow a similar path in the BRICS countries (Brazil, Russia, India, China, South Africa) as well as in Vietnam and Somalia [@vianaespinosadeoliveiraRenewableNonrenewableEnergy2022; @warsameNaturalDisastersDeforestation2024; @raihanSustainabilityVietnamExamining2024].
+
+```{python}
+#| label: fig-brics-emissions-trends
+#| fig-cap: "BRICS emissions' vs GDP growth trends"
+#| fig-scap: "BRICS emissions' vs GDP growth trends"
+growth_brics()
+```
+
+In practice, there's ample evidence from several countries suggesting moving to renewal energy brings environmental benefits. In Bangladesh, [@AMIN2022113224] suggests *"removing fossil fuel subsidies and intra-sectoral electricity price distortions coupled with carbon taxes provides the highest benefits"* for both the economy and the environment. In other words, green energy is a win-win solution, for both the environmental health and financial wealth.
+
+There are still low-hanging fruits to be picked in terms of energy efficiency. [@devlinRegionalSupplyChains2022] analyzed regional steel supply chains between Australia and Japan, finding that co-locating steel manufacturing with renewable energy sources would provide the highest energy efficiency, reducing energy consumption by up to 45%; moreover, a carbon tax of 43-123 USD per tonne of CO~2~eq would mitigate the "green premium". [@stefanklebertCarbonneutralManufacturingPossible2022] CEO of GEA, a large producer of machinery and heat pumps, highlights that heating and cooling account for between 50-90% of energy use in processing plants; deploying state-of-the-art heat pump technology can half CO~2~eq emissions; large-scale carbon-neutral manufacturing is already possible with existing technologies.
+
+One example is Innocent’s Rotterdam juice plant, which operates a carbon-neutral facility (in terms or energy use for processing) by integrating heat pumps to capture and reuse waste heat across the production process; the article does not cover emissions from the juice source materials [@InnocentOpens200m]. Palsgaard, a large producer of emulsifiers and stabilizers for food industries, reports similar results of carbon-neutral production, through using advanced heat-management and green energy (hydropower in Denmark) sources [@CO2neutralFactories]. The Green Transition Denmark think-thank has published a report calculating that the complete decarbonization of Denmark by 2040 would cost about 6.2 billion Danish krone (close to \$1 Billion USD) per year, achieving full net-zero emissions, full electrification of road transport, electrification of 75% of industry and 30% of heating, capping biomass use at 10.5 PJ (petajoules) to boost forest carbon storage by 1.6 Mt CO~2~, expand forests by 290 000 ha, and reduce farmland by 34%, while producing 90 PJ of green fuels [@mollerEnergyPlanetaryBoundaries2024].
+
+Already in 2019, Alois Müller built an example "Green Factory" in Ungerhausen, where a 1.1 MW rooftop photovoltaic system supplies 2/3 of the electricity (feeding excess power to the grid), combined with a heat and power boiler powered by biogas and pellets (note: pellets have become very controversial as their sustainability highly depends on the source material), a 100000 liter buffer tank for waste heat, and a 230 kWh lithium battery [@vdizentrumressourceneffizienzCarbonneutralGreenFactory2020].
+
+Advances in sensors, AI, and robotics, increasingly enable *lights-out manufacturing*, which leverages full automation, producing 24/7, with minimal to no human interaction, while increasing productivity and efficiency [@ericfoggWhatLightsOut2020].
+
+Quantifying human benefits from the biosphere is an approach to measuring ecosystem services. *Ecosystem services measure the benefits humans receive from the biosphere.* Put simply, *ecosystem services* enable human life on Earth - we are, in a very real sense, - dependent on nature. The biosphere is Earth's life support system. Earth's biosphere is made up of 846 terrestrial ecoregions, which are distributed across 14 major biomes and 8 biogeographical realms [@dinersteinEcoregionBasedApproachProtecting2017].
+
+While it can be assumed much of the flora and fauna are crucial for Earth's systems, science is still in the process of understanding and quantifying its contributions. The history of the valuation of nature's services goes back to the 18th century when David Ricardo and Jean Baptiste Say discussed nature's *work*, however both considered it should be free [@historyEcosystemServices2010]. In 1997 [@dailyNatureServicesSocietal1997] proposed the idea of *ecosystem services* and [@costanzaValueWorldEcosystem1997] attempted to assess the amount of ecosystem services provided. [@leprovostSupplyMultipleEcosystem2022]'s study shows *biodiversity* as one key factor to maintain delivery of ecosystem services. [@noriegaResearchTrendsEcosystem2018] attempts to quantify the ecosystem services (ES) provided by insects.
+
+The most complex computer models which attempt to capture ever more interactions happening in the physical realm are called *digital twins.* The EU is developing a digital twin of Earth to help sustainability prediction and planning, integrating Earth's various systems such as climate, hydrology, ecology, etc., into a single model [@hoffmannDestinationEarthDigital2023; @DestinationEarthShaping2023]. For instance, AI is being used to map icebergs and measure the change in size [@europeanspaceagencyAIMapsIcebergs2023]. We can use all the data being recorded to provide a digital twin of the planet, nature, ecosystems and human actions to help us change our behavior and optimize for planetary wellbeing.
+
+Ecological restoration includes building carbon sinks and biodiversity reservoirs, healing damaged ecosystems, agroforestry and permaculture. Forests are a crucial part of Earth's carbon cycle and the main natural CO~2~ capture system; due to deforestation, Europe rapidly losing its forest carbon sink [@fredericsimonEuropeRapidlyLosing2022]. Beyond their role in locking away carbon, recent field work shows forest actively scrub methane from the air as tree bark absorbs methane [@gauciGlobalAtmosphericMethane2024]. Around 27% of Earth's land area is still covered by forests, yet *deforestation* is widespread all around the world; highest rates of deforestation happened in the tropical rainforests of South America and Africa, mainly caused by agricultural cropland expansion (50% of all deforestation) and grazing land for farm animals to produce meat (38.5%), totaling close to 90% of global deforestation [@FRA2020Remote2022]. The global forest cover change is visible on Google's Earth Engine [@hansenHighResolutionGlobalMaps2013].
+
+Around the world, there are many initiatives to increase forest cover, for example the *1 billion tree project* [@greenfieldVeNeverSaid2021; @ErratumReportGlobal2020; @bastinGlobalTreeRestoration2019]. However, it's important to not planting trees (*afforestation)* is not the full solution, as *afforestation* is different from *reforestation*, which takes into account biodiversity. Also, while using remote-sensing and machine-learning to assess reforestation potential [see @klostermanMappingGlobalPotential2022], it doesn't take into account local political realities, and socioeconomic issues such as education, poverty and access to green jobs. Taking these aspects into account may be beneficial, for example [@bousfieldCarbonPaymentsCan2022] reports there's evidence paying landowners for the ecosystem services their forests provide may reduce deforestation.
+
+The concept of how a public resource is over-used until breaking down as each user only bears a fraction of the cost - know as *tragedy of the commons* - was described by the ecologist Garrett Hardin in 1968 [@hardinTragedyCommonsPopulation1968; @meisingerTragedyIntangibleCommons2022; @lopezClimateChangeTimes2022; @muraseSevenRulesAvoid2018]. When so many systems are broken, some argue sustainability is not enough and we should work on *regeneration* of natural habitat. The UN announced 2021-2030 the Decade on Ecosystem Restoration, which includes a wide range of regenerative action [@fischerMakingDecadeEcosystem2021]. For instance, [@hanEmbeddingNaturebasedSolutions2022] identifies nature-based solutions "land re-naturalization (such as afforestation and wetland restoration)"
+
+| Non-Exhaustive list of Regenerative Actions |
+|---------------------------------------------|
+| Afforestation                               |
+| Wetland restoration                         |
+| ...                                         |
+
+: Non-exhaustive list of regenerative actions from [@hanEmbeddingNaturebasedSolutions2022] []{short-caption="Non-exhaustive list of regenerative actions"}
+
+Growing organic food poses many challenges, which farmers need to adapt to, in order to participate in regenerative food systems. One approach is growing food forests, also known as agroforestry, which integrates farming into natural environments, achieving CO~2~eq storage in the soil through agriculture and forestry using agroecological practices. To take one example industry, the organic food and drink market is growing worldwide, with gross sales in 2019 totaling over 106 billion euros, albeit being a small percentage of total food industry [@gamageRoleOrganicFarming2023].
+
+In Ireland, [@irwinIncreasingTreeCover2023] studied dairy farmers' willingness to plant trees to increase vegetation cover on their land, finding that economic incentives alone are insufficient, and support in the form of advisory and education is needed. Similarly, in the Brazilian Amazon rainforest [@yadavExploringInnovationSustainable2023] finds the active participation of the local community in planning permaculture practices, enhances their acceptance and effectiveness. In Bangladesh, [@rubaPotentialityHomesteadAgroforestry2023] found agroforestry plays an active role in achieving the country's Sustainable Development Goals (SDGs), including zero hunger, climate action, mitigating climate change impacts through CO~2~eq sequestration, life on land through biodiversity conservation and improving soil fertility, yet is hindered by the lack of policy support and educational level of the farmers. In the Baltic Sea region in North-Eastern Europe and Central Europe face similar challenges, [@balticseaactiongroupEITFoodRegenerative2023] pointing out farmers' traditional mindset as the biggest obstacle, describing the paradigm shift from extractive farming to regenerative agriculture, using techniques such as no-till farming, which reduces soil erosion and improve soil health by reducing synthetic inputs; yet, it's not only a single practice that is enough, regenerative agriculture is a holistic approach and agroecology education programs need to be comprehensive.
+
+[@lowMixedFarmingAgroforestry2023] further studies how agroforestry deep integration into food value chains unlocks opportunities for recognition and rewards from economic actors in the network, underlining how complex and knowledge-heavy nature of value-capture, calling for further standardization of practices to reward sustainability practices and ecosystem services. The challenge lies in that bioeconomy is not inherently sustainable and may put biodiversity at risk, depending on the level of industrialization of agriculture and specific practices, which require deep knowledge and understanding of natural and artificial interactions the ecological systems; the authors advocate for a precise distinction between extractive and regenerative practices in *"bioeconomy"* [@ollinahoSeparatingTwoFaces2023]. Finally, taking Brazil as and example, [@dequeiroz-steinPossibilitiesMainstreamingBiodiversity2023] argues for an integration of competing and conflicting bioeconomy policies, in order to achieve the goals of a sustainable bioeconomy.
+
+Svalbard Seed Vault is an example of seed conservation to safeguard biodiversity by storing backup seeds of plants from around the world in cold storage [@westengenGlobalExSituCrop2013; @asdalSvalbardGlobalSeed2018]. Since its opening in 2008, the storage solution provided by the Norwegian government has stored seeds from 123 gene banks in 85 countries around the world [@newSeedSamples2025; @ArcticDoomsdaySeed2025]. [@vitalettiShareTinySpace2025] proposes using a blockchain-based lottery system to storage seeds in local refrigerators, in order to enhance resilience and ensure survival of seeds, by storing seeds in many locations.
+
+Decarbonization pathways crucially require and energy transitions which can be brought about using climatech, renewables, and changes in consumption habits. Globally, 34% of all emissions come from energy production [@usepaGlobalGreenhouseGas2016], making it the key sector to require innovate for reducing carbon emissions. The International Energy Agency's (IEAs), *"Tracking Clean Energy Progress"* report on 50 distinct decarbonization enablers and finds that only 3 components - solar PV, PV electric vehicles, and building lighting - are on track with the net-zero by 2050 scenarios, while 28 need more effort and 22 are "not on track" [@ieaTrackingCleanEnergy2023].
+
+Geopolitical situations can affect technology adoption; after Russia's war in Ukraine, Europe needed to quickly reduce consuming cheap Russian fossil fuel energy (in the form of gas) [@bonasiaWindSolarEnergy2024]. In 2024, for first time in Europe, renewables in the form of wind and solar energy surged past production of fossil fuels [@grahamWindSolarOvertake2024; @beerWindSolarOvertake2024]. Meanwhile, China is experiencing a solar installation rush before a deadline set by a new renewable pricing policy; from January to April 2025, a record-breaking 105 gigawatts (GW) of solar capacity was installed, bringing the total solar power close to 1 Terawatt, predicted to make solar power China's main energy source in 2026[@weaverTerawattSolarModule2023; @zhuChinasSolarCapacity2023; @lChinasRenewableEnergy2025; @redazioneSolarPowerChina2025; @carriexiaoChinaAddsRecord2025].
+
+[@gaureTrueNotTrue2022] simulate a CO~2~ free electricity generation system in the European Union where *"98% of total electricity production is generated by wind power and solar; the remainder is covered by a backup technology."* The authors stipulate it's possible to power the EU without producing CO~2~ emissions.
+
+EU's energy mix in 2024:
+
+```{python}
+#| label: fig-eu-energy-brakdown
+#| fig-cap: "The EU's energy production breakdown"
+#| fig-scap: "The EU's energy production breakdown"
+eu_energy_breakdown()
+```
+
+Wind and solar energy overtook fossil energy in Europe:
+
+```{python}
+#| label: fig-eu-renew-vs-fossil
+#| fig-cap: "The EU's renewables vs fossil energy"
+#| fig-scap: "The EU's renewables vs fossil energy"
+eu_renewable_vs_fossil()
+```
+
+Globally, renewables also overtook fossil fuels [@ieaElectricityMidYearUpdate2024]:
+
+```{python}
+#| label: fig-global-renew-vs-fossil
+#| fig-cap: "Global renewables vs fossil energy"
+#| fig-scap: "Global renewables vs fossil energy"
+global_renewables_vs_fossil()
+```
+
+Meanwhile, reduction in coal-power was also possible. Coal is a large CO~2~eq emitter.
+
+```{python}
+#| label: fig-renew-vs-fossil
+#| fig-cap: "The EU's reduction of Coal Energy"
+#| fig-scap: "The EU's reduction of Coal Energy"
+eu_coal_reduction()
+```
+
+```{python}
+#| label: fig-tw-energy-prod
+#| fig-cap: "Taiwanese energy production"
+#| fig-scap: "Taiwanese energy production"
+taiwan_energy_production()
+```
+
+Beyond electricity and heat, the chemical sector is a massive CO~2~eq source. [@langeCircularCarbochemicalsMetamorphosis2021] reports the petrochemical industry uses about 10% of global fossil carbon as feedstock and another 7% to power its processes, producing some 400Mt of base chemicals each year, 36% of which becomes packaging; the cradle-to-gate CO~2~eq emissions for base chemicals are roughly 1–2.5kg CO~2~eq per kg or 5t CO~2~eq per tonne of plastic, when including use and end-of-life, the entire lifecycle emissions are 1.7Gt CO~2~eq (∼4% of all anthropogenic emissions) per year; a true circular-carbon economy would require renewable carbon feedstocks (e.g. biomass or CO~2~-derived monomers), electrified green heat, closed-loop catalytic recycling of molecular building blocks, and modular low-temperature reactors to slash energy demand.
+
+Large technology conglomerates and newly founded startups alike are working in the climate solutions space (often referred to as *climatech* by the media), have proposed a range of approaches to CO~2~ reduction in the Earth's atmosphere. These technologies include several types of *carbon capture*, directly from the air (direct air capture or DAC), from the source of pollution, such as using high–performance filters on factory chimneys, as well as nature-based solutions such as large scale tree planting using drones. Each technology has their own pros and cons. For instance, [@vitilloRoleCarbonCapture2022] illustrates how direct air capture of CO~2~ is difficult because of low concentration and CO~2~ capture at the source of the emissions is more feasible. [@cleantechgroupGlobalCleantech1002023] profiles 100 innovators across agriculture, food, energy, mobility, and waste that Cleantech Group judges most likely to enable a future with sub-2 degrees warming. Overall, considering pathways to carbon drawdown finds considerable uncertainty exists among experts which CO~2~eq reduction among nature- and technology-based methods are the most effective [@lowRethinkingNetZeroSystems2022].
+
+### The Economics of Decoupling: Pricing Hidden Costs
+
+The "eco" in ecology and economy are same. Oîkos, the Greek word for “household”, seeds two modern disciplines: ecology studies how the home works; economy sets the rules for managing it. The two have drifted apart: one guarding planetary health, the other chasing growth. This chapter reunites them by asking: how do we measure prosperity without wrecking our home - focusing on growth vs degradation and pricing-in the hidden cost of externalities.
 
 The evolution of econometrics has a long history. There are many ways to measure an economy. *Econometrics* is the science of measuring the economy. Traditionally, the true cost of products is hidden. The work is hidden. The first two decades of the 21st century have seen increasing economic thinking, looking to challenge, improve and upgrade capitalism to match our current environmental, social, and technological situation, often called *New Economics.* Some of these include behavioral economics, sustainable capitalism, regenerative capitalism, doughnut economics, ecological economics, blue economy, degrowth, attention economy, gift economy, intent economy, among others. There's no lack of published books on changing capitalism, which goes to show there's readership for these ideas. Build a new economic theory is out of scope for my thesis design, however I'll focus on the parts of economic theory I believe are relevant for *interaction design*-ing for sustainability.
 

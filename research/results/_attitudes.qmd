@@ -6,11 +6,11 @@ import warnings
 warnings.filterwarnings("ignore")
 ```
 
-## Taiwanese College Student Attitudes (Overall)
+## Taiwanese College Students' Overall Attitudes
 
 These are student attitudes across all 36 likert fields without clustering. Clustered results are available under the Personas section.
 
-### Economy
+#### Economy
 
 ```{python}
 #| label: fig-survey-econ-res
@@ -44,7 +44,7 @@ Data from partial surveys.
 partial_likert_single_chart(2)
 ```
 
-### AI Use
+#### AI Use
 
 ```{python}
 #| label: fig-survey-ai-use
@@ -62,7 +62,7 @@ Data from partial surveys.
 partial_likert_single_chart(3)
 ```
 
-### Nature
+#### Nature
 
 ```{python}
 #| label: fig-survey-nature
@@ -71,7 +71,7 @@ partial_likert_single_chart(3)
 likert_single_chart(4)
 ```
 
-### Environmental Protection
+#### Environmental Protection
 
 ```{python}
 #| label: fig-survey-envir-protect
@@ -80,7 +80,7 @@ likert_single_chart(4)
 likert_single_chart(5)
 ```
 
-### Learning Environment
+#### Learning Environment
 
 ```{python}
 #| label: fig-survey-learn-env
@@ -89,7 +89,7 @@ likert_single_chart(5)
 likert_single_chart(6)
 ```
 
-### Correlations Between Fields
+#### Correlations Between Fields
 
 Correlations between fields allow clustering similar groups of students.
 
@@ -132,7 +132,7 @@ correlation_network()
 |                                    | \- 你/妳會在意錢嗎？*Do you care about money?*                                            |                                                                                                                                                                     |
 +------------------------------------+-------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-### Environmental Knowledge Ranking Experiment
+#### Environmental Knowledge Ranking Experiment
 
 Testing student knowledge about the environment. College students see coral reefs, tropical rainforests, and wetlands as the most sensitive ecosystems, aligning with global climate narratives. However, the long tail of unique combos suggests mixed ecological knowledge and a strong opportunity to educate and personalize ecosystem awareness, especially in a Taiwanese context.
 
