@@ -171,7 +171,7 @@ Environment shapes action.. how to create an environment where college students 
 | Community Investing        | Perceived Control (TPB) | Psychology of 'fundraising clubs' vs individual investing differs greatly.                                        | Provide a community for pooling money with like-minded investors.                                                                                                                  |
 +----------------------------+-------------------------+-------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-: Examples of features I expected to build but lack support from the survey respondents.
+Table: Examples of features I expected to build but lack support from the survey respondents.
 :::
 
 However, survey results shows people don't pick features for joining groups. Joining groups was one of the least interesting choices in the survey. These type of social features universally received the lowest preference scores from all the personas.
@@ -199,7 +199,7 @@ Here's an attempt to explain the group-related survey results.
 | Subjective Norms  | Are "Group" and "Sustainability" Concepts Related?        | Survey respondents may not clearly understand the benefit for sustainability from their joining a group.                                                                                                                                                                                                                              |
 +-------------------+-----------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-: Trying to explain the lack of interest in group-related features.
+Table: Trying to explain the lack of interest in group-related features.
 :::
 
 #### Sustainability-Related Design Factors
@@ -237,7 +237,7 @@ Here's an attempt to explain the group-related survey results.
 | Perceived Control | Metrics                  | ESG can't be trusted. ESG-reporting alone is not a sufficient metric to prove sustainability of a company.                                                                                                                                                              | ESG needs to be accompanied by other metrics.                                                                                                                                                                                                                                                                                                                                                    |
 +-------------------+--------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-: Design implications arising from the sustainability chapter.
+Table: Design implications arising from the sustainability chapter.
 :::
 
 #### Finance-Related Design Factors
@@ -263,7 +263,7 @@ Several superapps already contain features for payments (shopping), savings, and
 | Subjective Norms  | Governance      | As a consumer or investor, I can't trust the people running the company.                                                                   | Show company board membership in the app product view.                                                                                                                                                                   |
 +-------------------+-----------------+--------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-: Design implications arising from the finance chapter.
+Table: Design implications arising from the finance chapter.
 :::
 
 #### AI Companion Related Design Factors
@@ -285,7 +285,7 @@ Several superapps already contain features for payments (shopping), savings, and
 | Subjective Norms  | Anthropomorphism  | People lose trust in AI if it lies.                                                                                                                                                                                                                                    | AIs should disclose they are AIs. Understanding algorithm transparency helps humans to regard the AI as a machine rather than a human.                                                                                                                                                                     |
 +-------------------+-------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-: Design implications arising from the AI chapter.
+Table: Design implications arising from the AI chapter.
 :::
 
 ### New Literature-Informed Feature Ideas
@@ -469,5 +469,5 @@ The following 86 ideas represents my attempt to clearly link literature findings
 | 86        | Use data storytelling to explain how sustainable finance supports post‑growth goals.                                                                                                                 |                                                                                                                                                                                                                         | Attitude (TPB)                                                            |
 +-----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------+
 
-: 86 ideas from the literature review.
+Table: 86 ideas from the literature review.
 :::
