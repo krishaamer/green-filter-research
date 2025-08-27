@@ -49,7 +49,7 @@ There are many examples of combination of AI and human, also known as *"human-in
 | QALY | Health | Heart arrhythmia detection |
 | Starship Robots | Delivery | The robot may ask for human help in a confusing situation, such as when crossing a difficult road |
 
-Table: Examples of human-in-the-loop apps. []{short-caption="Human-in-the-Loop Apps"}
+Table: Examples of Human-in-the-loop Apps. []{short-caption="Examples of Human-in-the-Loop Apps"}
 
 In order to provide human feedback, systems need to be able to distinguish humans from AIs. To that end, several "Proof of Humanity" toolsets are in the process of being built. [@gitcoinpassport2023] discusses how to build Gitcoin Passport’s Unique Humanity Score, an antifragile passport, inspired by Nassim Taleb's popular book [@talebAntifragileThingsThat2012]. Taleb defines "antifragility" as "systems that benefit from volatility and stressors", summarizing it in a letter to Nature thus:
 
@@ -71,7 +71,7 @@ Nonetheless, [@NielsenIdeasGenerative2024] is critical of GenUI because for the 
 | High Carbon Cost   | AI-based personalization is computation-intensive |
 | Surveillance       | Personalization needs large-scale data capture    |
 
-Table: Criticism of GenUI by [@NielsenIdeasGenerative2024]. []{short-caption="Criticism of GenUI"}
+Table: Criticism of Generative UIs by [@NielsenIdeasGenerative2024]. []{short-caption="Nielsen's Criticism of Generative UIs"}
 
 [@nielsenInformationScentHow2024] defines *information scent* as users’ ability to predict destination content from cues, such as link labels and context; clear descriptive labels emit a strong scent, guiding users, reducing bounce rates (users who leave quickly), and enhancing discoverability of content; in contrast, misleading labels break trust and drive users away. The idea of information scent is originally from *Information Foraging* theory from [@pirolliInformationForaging1999], who adapt optimal foraging theory to human information seeking: users follow links as scent cues to maximize their rate of information gain.
 
@@ -92,7 +92,7 @@ A wide range of literature describes human-AI interactions, spread out over vari
 | Childcare | Generate personalized bedtime stories |
 | Design Tools | [@DavidHoangHow2024] |
 
-Table: A very small illustration of generative AI usage across disparate fields of human life. []{short-caption="GenAI use across fields"}
+Table: A Very Small Illustration of Generative AI Usage Across Disparate Fields of Human Life. []{short-caption="A Very Small Illustration of Generative AI Usage"}
 
 Human-computer interactions increasingly take place without a "computer" in sight. The devices are increasingly smaller and seamlessly embedded into experiences. AI deeply affects human-computer interactions even if the computer is invisible. The field of Human Factors and Ergonomics (HFE) emphasizes designing user experiences (UX) that cater to human needs [@theinternationalergonomicsassociationHumanFactorsErgonomics2019]. Designers think through every interaction of the user with a system and consider a set of metrics at each point of interaction including the user's context of use and emotional needs.
 
@@ -123,7 +123,7 @@ Microsoft provides guidelines for Human-AI interaction, which provides useful he
 | When wrong | Let users retry fast and make corrections; empower users to dismiss easily; explain why the system acted; be precise and in-scope |
 | Over time | Track changes and adapt from use; announce changes and update with care (so not to break the user's work); invite feedback; show outcome of actions clearly; provide global settings |
 
-Table: Microsoft's heuristics categorized by context and time. []{short-caption="Microsoft's Heuristics"}
+Table: Microsoft's Heuristics Categorized by Context and Time. []{short-caption="Microsoft's Heuristics Categorized by Context and Time"}
 
 The previous design wave before UX for AI was corporations understanding how crucial design is to their business. In the 2010s business consultancies began to recognize the importance of design and advising their clients on putting design in the center of their strategy, bringing user experience design to the core of their business operations. [@mckeoughMcKinseyDesignLaunches2018]. There's a number of user interface design patterns that have proven successful across a range of social media apps. Such *user interface* (UX/UI) patterns have been copied from one app to another, to the extent that the largest apps share a similar look and feature set and the users are used to the same user experience. Common UX/UI parts include features such as the *Feed*, *Stories*, and *Avatars*, among many others. This phenomenon (or trend) has led some designers such as [@fletcherGenerativeUIDownfall2023] and [@joeblairGenerativeUINew2024] to be worried about UIs becoming average: more and more similar to the lowest common denominator. Yet, by using common UI parts from social media, users may have an easier time to accept the innovative parts, as they just look like new features inside the old interface. As new generations become increasingly used to talking to computers in natural language, the older interface patterns may gradually fade away.
 
@@ -135,7 +135,7 @@ The previous design wave before UX for AI was corporations understanding how cru
 | Comment | YouTube, Threads, Reddit, Medium, etc | Threaded conversations fuel community engagement and discussion |
 | Reactions | Facebook, Instagram, Slack, Threads, but even LinkedIn and Github. | The feature has involved from a simple like button to more expressive emotions. |
 
-Table: Common social media UI parts. []{short-caption="Common Social Media UI Parts"}
+Table: Common Social media UI Parts. []{short-caption="Common Social Media UI Parts"}
 
 There are also more philosophical approaches to *Interface Studies*. [@davidhoangCreatingInterfaceStudies2022], the head of product design at Webflow, an AI-enabled website development platform, suggests taking cues from art studies to *isolate the core problem*: *"An art study is any action done with the intention of learning about the subject you want to draw"*. As a former art student, Hoang looks at an interface as *"a piece of design is an artwork with function"*. Indeed, art can be a way to see new paths forward, practicing "*fictioning*" to deal with problematic legacies [@Review2023Helsinki2023]. [@jarovskyDarkPatternsAI2022] lists the numerous ways how AIs can mislead people, which she calls the AI UX dark patterns, and the U.S. FTC Act and the EU AI Act are attempting to manage.
 
@@ -153,13 +153,13 @@ The application of user experience (UX) tenets to AI.
 | Desirable |
 | Credible  |
 
-Table: UX Tenets in AI. []{short-caption="UX Tenets in AI"}
+Table: The Tenets UX in AI. []{short-caption="The Tenets UX in AI"}
 
 | 1 | 2 | 3 |
 |--------------------|-------------------|---------------------------------|
 | Reduce the time to task | Make the task easier | Personalize the experience for an individual |
 
-Table: [@guptaDesigningAIChatbot2023] proposes 3 simple goals for AI: []{short-caption="Simple Goals for AI"}
+Table: [@guptaDesigningAIChatbot2023] Proposes 3 Simple Goals for AI: []{short-caption="Gupta's Simple Goals for AI"}
 
 Microsoft Co-Founder predicted in 1982 *"personal agents that help us get a variety of tasks"* [@billgatesBillGatesNext1982] and it was Microsoft that introduced the first widely available personal assistant in 1996, called Clippy, inside the Microsoft Word software. Clippy was among the first assistants to reach mainstream adoption, helping users not yet accustomed to working on a computer, to get their bearings [@tashkeunemanWeLoveHate2022]. Nonetheless, it was in many ways useless and intrusive, suggesting there was still little knowledge about UX and human-centered design. Gates never wavered though and is quoted in 2004 saying *"If you invent a breakthrough in artificial intelligence, so machines can learn, that is worth 10 Microsoft's"* @lohrMicrosoftDwindlingInterest2004. Gates updated his ideas in 2023 focuses on the idea of *AI Agents* [@gatesAICompletelyChange2023].
 
@@ -221,6 +221,6 @@ A popular approach to AI safety is *red-teaming*, which means pushing the limits
 | Data Contamination | Concerns with the math ability of LLMs. "Performance actually reflects dataset contamination, where data closely resembling benchmark questions leaks into the training data, instead of true reasoning ability" [@zhangCarefulExaminationLarge2024] |
 | Lack of Legislation | [@anderljungFrontierAIRegulation2023] OpenAI proposes we need to proactively work on common standards and legislation to ensure AI safety. It's difficult to come up with clear legislation; the U.K. government organized the first AI safety summit in 2023 [@browneBritainHostWorld2023]. |
 
-Table: Summarizing some problems with contemporary AIs. []{short-caption="Problems with contemporary AIs"}
+Table: Summarizing Some Problems With Contemporary AIs. []{short-caption="Summarizing Some Problems With Contemporary AIs"}
 
 In 2024, OpenAI released its *"Model Spec"* to define clearly their approach to AI safety with the stated intention to provide clear guidelines for the RLHF approach [@openaiIntroducingModelSpec2024].

@@ -108,7 +108,7 @@ Today's machines are much more capable so it's not a surprise humans would like 
 | Electronic pet                                              |
 | Tool for venting                                            |
 
-Table: Replika AI users approach to interacting with the AI friend from [@jiangChatbotEmergencyExist2022]. []{short-caption="Replika AI Users and AI Friends"}
+Table: Replika AI Users' Approach to Interacting With the AI Friend from [@jiangChatbotEmergencyExist2022]. []{short-caption="Replika AI Users' Approach to Interacting With the AI Friend"}
 
 Surprisingly, humans can have emotionally deep conversations with robots. Jakob Nielsen notes two recent studies suggesting human deem AI-generated responses *more empathetic than human responses,* at times by a significant margin; however telling users the response is AI-generated reduces the perceived empathy [@nielsenUXRoundupAI2024; @ayersComparingPhysicianArtificial2023; @yinAICanHelp2024]. LLMs combined with voice, such as the Pi iOS app, provide a user experience, which [@ethanmollick2023] calls *unnerving*. The company provides *emotional intelligence* as a service and has developed its own proprietary LLM, called Inflection AI, which has raised over 1B USD in funding [@mittalInflection25PowerhouseLLM2024]. While startups are moving fast, traditional AI companies, with decades of AI experience, such as Google, are also developing an AI assistant for giving life advice [@goswamiGoogleReportedlyBuilding2023]. The conversations can be topic-specific. For instance, [@unleashSebastianAi2017] used BJ Fogg's *tiny habits model* to develop a sustainability-focused AI assistant at the Danish hackathon series Unleash, to encourage behavioral changes towards maintaining an aspirational lifestyle, nudged by a chatbot buddy.
 
@@ -133,7 +133,7 @@ From the perspective of affective computing, the evolution of models and their e
 | fireflies.ai | Video call transcription |
 | murf.ai      | Voice generator          |
 
-Table: AI-based Assistants []{short-caption="AI-based Assistants"}
+Table: Some Examples of AI-based Assistants []{short-caption="Some Examples of AI-based Assistants"}
 
 The debate between open source vs closed-source AI is ongoing. Historically, open-source has been useful for finding bugs in code as more pairs of eyes are looking at the code and someone may see a problem the programmers have not noticed. Proponents of closed-source development however worry about the dangers or releasing such powerful technology openly and the possibility of bad actors such as terrorists, hackers, violent governments using LLMs for malice. Whether closed-sourced or open-sourced development will be lead to more AI safety is one of the large debates in the AI industry. In any case, open or closed-sourced, real-world usage of LLMs may demonstrate the limitations and edge-cases of AI. Hackathons such as [@peteWeHostedEmergencychatgpthackathon2023] help come up with new use-cases and disprove some potential ideas. The strongest proponent of Open Source AI, META, open-sourced the largest language model (70 billion parameters) which with performance rivaling several of the proprietary models; because META's core business is not AI, rather it would benefit from having access to cheaper, better AI across the board, open-sourcing may be their best strategy [@dwarkeshpatelMarkZuckerbergLlama2024].
 
@@ -167,7 +167,7 @@ The debate between open source vs closed-source AI is ongoing. Historically, ope
 | DeepSeek-R1 | 2025 | Hangzhou DeepSeek Artificial Intelligence Basic Technology Research Co., Ltd 杭州深度求索人工智慧基礎技術研究有限公司 | Open Source | China |
 | GPT-5 | 202? | OpenAI | Unknown; trademark registered | U.S. |
 
-Table: Summary of 7 years of rapid AI model innovation since the first LLM was publicly made available in 2018 [@brown2020language; @tamkin2021; @alvarezGenerateChatbotTraining2021; @hinesOpenAIFilesTrademark2023; @metaIntroducingMetaLlama2024; @baptistaDeepSeekRushesLaunch2025; @deepseek-aiDeepSeekR1IncentivizingReasoning2025]. []{short-caption="7 Years of Rapid AI Model Innovation"}
+Table: A Summary of 7 Years of Rapid AI Model Innovation Since the First LLM Was Released in 2018 [@brown2020language; @tamkin2021; @alvarezGenerateChatbotTraining2021; @hinesOpenAIFilesTrademark2023; @metaIntroducingMetaLlama2024; @baptistaDeepSeekRushesLaunch2025; @deepseek-aiDeepSeekR1IncentivizingReasoning2025]. []{short-caption="A Summary of 7 Years of Rapid AI Model Innovation"}
 
 ```{python}
 models_chart()
@@ -193,7 +193,7 @@ Multi-modality is another aspect which enables more natural interactions with AI
 | Retrieval-augmented hybrids (RAG) | Retrieval methods enhance truthfulness | Improved factual grounding | Difficulty in integrating retrieved content |
 | Reinforcement-learning | Fine-tuning can steer conversational style and safety | Flexible style and safety alignment | High resource usage, sensitive to reward design |
 
-Table: Three areas of focus in conversational AI development in from [@fuLearningConversationalAI2022]. []{short-caption="Areas of Focus in Conversational AI Development"}
+Table: 3 Areas of Focus in Conversational AI Development; From [@fuLearningConversationalAI2022]. []{short-caption="Areas of Focus in Conversational AI Development"}
 
 *Context of Use,* Where is the AI used? [@schoonderwoerdHumancenteredXAIDeveloping2021] focuses on human-centered design of AI-apps and multi-modal information display. It's important to understand the domain where the AI is deployed in order to develop explanations. However, in the real world, how feasible is it to have control over the domain? [@calistoIntroductionHumancentricAI2021] discusses *multi-modal AI-assistant* for breast cancer classification.
 
@@ -241,7 +241,7 @@ Before actual use was possible, mediated experiences largely influenced user exp
 | The Robots of Dawn | R. Giskard Reventlov |  | X |  |
 | Portal | GLaDOS |  |  | X |
 
-Table: AIs in different forms of media. []{short-caption="AIs in Different Forms of Media"}
+Table: AIs in Different Forms of Media. []{short-caption="AIs in Different Forms of Media"}
 
 ```{python}
 scifi_chart()
@@ -312,7 +312,7 @@ What are the next features that could improve the next-generation UX/UI of AI-ba
 | AI for therapy [@broderickPeopleAreUsing2023] | personalized bed-time stories for kids generated by AI [@bedtimestory.aiAIPoweredStory2023] |
 | Mental health uses: AI for bullying [@sungParentsWorryTeens2023] |  |
 
-Table: Some notable examples of anthropomorphic AIs for human emotions. []{short-caption="Anthropomorphic AIs for Human Emotions"}
+Table: Notable Examples of Anthropomorphic AIs for Human Emotions. []{short-caption="Notable Examples of Anthropomorphic AIs for Human Emotions"}
 
 Speech is another aspect of human life that makes computer-generated experiences feel more real. Siri, Cortana, Google Assistant, Alexa, Tencent Dingdang, Baidu Xiaodu, Alibaba's AliGenie - all rely on voice as their main interface. While there's ample evidence across disciplines about the usefulness speech in AI assistants, many concerns exist about the possibility of implementing privacy. In practice, providing voice for the AI raises new ethical issues, as most voice assistants need to continuously record human speech and process it in data centers in the cloud. One attempt at privacy is by Apple’s Foundation Language Models (AFM), which is split into a smaller on-device model and a server-side model, enabling processing of the most sensitive data directly on the user's device [@dangAppleAIUnderstanding2024]. 
 
@@ -383,7 +383,7 @@ The most comprehensive meta-review of research on how AI chatbots could mimic hu
 | **Invisible** | **Haptics** | Tactile touch | Device vibration or touch feedback |
 |  |  | Temperature | Warmth or coolness cues |
 
-Table: Comprehensive overview of social cues with potential for use in AI conversations, adapted from the meta-review of related research papers by [@feineTaxonomySocialCues2019]. []{short-caption="Social Cues in AI Conversations"}
+Table: Comprehensive Overview of Social Cues With Potential for Use in AI Conversations; Adapted From the Meta-review of Research Papers by [@feineTaxonomySocialCues2019]. []{short-caption="Social Cues in AI Conversations"}
 
 Non-Anthropomorphic, machine-like AIs have been with us for a while. The Oxford Internet Institute defines AI simply as *"computer programming that learns and adapts"* [@googleAZAI2022]. Google started using AI in 2001, when a simple machine learning model improved spelling mistakes while searching; now in 2023 most of Google's products are based on AI [@googleGooglePresentsAI2022]. Throughout Google's services, AI is hidden and calls no attention itself. It's simply the complex system working behind the scenes to delivery a result in a bare-bones interface.
 
@@ -399,7 +399,7 @@ The number of AI-powered assistants is too large to list here. I've chosen a few
 | Google Interview Warmup | grow.google/certificates/interview-warmup | AI training tool |
 | Perplexity | [@hinesPerplexityAnnouncesAI2023] | perplexity.ai chat-based search |
 
-Table: AI Assistants []{short-caption="AI Assistants"}
+Table: Some Examples of AI Assistants []{short-caption="Some Examples of AI Assistants"}
 
 Everything that existed before OpenAI's GPT 4 has been blown out of the water. ChatGPT passes many exams meant for humans and is able to solve difficult tasks in scientific areas such as chemistry with just simple natural-language instructions [@whiteFutureChemistryLanguage2023; @bubeckSparksArtificialGeneral2023]. As late as in 2017, scientists were trying to create a program with enough *natural-language understanding* to extract basic facts from scientific papers [@stocktonIfAICan2017]. This is a task which is trivial for modern LLMs.
 

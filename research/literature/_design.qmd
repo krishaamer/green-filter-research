@@ -55,8 +55,8 @@ For instance, companies like Autodesk have introduced CO~2e~ calculations inside
 
 ```{python}
 #| label: fig-ai-sust-six
-#| fig-cap: "AI use in sustainability"
-#| fig-scap: "AI use in sustainability"
+#| fig-cap: "AI Use in Sustainability"
+#| fig-scap: "AI Use in Sustainability"
 sustainability_ai_six_dimensions()
 ```
 
@@ -102,7 +102,7 @@ The largest study to date, conducted by the United Nations across 50 countries, 
 | 36-59     | 66%   | 34%                 |
 | Over 69   | 58%   | 42%                 |
 
-Table: 1.2 million UN survey responses to the statement "Climate change is an emergency". []{short-caption="UN Survey: 1.2 Million Responses to *Climate Change Is An Emergency*"}
+Table: 1.2 Million UN Survey Responses to the Statement "Climate Change Is An Emergency". []{short-caption="UN Survey: 1.2 Million Responses to *Climate Change Is An Emergency*"}
 
 At the pre-university level, Taiwanese government has been promoting environmental education through a green school network; however surveys at middle school and high school level suggest there is no impact on *sustainability consciousness* among students in comparison with regular schools [@olssonGreenSchoolsTaiwan2019]. Rather, Taiwanese students are influenced towards environmental action by *group consciousness* [@yuUnderstandingTaiwaneseUndergraduate2017]. In contrast,[@GuoZhongXueShengWeiLi2003] reports *good knowledge of sustainable development* topics among *junior high school students* in Da-an District, Taipei City (n =596). [@GaoZhongXueShengWeiLi2009] similarly reports a positive attitude and good knowledge of environmental sustainable development among senior *high school students* towards in Taipei City (n = 328). Several Taiwanese studies also focus on the physical environment of school campuses, for example the sustainability of elementary school campuses [@YanJiu2006]. Elementary-school teachers in Taichung (n = 536), have positive attitudes towards environmental education are positive, proactive and demonstrate high awareness; they have participated in many sustainability-related workshops [@liaoElementaryTeachersEnvironmental2022].
 
@@ -112,8 +112,8 @@ Comparing college students' education for sustainable development (ESD) in Taiwa
 
 ```{python}
 #| label: fig-tw-swe
-#| fig-cap: "Comparing college students' education for sustainable development in Taiwan and Sweden"
-#| fig-scap: "College students' sustainability education: Taiwan vs Sweden"
+#| fig-cap: "Comparing College Students' Education for Sustainable Development in Taiwan and Sweden"
+#| fig-scap: "College students' Sustainability Education: Taiwan vs. Sweden"
 compare_taiwan_sweden()
 ```
 
@@ -129,8 +129,8 @@ The Taiwanese educational system in numbers shows students in the Gen-Z age brac
 
 ```{python}
 #| label: fig-tw-high-ed-enrollment
-#| fig-cap: "Enrollment in Taiwanese higher education"
-#| fig-scap: "Enrollment in Taiwanese higher education"
+#| fig-cap: "Enrollment in Taiwanese Higher Education"
+#| fig-scap: "Enrollment in Taiwanese Higher Education"
 genz_enrollment_chart()
 ```
 
@@ -138,8 +138,8 @@ As of 2024, Taiwan has a total of 148 universities, colleges, and junior college
 
 ```{python}
 #| label: fig-tw-high-ed-funding
-#| fig-cap: "Funding for Taiwanese higher education"
-#| fig-scap: "Funding for Taiwanese higher education"
+#| fig-cap: "Funding for Taiwanese Higher Education"
+#| fig-scap: "Funding for Taiwanese Higher Education"
 college_decline_chart()
 ```
 
@@ -147,8 +147,8 @@ While the overall number of students is declining, the share of international st
 
 ```{python}
 #| label: fig-tw-high-ed
-#| fig-cap: "Demographics of Taiwanese higher education"
-#| fig-scap: "Demographics of Taiwanese higher education"
+#| fig-cap: "Demographics of Taiwanese Higher Education"
+#| fig-scap: "Demographics of Taiwanese Higher Education"
 higher_education_chart()
 ```
 
@@ -172,7 +172,7 @@ The table below illustrates the types of emissions and environmental impacts lar
 | 亞泥 Asia Cement (花蓮新城山礦場) | N/A | In 2023 a single mining operation in Hualian was responsible for 4.14 Mtof raw limestone extracted (assumed to have a very high emissions potential) however no CO~2~eq figure is reported by the company | @asiacementcorporationYaZhouShuiNiGu2023 |
 | 可口可樂 Coca-Cola (TW) | N/A | 2024 brand audit in river pollution found 7.6 % (n = 28481) of PET plastic bottles were from Coca-Cola | @greenpeaceKuaYueJiangJie2024 |
 
-Table: Examples of large industrial polluters in Taiwan as reported in academic papers and the media. []{short-caption="Large industrial polluters in Taiwan"}
+Table: Examples of Large Industrial Polluters in Taiwan; Reports From Academic Papers and The Media. []{short-caption="Large Industrial Polluters in Taiwan"}
 
 The experience of climate change in Taiwan is shaped by Taiwan’s recent climate challenges with over 4 decades of droughts, rising air temperatures, and shifting rainfall patterns, have impacted both water security and the performance of its vital semiconductor manufacturing industry ​[@voFourdecadeSpringDroughts2024]. Offshore, marine heatwaves, ocean acidification, and elevated sea surface temperatures are intensifying coral bleaching around Taiwan [@hsuInvestigationKuroshiocoastalCurrent2024]. The oceans are crucial for Taiwan to capture carbon emissions. Around 33% of Taiwanese CO~2~eq emissions is captured by the marine carbon sink, while the effect of forests in Taiwan needs further study [@hungAssessingCO2Sources2024].
 
@@ -201,7 +201,7 @@ Defining sustainability perhaps more poetically, the American wildlife ecologist
 In a similar vein to previous generations, contemporary environmentally minded youth share the same values and concerns, albeit in a more degraded environment and with more access to communication tools, with student protests for climate justice being a key example. In August 2018, Swedish high-school student Greta Thunberg skipped class to start a climate justice strike in front of the Swedish parliament Riksdag. A year later, Time magazine named Thunberg person of the year for *creating a global attitudinal shift* towards the environment [@deutschewelleFridaysFutureGlobal2019]. According to official statistics, 14 million participants joined her *Fridays for Future* strikes and the movement expanded to over 7,500 cities around the world [@fridaysforfutureStrikeStatistics2025]. A survey 64 climate protesters from Norway, the UK, USA, and Canada, found the climate-justice activists are non-homogeneous group, displaying differing levels of factual knowledge about climate change, a broad spectrum of emotions from anger to guilt and hope, with diverse lifestyles, consumption habits, dietary shifts, and political leanings [@martiskainenContextualizingClimateJustice2020].
 
 ::: {.content-hidden unless-format="pdf"}
-![Photo: Climate protest in Geneva on September 27th, 2019 – 1 year after the start of Fridays for Future - Photo in public domain from Wikimedia Commons](./images/college/geneve.jpg){width="100%" fig-scap="Photo: Climate protest in Geneva on September 27th, 2019"}
+![Photo: Climate protest in Geneva on September 27th, 2019 – 1 year after the start of Fridays for Future - Photo in public domain from Wikimedia Commons](./images/college/geneve.jpg){width="100%" fig-scap="Photo: Climate Protest in Geneva on September 27th, 2019"}
 :::
 
 ```{=mdx}

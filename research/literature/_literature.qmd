@@ -145,12 +145,12 @@ In a similar vein to previous generations, contemporary environmentally minded y
 In Indonesia, which had large protests at the time, now 7 years later activists are expressing disillusionment and frustration with the lack of progress and upholding environmental promises. [@dwitamaraGenClimateJustice2025] reports on a survey of 382 Gen-Z respondents in 5 areas of Jakarta, with 99.5% of the respondents having experienced extreme weather events first-hand, highlighting how respondents were affected by climate-related calamities, such as frequent flooding, which led to students missing school days, - education which they are entitled to. The Sharm El Sheikh climate policy implementation [@unfcccSharmElSheikhImplementation2023] text refers to "human right to a clean, healthy and sustainable environment". In Portugal, Estonia, and elsewhere young people have moved on from strikes to actually taking legal action at the courts suing companies for the environmental problems they have caused [@florIstoNaoAcaba2024].
 
 ::: {.content-hidden unless-format="pdf"}
-![Photo: Climate protest in Taipei in May 2019 in front of the Democratic Progressive Party (DPP) headquarters - Photo copyright by New Bloom Magazine](./images/college/taipei.jpg){width="100%" fig-scap="Photo: Climate protest in Taipei in May 2019 in front of the Democratic Progressive Party (DPP) headquarters"}
+![Photo: Climate Protest in Taipei in May 2019 in Front of the Democratic Progressive Party (DPP) HQ - Photo Copyright by New Bloom Magazine](./images/college/taipei.jpg){width="100%" fig-scap="Photo: Climate Protest in Taipei in May 2019 in Front of the Democratic Progressive Party (DPP) HQ"}
 :::
 
 ```{=mdx}
 <Figure
-  caption="Climate protest in Taipei in May 2019 in front of the Democratic Progressive Party (DPP) headquarters"
+  caption="Climate Protest in Taipei in May 2019 in Front of the Democratic Progressive Party (DPP) HQ"
   src={Taipei}
   refURL="https://newbloommag.net/2019/05/24/fridays-for-future-protest/"
   refTitle="New Bloom Magazine"
@@ -184,8 +184,8 @@ The lack of funding in green energy especially affects emerging economies [@Mobi
 
 ```{python}
 #| label: fig-high-value-assets
-#| fig-cap: "Climate Funding Gap vs High Value Assets"
-#| fig-scap: "Climate Funding Gap vs High Value Assets"
+#| fig-cap: "Climate Funding Gap vs. High Value Assets"
+#| fig-scap: "Climate Funding Gap vs. High Value Assets"
 money_chart()
 ```
 
@@ -224,7 +224,7 @@ money_chart()
 | *Individual Climate Investors* (2020, per year) | \$0.1T |
 | GDP of Estonia (2023, per year) | \$0.04T |
 
-Table: Comparative data on needed climate investment and other valuable assets; all figures in Trillions of USD [@s&pglobalWorld100Largest2019; @grandviewresearchRealEstateMarket2021; @aarononeillGlobalGDP198520282023; @imfWorldEconomicOutlook2023; @stephanieaaronsonHowAppleBecame2023; @statistaRetailMarketWorldwide2023; @statistaGlobalRetailEcommerce2021; @sifmaResearchQuarterlyEquities2023; @ustreasuryFiscalDataExplains2023; @raoVisualizing105Trillion2023; @thinkingaheadinstituteGlobalPensionAssets2023; @blockworksBitcoinPriceBTC2023; @blockworksEthereumPriceETH2023; @mckinsey&companyMcKinseyGlobalPrivate2023; @oguhBlackstoneReachesRecord2023; @foxRetailInvestorsWill2023; @trucostNaturalCapitalRisk2023] []{short-caption="Comparative data on the needed climate investment vs. other valuable assets"}
+Table: Comparative Data on Needed Climate Investment vs. Valuable Assets; All Figures in Trillions of USD [@s&pglobalWorld100Largest2019; @grandviewresearchRealEstateMarket2021; @aarononeillGlobalGDP198520282023; @imfWorldEconomicOutlook2023; @stephanieaaronsonHowAppleBecame2023; @statistaRetailMarketWorldwide2023; @statistaGlobalRetailEcommerce2021; @sifmaResearchQuarterlyEquities2023; @ustreasuryFiscalDataExplains2023; @raoVisualizing105Trillion2023; @thinkingaheadinstituteGlobalPensionAssets2023; @blockworksBitcoinPriceBTC2023; @blockworksEthereumPriceETH2023; @mckinsey&companyMcKinseyGlobalPrivate2023; @oguhBlackstoneReachesRecord2023; @foxRetailInvestorsWill2023; @trucostNaturalCapitalRisk2023] []{short-caption="Comparative Data on Needed Climate Investment vs. Valuable Assets"}
 
 While these assets and GDP values reflect different aspects of the global economy, the comparison illustrates that redirecting a relatively small fraction of global wealth and economic activity towards sustainable investments can close the investment gap. This perspective should inspire confidence that the goal is achievable with coordinated effort and policy support. Indeed, it would be easier for large institutional investors to move their money to sustainable assets than for retail investors to move their relatively small investments.
 
@@ -277,7 +277,7 @@ Psychological factors influencing millennials to engage with sustainability [@na
 
 ```{python}
 #| label: fig-mil-psych-sust
-#| fig-cap: "Psychological factors influencing millennials to engage with sustainability"
+#| fig-cap: "Psychological Factors Influencing Millennials to Engage with Sustainability"
 #| fig-scap: "Psychological Factors Influencing Millennials to Engage with Sustainability"
 green_millenials()
 ```
@@ -296,8 +296,8 @@ For instance, companies like Autodesk have introduced CO~2e~ calculations inside
 
 ```{python}
 #| label: fig-ai-sust-six
-#| fig-cap: "AI use in sustainability"
-#| fig-scap: "AI use in sustainability"
+#| fig-cap: "AI Use in Sustainability"
+#| fig-scap: "AI Use in Sustainability"
 sustainability_ai_six_dimensions()
 ```
 
@@ -343,7 +343,7 @@ The largest study to date, conducted by the United Nations across 50 countries, 
 | 36-59     | 66%   | 34%                 |
 | Over 69   | 58%   | 42%                 |
 
-Table: 1.2 million UN survey responses to the statement "Climate change is an emergency". []{short-caption="UN Survey: 1.2 Million Responses to *Climate Change Is An Emergency*"}
+Table: 1.2 Million UN Survey Responses to the Statement "Climate Change Is An Emergency". []{short-caption="UN Survey: 1.2 Million Responses to *Climate Change Is An Emergency*"}
 
 At the pre-university level, Taiwanese government has been promoting environmental education through a green school network; however surveys at middle school and high school level suggest there is no impact on *sustainability consciousness* among students in comparison with regular schools [@olssonGreenSchoolsTaiwan2019]. Rather, Taiwanese students are influenced towards environmental action by *group consciousness* [@yuUnderstandingTaiwaneseUndergraduate2017]. In contrast,[@GuoZhongXueShengWeiLi2003] reports *good knowledge of sustainable development* topics among *junior high school students* in Da-an District, Taipei City (n =596). [@GaoZhongXueShengWeiLi2009] similarly reports a positive attitude and good knowledge of environmental sustainable development among senior *high school students* towards in Taipei City (n = 328). Several Taiwanese studies also focus on the physical environment of school campuses, for example the sustainability of elementary school campuses [@YanJiu2006]. Elementary-school teachers in Taichung (n = 536), have positive attitudes towards environmental education are positive, proactive and demonstrate high awareness; they have participated in many sustainability-related workshops [@liaoElementaryTeachersEnvironmental2022].
 
@@ -353,8 +353,8 @@ Comparing college students' education for sustainable development (ESD) in Taiwa
 
 ```{python}
 #| label: fig-tw-swe
-#| fig-cap: "Comparing college students' education for sustainable development in Taiwan and Sweden"
-#| fig-scap: "College students' sustainability education: Taiwan vs Sweden"
+#| fig-cap: "Comparing College Students' Education for Sustainable Development in Taiwan and Sweden"
+#| fig-scap: "College Students' Sustainability Education: Taiwan vs. Sweden"
 compare_taiwan_sweden()
 ```
 
@@ -370,8 +370,8 @@ The Taiwanese educational system in numbers shows students in the Gen-Z age brac
 
 ```{python}
 #| label: fig-tw-high-ed-enrollment
-#| fig-cap: "Enrollment in Taiwanese higher education"
-#| fig-scap: "Enrollment in Taiwanese higher education"
+#| fig-cap: "Enrollment in Taiwanese Higher Education"
+#| fig-scap: "Enrollment in Taiwanese Higher Education"
 genz_enrollment_chart()
 ```
 
@@ -379,8 +379,8 @@ As of 2024, Taiwan has a total of 148 universities, colleges, and junior college
 
 ```{python}
 #| label: fig-tw-high-ed-funding
-#| fig-cap: "Funding for Taiwanese higher education"
-#| fig-scap: "Funding for Taiwanese higher education"
+#| fig-cap: "Funding for Taiwanese Higher Education"
+#| fig-scap: "Funding for Taiwanese Higher Education"
 college_decline_chart()
 ```
 
@@ -388,8 +388,8 @@ While the overall number of students is declining, the share of international st
 
 ```{python}
 #| label: fig-tw-high-ed
-#| fig-cap: "Demographics of Taiwanese higher education"
-#| fig-scap: "Demographics of Taiwanese higher education"
+#| fig-cap: "Demographics of Taiwanese Higher Education"
+#| fig-scap: "Demographics of Taiwanese Higher Education"
 higher_education_chart()
 ```
 
@@ -413,7 +413,7 @@ The table below illustrates the types of emissions and environmental impacts lar
 | 亞泥 Asia Cement (花蓮新城山礦場) | N/A | In 2023 a single mining operation in Hualian was responsible for 4.14 Mtof raw limestone extracted (assumed to have a very high emissions potential) however no CO~2~eq figure is reported by the company | @asiacementcorporationYaZhouShuiNiGu2023 |
 | 可口可樂 Coca-Cola (TW) | N/A | 2024 brand audit in river pollution found 7.6 % (n = 28481) of PET plastic bottles were from Coca-Cola | @greenpeaceKuaYueJiangJie2024 |
 
-Table: Examples of large industrial polluters in Taiwan as reported in academic papers and the media. []{short-caption="Large industrial polluters in Taiwan"}
+Table: Examples of Large Industrial Polluters in Taiwan as Reported in Academic Papers and the Media. []{short-caption="Large Industrial Polluters in Taiwan"}
 
 The experience of climate change in Taiwan is shaped by Taiwan’s recent climate challenges with over 4 decades of droughts, rising air temperatures, and shifting rainfall patterns, have impacted both water security and the performance of its vital semiconductor manufacturing industry ​[@voFourdecadeSpringDroughts2024]. Offshore, marine heatwaves, ocean acidification, and elevated sea surface temperatures are intensifying coral bleaching around Taiwan [@hsuInvestigationKuroshiocoastalCurrent2024]. The oceans are crucial for Taiwan to capture carbon emissions. Around 33% of Taiwanese CO~2~eq emissions is captured by the marine carbon sink, while the effect of forests in Taiwan needs further study [@hungAssessingCO2Sources2024].
 
@@ -547,11 +547,11 @@ Use of wearable devices enables one to be more aware of one's health. [@saubadeP
 Popular Strava sports assistant (over 100 million users) provides activity tracking and feedback [@stravaStravaGlobalCommunity2022].
 
 ::: {.content-hidden unless-format="pdf"}
-![Popular Strava sports assistant provides run tracking and feedback](./images/design/strava.png){width="100%"}
+![Popular Strava Sports Assistant Provides Run Tracking and Feedback](./images/design/strava.png){width="100%"}
 :::
 
 ```{=mdx}
-<Figure caption="Popular Strava sports assistant provides run tracking and feedback" src={Strava} />
+<Figure caption="Popular Strava Sports Assistant Provides Run Tracking and Feedback" src={Strava} />
 ```
 Apart from health, wearable devices have been used to track other metrics such as physiological parameters of students at school to determine their learning efficiency [@giannakosFitbitLearningCapturing2020]. Not only can health metrics be tracking, but exposure to pollution as well as personal carbon footprint, are all to some extent track-able (if not traceable).
 
@@ -596,8 +596,8 @@ A wide range of personal carbon footprint calculators have been released online,
 
 ```{python}
 #| label: fig-bad-behav
-#| fig-cap: "Increase of bad behavior during the COVID-19 pandemic"
-#| fig-scap: "Increase of bad behavior during the COVID-19 pandemic"
+#| fig-cap: "Increase of Bad Behavior During the COVID-19 Pandemic"
+#| fig-scap: "Increase of Bad Behavior During the COVID-19 Pandemic"
 pandemic()
 # Data from @ceccatoDefecationLitteringOther2023
 ```
@@ -667,8 +667,8 @@ Similar to *Nutritional Facts Labeling*, *Carbon Labels* provide basic informati
 
 ```{python}
 #| label: fig-br-comp-rank
-#| fig-cap: "British company ranking"
-#| fig-scap: "British company ranking"
+#| fig-cap: "British Company Ranking"
+#| fig-scap: "British Company Ranking"
 company_rank_chart()
 ```
 
@@ -710,8 +710,8 @@ Circularise, a leader in providing digital product passports as a service, lists
 
 ```{python}
 #| label: fig-digit-prod-pass
-#| fig-cap: "Digital Product Passports' data categories"
-#| fig-scap: "Digital Product Passports' data categories"
+#| fig-cap: "Digital Product Passports' Data Categories"
+#| fig-scap: "Digital Product Passports' Data Categories"
 digital_product_passport_data_categories()
 ```
 
@@ -760,7 +760,7 @@ Today's machines are much more capable so it's not a surprise humans would like 
 | Electronic pet                                              |
 | Tool for venting                                            |
 
-Table: Replika AI users approach to interacting with the AI friend from [@jiangChatbotEmergencyExist2022]. []{short-caption="Replika AI Users and AI Friends"}
+Table: Replika AI Users' Approach to Interacting With Their AI Friend; From [@jiangChatbotEmergencyExist2022]. []{short-caption="Replika AI Users' Approach to Interacting With Their AI Friend"}
 
 Surprisingly, humans can have emotionally deep conversations with robots. Jakob Nielsen notes two recent studies suggesting human deem AI-generated responses *more empathetic than human responses,* at times by a significant margin; however telling users the response is AI-generated reduces the perceived empathy [@nielsenUXRoundupAI2024; @ayersComparingPhysicianArtificial2023; @yinAICanHelp2024]. LLMs combined with voice, such as the Pi iOS app, provide a user experience, which [@ethanmollick2023] calls *unnerving*. The company provides *emotional intelligence* as a service and has developed its own proprietary LLM, called Inflection AI, which has raised over 1B USD in funding [@mittalInflection25PowerhouseLLM2024]. While startups are moving fast, traditional AI companies, with decades of AI experience, such as Google, are also developing an AI assistant for giving life advice [@goswamiGoogleReportedlyBuilding2023]. The conversations can be topic-specific. For instance, [@unleashSebastianAi2017] used BJ Fogg's *tiny habits model* to develop a sustainability-focused AI assistant at the Danish hackathon series Unleash, to encourage behavioral changes towards maintaining an aspirational lifestyle, nudged by a chatbot buddy.
 
@@ -813,7 +813,7 @@ Table: AI-based Assistants []{short-caption="AI-based Assistants"}
 | DeepSeek-R1 | 2025 | Hangzhou DeepSeek Artificial Intelligence Basic Technology Research Co., Ltd 杭州深度求索人工智慧基礎技術研究有限公司 | Open Source | China |
 | GPT-5 | 202? | OpenAI | Unknown; trademark registered | U.S. |
 
-Table: Summary of 7 years of rapid AI model innovation since the first LLM was publicly made available in 2018 [@brown2020language; @tamkin2021; @alvarezGenerateChatbotTraining2021; @hinesOpenAIFilesTrademark2023; @metaIntroducingMetaLlama2024; @baptistaDeepSeekRushesLaunch2025; @deepseek-aiDeepSeekR1IncentivizingReasoning2025]. []{short-caption="7 Years of Rapid AI Model Innovation"}
+Table: Summary of 7 Years of Rapid AI Model Innovation Since the First LLM Was Publicly Released in 2018 [@brown2020language; @tamkin2021; @alvarezGenerateChatbotTraining2021; @hinesOpenAIFilesTrademark2023; @metaIntroducingMetaLlama2024; @baptistaDeepSeekRushesLaunch2025; @deepseek-aiDeepSeekR1IncentivizingReasoning2025]. []{short-caption="7 Years of Rapid AI Model Innovation"}
 
 ```{python}
 models_chart()
@@ -829,7 +829,7 @@ Multi-modality is another aspect which enables more natural interactions with AI
 | Retrieval-augmented hybrids (RAG) | Retrieval methods enhance truthfulness | Improved factual grounding | Difficulty in integrating retrieved content |
 | Reinforcement-learning | Fine-tuning can steer conversational style and safety | Flexible style and safety alignment | High resource usage, sensitive to reward design |
 
-Table: Three areas of focus in conversational AI development in from [@fuLearningConversationalAI2022]. []{short-caption="Areas of Focus in Conversational AI Development"}
+Table: Three Areas of Focus In Conversational AI Development; From [@fuLearningConversationalAI2022]. []{short-caption="Areas of Focus in Conversational AI Development"}
 
 *Affective Design* emerged from affective computing, with a focus on understanding user emotions to design UI/UX which elicits specific emotional responses [@Reynolds2001DesigningFA]. Calling a machine a friend is a proposal bound to turn heads. But if we take a step back and think about how children have been playing with toys since before we have records of history. It's very common for children to imagine stories and characters in play - it's a way to develop one's imagination *learn through role-play*. A child might have toys with human names and an imaginary friend, and it all seems very normal. Indeed, if a child doesn't like to play with toys, we might think something is wrong. Likewise, inanimate objects with human form have had a role to play for adults too. Anthropomorphic paddle dolls have been found from Egyptian tombs dated 2000 years B.C. [@PaddleDollMiddle2023]: we don't know if these dolls were for religious purposes, for play, or for something else, yet their burial with the body underlines their importance.
 
@@ -873,7 +873,7 @@ What are the next features that could improve the next-generation UX/UI of AI-ba
 | AI for therapy [@broderickPeopleAreUsing2023] | personalized bed-time stories for kids generated by AI [@bedtimestory.aiAIPoweredStory2023] |
 | Mental health uses: AI for bullying [@sungParentsWorryTeens2023] |  |
 
-Table: Some notable examples of anthropomorphic AIs for human emotions. []{short-caption="Anthropomorphic AIs for Human Emotions"}
+Table: Notable Examples of Anthropomorphic AIs for Human Emotions. []{short-caption="Examples of Anthropomorphic AIs for Human Emotions"}
 
 Speech is another aspect of human life that makes computer-generated experiences feel more real. Siri, Cortana, Google Assistant, Alexa, Tencent Dingdang, Baidu Xiaodu, Alibaba's AliGenie - all rely on voice as their main interface. While there's ample evidence across disciplines about the usefulness speech in AI assistants, many concerns exist about the possibility of implementing privacy. In practice, providing voice for the AI raises new ethical issues, as most voice assistants need to continuously record human speech and process it in data centers in the cloud. One attempt at privacy is by Apple’s Foundation Language Models (AFM), which is split into a smaller on-device model and a server-side model, enabling processing of the most sensitive data directly on the user's device [@dangAppleAIUnderstanding2024]. 
 
@@ -944,7 +944,7 @@ The most comprehensive meta-review of research on how AI chatbots could mimic hu
 | **Invisible** | **Haptics** | Tactile touch | Device vibration or touch feedback |
 |  |  | Temperature | Warmth or coolness cues |
 
-Table: Comprehensive overview of social cues with potential for use in AI conversations, adapted from the meta-review of related research papers by [@feineTaxonomySocialCues2019]. []{short-caption="Social Cues in AI Conversations"}
+Table: Comprehensive Overview of Social Cues with potential for use in AI conversations, adapted from the meta-review of related research papers by [@feineTaxonomySocialCues2019]. []{short-caption="Social Cues in AI Conversations"}
 
 Non-Anthropomorphic, machine-like AIs have been with us for a while. The Oxford Internet Institute defines AI simply as *"computer programming that learns and adapts"* [@googleAZAI2022]. Google started using AI in 2001, when a simple machine learning model improved spelling mistakes while searching; now in 2023 most of Google's products are based on AI [@googleGooglePresentsAI2022]. Throughout Google's services, AI is hidden and calls no attention itself. It's simply the complex system working behind the scenes to delivery a result in a bare-bones interface.
 
@@ -960,7 +960,7 @@ The number of AI-powered assistants is too large to list here. I've chosen a few
 | Google Interview Warmup | grow.google/certificates/interview-warmup | AI training tool |
 | Perplexity | [@hinesPerplexityAnnouncesAI2023] | perplexity.ai chat-based search |
 
-Table: AI Assistants []{short-caption="AI Assistants"}
+Table: Some Examples of AI Assistants []{short-caption="Some Examples of AI Assistants"}
 
 Everything that existed before OpenAI's GPT 4 has been blown out of the water. ChatGPT passes many exams meant for humans and is able to solve difficult tasks in scientific areas such as chemistry with just simple natural-language instructions [@whiteFutureChemistryLanguage2023; @bubeckSparksArtificialGeneral2023]. As late as in 2017, scientists were trying to create a program with enough *natural-language understanding* to extract basic facts from scientific papers [@stocktonIfAICan2017]. This is a task which is trivial for modern LLMs.
 
@@ -978,7 +978,7 @@ Gen-Z exhibits high levels of technology adoption worldwide, with over 98% ownin
 | Overall social-media usage | 95.98 % | 94.84 % |
 | TikTok usage               | 33.03 % | 24.28 % |
 
-Table: Taiwanese Internet Usage Statistics; data from [@TWNIC2023]. []{short-caption="Taiwanese Internet Usage Statistics"}
+Table: Taiwanese Internet Usage Statistics; Data From [@TWNIC2023]. []{short-caption="Taiwanese Internet Usage Statistics"}
 
 [@momovscoupang2024] predicts intensifying competition between Momo and Coupang for Taiwanese market leadership. The newest entrant Coupang from Korea is moving fast and increasingly stepping on Shopee's and MOMO's toes, as per [@ShunFengFuChanKeSunpungSanbuingwa2024]. Across online and offline, KANTAR reports Taiwan’s consumer spending on fast-moving consumer-goods (FMCG) grew over 5% in 2024, speeding up towards the end of the year: +2.5% in Q1, +4.1% in Q2, +5.7 % in Q3 and +9.1% in Q4, with e-commerce crossing the 20 % share mark (traditionally FMCG are purchased physical stores, as convenience stores are so readily available all over Taiwan) [@DongNaoChang2024; @kantarworldpanelFMCG2024; @foodnext20242024; @ShiLifoodnext2024Di42025].
 
@@ -1014,7 +1014,7 @@ A recent nationwide study (n = 1997) titled Youth Financial Health Basics (青�
 | EasyCard                            |                             4% |
 | Mobile payments                     |                             1% |
 
-Table: Familiarity with financial products and preferred payment methods, as reported in [@LianHeXinWenWangTaiWan2025]. []{short-caption="Taiwanese Financial Product Familiarity"}
+Table: Taiwanese Familiarity with Financial Products and Preferred Payment Methods, As Reported In [@LianHeXinWenWangTaiWan2025]. []{short-caption="Taiwanese Financial Product Familiarity"}
 
 Importantly for designing a financial app, while 80% of the survey respondents had received financial education at school, 90% of the students deemed the primary learning channel about financial knowledge to be on social media; and only 15% remember to have learned about credit-card usage [@DiaoCha9XiJinRongZhiShi2025].
 
@@ -1030,7 +1030,7 @@ An over-the-phone study (n = 3000) conducted in 2022, found Taiwanese savings ha
 | Seeking financial advice                  |    71.0% |  3.2% |  17.8% | 8.0% |
 | Personal money management                 |    21.8% | 42.9% |  28.4% | 6.9% |
 
-Table: Financial literacy data from phone interviews, as reported in [@ZhongYangSheTaiWanJin2022]. []{short-caption="Financial Literacy Data from Phone Interviews"}
+Table: Financial Literacy Data From Phone Interviews; As Reported In [@ZhongYangSheTaiWanJin2022]. []{short-caption="Financial Literacy Data from Phone Interviews"}
 
 The Taiwanese Financial Literacy & Education Association 財金智慧FINLEA is a non-profit with a stated goal of enhancing financial literacy among Taiwanese. Their longitudinal study, with the latest survey conducted in 2022 (n = 2014; 1055 high-school; 959 university) rated financial literacy among all youths 56.3 out of 100 (53.8 in 2016 and 56.7 in 2007), always below the benchmark score of 60, with high school and vocational students averaging 49.26 and university students somewhat higher averaged 64.03 score [@WangRuanGuFenYou2022].
 
@@ -1045,7 +1045,7 @@ The Taiwanese Financial Literacy & Education Association 財金智慧FINLEA is a
 | Uncertain how to choose investment tools for maximum lifetime returns | 63% |
 | Unaware that business tax makes purchases more expensive | 61% |
 
-Table: Latest report from the 財金智慧FINLEA longitudinal study [@WangRuanGuFenYou2022]. []{short-caption="Taiwanese FINLEA Longitudinal Study"}
+Table: Latest Report From the 財金智慧FINLEA Longitudinal Study [@WangRuanGuFenYou2022]. []{short-caption="Taiwanese FINLEA Longitudinal Study"}
 
 財金智慧FINLEA does publish online videos targeted at young people, however as of early 2025, they only have around 1000 subscribers on YouTube [@CaiJinZhiHuifinleaCaiJinZhiHuiFINLEAYouTube2020]. Meanwhile, the Taiwanese cryptocurrency influencer Mr Block has over 100000 YouTube subscribers [@mrblockQuKuaiXianShengMrblockQuKuaiXianSheng2025].
 
@@ -1069,7 +1069,7 @@ Internationally, there's evidence young people have money. In the United States,
 | France              | 10%                          |
 |                     |                              |
 
-Table: Data from millennial investors [@calastoneMillennialsInvestingDetailed2020]. []{short-caption="Millennial Investors"}
+Table: Comparison of Millennial Investors [@calastoneMillennialsInvestingDetailed2020]. []{short-caption="Comparison of Millennial Investors"}
 
 Young people are typically *retail investors*, investing small amounts of money for themselves. Retail investors face many challenges in comparison with their institutional counterparts. For instance, lack of skills to do proper research, facing information asymmetries, where finding good information is limited by time, ability, as well as financial literacy, whereas professional investors have the tools, skills, time, and knowledge, to make better investment decisions. The common expectation is that young investors typically have less understanding financial concepts and follow financial influencers on social media for guidance. While consumers are beginning to become more money-savvy, they still lag in both financial and sustainability literacy. Financial and sustainability literacy are intertwined. Integrating these literacies is essential, because a financially informed public is better equipped to channel capital toward environmentally beneficial uses. Social media plays a significant role here, with retail investing being heavily influenced by social media influencers.
 
@@ -1087,7 +1087,7 @@ Popular financial blogger [@austinryderHowBecomeInvestor2020] believes a good st
 | **Mobile App Experience** | Professional, ESG-focused UI | Clean, simple, intuitive | Gamified, casual, integrated with other Revolut services |
 | **Extra Features** | Voting rights, ethical filters, carbon impact metrics | Interest on cash (like a bank account); multi-currency accounts | Cashback, budgeting, crypto, P2P payments, travel perks |
 
-Table: Comparative Data on Investing Apps; compiled from [@trahantInteractiveBrokersBuilt2022; @gyuriczkiRevolutESGInvesting2025; @interactivebrokersCommissionsStockAsiaPacific2025; @lightyearFeesTaxes2025; @revolutRevolutsTradingFees2025; @revolutRevolutExplainsFractional2020; @interactivebrokersIMPACTFeatures2025] []{short-caption="Comparative data on investing apps"}
+Table: Comparative Data on Investing Apps; Data Compiled From [@trahantInteractiveBrokersBuilt2022; @gyuriczkiRevolutESGInvesting2025; @interactivebrokersCommissionsStockAsiaPacific2025; @lightyearFeesTaxes2025; @revolutRevolutsTradingFees2025; @revolutRevolutExplainsFractional2020; @interactivebrokersIMPACTFeatures2025] []{short-caption="Comparative Data on Investing Apps"}
 
 The next step is to provide frictionless digital pathways that let everyday purchases morph into micro-investments with transparent sustainability impacts. This user journey is a type of blended learning-by-doing experience. Framing the problem as a journey: first, helping users recognize whether their spending habits define them primarily as consumers or as investors, then giving users exposure to investment opportunities through familiar activities like shopping may hold the potential to boost financial literacy levels, enticing consumers to learn more about taking advantage of their financial opportunities as well as understanding how to manage the types or risk involved. Indeed, retail investor are the most vulnerable to misinformation and speculative hype if educational scaffolding is absent.
 
@@ -1210,7 +1210,7 @@ In the most general sense, supply chain transparency enables stakeholder account
 | Two/three-wheelers          | 3%         |
 | Rail                        | 3%         |
 
-Table: Share of CO~2~eq emissions by type of transport globally [@statistaGlobalTransportCO22022]. []{short-caption="Share of CO~2~eq Emissions by Type of Transport Globally"}
+Table: Share of CO~2~eq Emissions by Type of Transport Globally; Data From [@statistaGlobalTransportCO22022]. []{short-caption="Share of CO~2~eq Emissions by Type of Transport Globally"}
 
 In shipping, [@matthewgoreEmissionsRegulationsShipping2022] reports the International Maritime Organization (IMO) targets cutting CO~2~ equivalent emissions in shipping 50% by 2050 compared to 2008. In aviation, [@platzerPerspectiveUrgencyGreen2023], a scientist working on the Apollo space program, calls for emergency action to develop *green aviation*.
 
@@ -1513,7 +1513,7 @@ Board diversity in the top 5 sustainable companies in 2024 based on Corporate Kn
 
 ```{python}
 #| label: fig-esg-board-div-comp
-#| fig-cap: "Simplified comparison chart for board diversity (gender and cultural) vs ESG score"
+#| fig-cap: "Simplified Comparison Chart for Board Diversity (Gender and Cultural) vs ESG score"
 #| fig-scap: "ESG vs Board Diversity"
 esg_vs_board_diversity()
 ```
@@ -1549,7 +1549,7 @@ TIME Magazine and Statista collaborative *"World’s Most Sustainable Companies 
 |                     421 | Taiwan Cement             |                  55.49 |
 |                     497 | Advantech                 |                  53.14 |
 
-Table: World’s Most Sustainable Companies; data from [@alanasemuelsWorldMostSustainable2024]. []{short-caption="World’s Most Sustainable Companies"}
+Table: World’s Most Sustainable Companies; Data From [@alanasemuelsWorldMostSustainable2024]. []{short-caption="World’s Most Sustainable Companies"}
 
 Taiwan has been on a path of change, striving to become more sustainable. Between 1970 and 2019, emitting CO~2~eq was largely a prerequisite for economic growth in Taiwan [@changRevisitingEconomicGrowth2023]. Since the 1990s, Taiwan is a net CO~2~eq exporter through emissions embedded in the industrial production oriented economy [@huangTaiwanHasShifted2020]. Starting in 2023, Taiwan’s Financial Supervisory Commission’s (FSC) added "requirements for Taiwan’s corporates to disclose their carbon emissions," [@reformosatwAntiGreenwashing2024]. Most recently, the Taiwanese environmental ministry has been cracking down on illegal waste, with over 70 cases being prosecuted [@HuanJing2025].
 
@@ -1598,7 +1598,7 @@ Digital payments is one way consumers can take individual climate action. Digita
 | **Hami Pay (中華電信)** | Payment app by the largest phone company Chunghwa Telecom supporting NFC payments, public transport, and paying bills. | ? | Taiwan |
 | **Samsung Pay (悠遊卡)** | Requires a Samsung device; uses NFC; integrates EasyCard and credit/debit cards; supports public transport. | ? | Korea |
 
-Table: Comparing Payments Apps; Data compiled from [@focustaiwanIPASSLaunchesQR2025; @taiwannewsPXPay1stTaiwan2025; @pxpayplusPXPayJPMorgan] []{short-caption="Comparing Payments Apps"}
+Table: Comparison of Payment Apps in Taiwan; Data compiled from [@focustaiwanIPASSLaunchesQR2025; @taiwannewsPXPay1stTaiwan2025; @pxpayplusPXPayJPMorgan] []{short-caption="Comparison of Payment Apps in Taiwan"}
 
 Banks and fintechs both are skilled at capturing user data and digital payments are an important entry point for financial services and a source of consumer action data, shopping data. Payments is the primary way consumers use money. Is there a funnel From Payments to Investing? ESG Shopping is about Changing our relationship with money. Make commerce more transparent. Current shopping is quite superficial. One barely knows the name of the company. You don't know much about their background. Building consumer feeling of ownership, create meaningful connections between producers and consumers.
 
@@ -1617,7 +1617,7 @@ Sharing a similar goal to Alibaba's Ant Forest, Bunq's approach creates a new in
 ```{=mdx}
 <Figure caption="Bunq promises to combine banking and eco-friendly actions in the same user interface" src={Bunq} />
 ```
-In Nigeria, [@emeleonuNigeriaCapsATM2022] reports how in order to promote the eNaira digital currency use, the Nigerian government limited the amount of cash that can be withdrawn from ATMs *"In Nigeria's largely informal economy, cash outside banks represents 85% of currency in circulation and almost 40 million adults are without a bank account."* **\[E-Naira find papers\]**
+In Nigeria, [@emeleonuNigeriaCapsATM2022] reports how in order to promote the eNaira digital currency use, the Nigerian government limited the amount of cash that can be withdrawn from ATMs *"In Nigeria's largely informal economy, cash outside banks represents 85% of currency in circulation and almost 40 million adults are without a bank account."*
 
 In Kenya, M-Pesa started since 2007 for mobile payments, used by more than 80% of farmers [@tyceNeoliberalstatistDivideDrivers2020; @parlascaUseMobileFinancial2022]. Using digital payments instead of cash enables a new class of experiences, in terms of personalization, and potentially, for sustainability. Buy Now Pay Later (BNPL) is the biggest consumer payments / financing success story innovated by Klarna in Sweden in 2005 and Afterpay in Australia in 2015 but with roots in Layaway Programs created during the 1930s US Great Depression [@kentonWhatLayawayPlan2023]. By 2021, 44.1% of Gen-Z in the US had used BNPL according to [@emarketerAlmost75BNPL2021]. Users in the Gen-Z demographic mostly use BNPL to buy clothes [@lhvBuyNowPay2024].
 
@@ -1662,7 +1662,7 @@ The following popular (totaling millions of users) robo-advisory apps combine su
 | Robinhood | Investing | US |
 | Mintos | Buy bonds and loans | EU |
 
-: Comparing Investing Apps; Data compiled from [@ZigluFastSimple; @lightyearLightyearInvestingOwn; @SelmaYourFinances; @MosMoneyApp; @monzoOnlineBankingMade2023; @NubankFinalmenteVoce]. []{short-caption="Comparing investing apps;"}
+: Comparing Investing Apps; Data compiled from [@ZigluFastSimple; @lightyearLightyearInvestingOwn; @SelmaYourFinances; @MosMoneyApp; @monzoOnlineBankingMade2023; @NubankFinalmenteVoce]. []{short-caption="Comparing Investing Apps"}
 
 Becoming a major payments player requires navigating the maze of global directives, including legislation regarding finance, privacy, data protection, money laundering, localized licensing regimes, and more. For an example, Google Wallet’s privacy notice sheds some light on how a unified payments profile links services under one's Google account while following its broader data‑use policies [@googleGooglePaymentsPrivacy2025].
 
@@ -1684,7 +1684,7 @@ The established consumer payment giants include the following companies:
 | Zelle | Bank-to-bank P2P payments | ? | No | Yes | Yes |
 | Nubank | Full features of a traditional bank in a digital form | ? | No | Yes | Yes |
 
-: Established consumer payment giants, none of which has a specific sustainability focus.
+Table: Established Consumer Payment Giants (None with Sustainability Focus).
 
 Some of the growth companies in consumer finance are listed below:
 
@@ -1712,7 +1712,7 @@ Some of the growth companies in consumer finance are listed below:
 | Stash | Micro-investing platform enabling small investments | USA | ? | Yes | No | No |
 | Mint (Ceased operations) | Budgeting tools, bill tracking, free credit score monitoring | USA | ? | No | No | No |
 
-: Growth companies in fintech, none has a sustainability focus.
+Table: Growth Companies in Fintech (None with Sustainability Focus). []{short-caption="Growth Companies in Fintech - None with Sustainability Focus"}
 
 Up-and-coming startups among fintech apps include:
 
@@ -1734,11 +1734,13 @@ Up-and-coming startups among fintech apps include:
 | Trine | Loans to eco-projects | USA | ? | Yes | No | No | Yes |
 | Ziglu | UK simple investing app | UK | ? | Yes | No | No | No |
 
-: Among up-and-coming startups there are some examples of sustainability-focused apps.
+Table: Up-and-coming Startups (Some Examples of Sustainability-focus). []{short-caption="Up-and-coming Startups - Some Sustainability Focus"}
 
 All the apps discussed above are part of the wave of democratization of retail investing. Yet, very few of them offer sustainability features.
 
 Superapps are the most prevalent across Asia, with China, South-East Asia, Korea, Japan, and India leading the way, however newcomers in Latin America and the Middle East are also making strides; meanwhile, the US and Europe are lagging behind.
+
+The table below gives a global overview of superapps combining various metric types (MAU, MTU, Annual Users, Customers, Registered Users), which vary by company reporting, and are reduced into a single "users" metric for simplicity. Each figure is sourced from official company reports, press releases, or investor disclosures. If no recent official update was available (as in the case of Alipay’s 2020 figure), the latest known official figure is provided. All values and dates reflect the latest data as of 2025.
 
 | **App** | Origin | **Metric** | Payments (Wallet) | Savings | Investing | **Users** | **Date** |
 |---------|---------|---------|---------|---------|---------|---------|---------|
@@ -1762,7 +1764,7 @@ Superapps are the most prevalent across Asia, with China, South-East Asia, Korea
 | **Grab** | Singapore / Malaysia | Monthly Transacting Users (MTU) | Yes | Yes | No | 41 million | 2024 |
 | **Rappi** | Colombia | Users | Yes | Yes | No | 30 million | 2023 |
 
-: Global overview of superapps (or near-superapps) compiled from official company reports (IR, Press Releases), news reports, and company websites; various metric types (MAU, MTU, Annual Users, Customers, Registered Users) vary by company reporting and are reduced into a single "users" metric for simplicity. Each figure is sourced from official company reports, press releases, or investor disclosures. If no recent official update was available (as in the case of Alipay’s 2020 figure), the latest known official figure is provided. All values and dates reflect the latest data as of 2025. Data sourced from [@geUpdateAlibabasAnt2020; @jingMeituan0369020242025; @phonepePhonePeCrosses5002023; @lycorporationLYCorporationTakes2023; @shindeTataNeu202023; @shindeTataNeu202023; @polloNuHoldingsLtd2025; @nguyenVietnamsFirstUnicorn2023; @vermaPaytmQ3FY242024; @safaricomSafaricomsMPESAHits2024; @mercadolibre2024ImpactReport2024; @oostBrazilianFinTechPicPay2024; @kazaninsWhyCashApp2024; @tecentTecentHoldings20242024; @leeKakao2024Revenue2025; @gotoTransformationProgres2023; @revolutRevolutHits502024; @careemCareems2024Wrapup2025; @grabholdingslimitedGrabReportsFourth2025; @phocuswrightSuperConnectedRappi2023; @brownColombiasFirstUnicorn2025; @layaSoftBankBackedAppRappi2024]. []{short-caption="Global overview of superapps"}
+Table: Global Overview of Superapps (or near-superapps) compiled from official company reports (IR, Press Releases), news reports, and Company Websites; Data Sourced From [@geUpdateAlibabasAnt2020; @jingMeituan0369020242025; @phonepePhonePeCrosses5002023; @lycorporationLYCorporationTakes2023; @shindeTataNeu202023; @shindeTataNeu202023; @polloNuHoldingsLtd2025; @nguyenVietnamsFirstUnicorn2023; @vermaPaytmQ3FY242024; @safaricomSafaricomsMPESAHits2024; @mercadolibre2024ImpactReport2024; @oostBrazilianFinTechPicPay2024; @kazaninsWhyCashApp2024; @tecentTecentHoldings20242024; @leeKakao2024Revenue2025; @gotoTransformationProgres2023; @revolutRevolutHits502024; @careemCareems2024Wrapup2025; @grabholdingslimitedGrabReportsFourth2025; @phocuswrightSuperConnectedRappi2023; @brownColombiasFirstUnicorn2025; @layaSoftBankBackedAppRappi2024]. []{short-caption="Global Overview of Superapps"}
 
 Uber is creating an all-purpose platform for travel; only 4.1% of rides were electric [@levyUberCEOSays2023]. In the UK, Uber launched and option to book flights, moving to a door-to-door travel solution where the same app brings you from home to the airport, the flight, and your final destination [@uberukUberTakesSkies2023].
 
@@ -1771,7 +1773,7 @@ Uber is creating an all-purpose platform for travel; only 4.1% of rides were ele
 | Uber | USA | Users per month | No (Only for ride-hailing) | No | No | 171 million |
 | Bolt | Estonia | Lifetime users | No (Only for ride-hailing) | No | No | 200 million |
 
-: Not quite super-app yet; data sourced from [@uberUberAnnouncesResults2025; @garciaBoltAcquiresDanish2025] []{short-caption="Not quite super-app yet"}
+Table: Not Quite Super-App Yet; Data Sourced From [@uberUberAnnouncesResults2025; @garciaBoltAcquiresDanish2025] []{short-caption="Not Quite Super-App Yet"}
 
 Superapps offer a platform with key infrastructure such as payments already included, where ecosystem of mini-apps thrive [@perriWhatSuperapp2022; @heathRiseSuperApp2021]. Alipay, originally a payments' app, has build the digital infrastructure to provide thousands of services to billions of users across China. 59 million people use 支小寶 (Zhixiaobao), an Al-based assistant inside of Alipay, which can order taxis and meals, but also interact with the Ant Bridge, Ant Bridge, Ant Fortune and Ant Insurance services inside Alipay [@finextraAntGroupsSmart2024]. [@vecchiTwoTalesInternationalization2022] discusses the strategies Chinese apps are taking to expand to international markets. [@giudice2020wechat] finds WeChat has had a profound impact on changing China into a cashless society, underlining how one mobile app can transform social and financial interactions of an entire country. [@shabrinanurqamaraniEFFECTSMOBILESERVICE2020] discusses the system consistency and quality of South-East Asian superapps Gojek and Grab.
 
@@ -1788,7 +1790,7 @@ There are also many aspiring superapps, companies which aspire to build multi-ve
 | Data-driven Design |  |  |
 | Behaviour Design |  |  |
 
-: Platform economy concepts from [@katzNetworkExternalitiesCompetition1985; @oinas-kukkonenPersuasiveSystemsDesign2009; @tiwanaResearchCommentaryPlatform2010; @chenBusinessIntelligenceAnalytics2012].
+Table: Concepts of Platform Economy; From [@katzNetworkExternalitiesCompetition1985; @oinas-kukkonenPersuasiveSystemsDesign2009; @tiwanaResearchCommentaryPlatform2010; @chenBusinessIntelligenceAnalytics2012]. []{short-caption="Concepts of Platform Economy"}
 
 [@cuppiniWhenCitiesMeet2022] gives a historical overview of how the rise of digital platforms, taking an expansive point of view, all the way from linear *Fordism*, the development of capitalism, through platform economy and the app-based logistics' revolution, which can provide data for circular economies to happen in a city; reshaping the cities through data-sharing with stakeholder from the citizens, to urban planner and policy-makers - not without conflict, as there is often tension between multiple perspectives.
 
@@ -1862,7 +1864,7 @@ Kaufman decries the lack of real-world data in the economic-climate models, and 
 | Worst-case reduction in climate damage: 2 °C target (China) | 80 % reduction | vs business-as-usual in the worst-case damage scenario |
 | Worst-case reduction in climate damage: 2 °C target (global) | 84 % reduction | vs business-as-usual in the worst-case damage scenario |
 
-: Quantifying climate damage scenarios using integrated assessment models [@wangMultimodelAssessmentClimate2022]. []{short-caption="Quantifying climate damage scenarios"}
+Table: Quantifying Climate Damage Scenarios Using Untegrated Assessment Models [@wangMultimodelAssessmentClimate2022]. []{short-caption="Quantifying Climate Damage Scenarios"}
 
 *Doughnut Economics*, introduced in the eponymous book uses a simple visualization of a doughnut (donut in American English) to help us grasp the big picture of the economy *embedded* inside the physical and social worlds [@raworthDoughnutEconomicsSeven2017]. Raworth calls to move beyond GDP growth, building economies that are regenerative and distributive by design, fitting human needs within planetary limits [@debalieKateRaworthCreating2018]. The Doughnut Economics model allows one to see the social shortfall and ecological overshoot of nations at the same time [@fanningSocialShortfallEcological2021]. The doughnut concept is simple and deep at the same time, a useful as social object to enable starting conversations with people from all walks of life, independent of their politics leanings. As Raworth calls it, it's a *"self-portrait of humanity in the beginning of the 21st century"*. Combining the *SDGs (Sustainable Development Goals)* inside the doughnut and the *Planetary Boundaries* (Earth's ecological ceiling) outside the doughnut, leaves a space inside the doughnut represents a state of equilibrium and balance on spaceship Earth.
 
@@ -1878,7 +1880,7 @@ The city of Amsterdam is developing shorter food chains (which save CO~2e~) and 
 | Collaboration between chain members                |
 | Food education                                     |
 
-: Circular Economics in Amsterdam's Food Industry [@circleeconomyKeynoteIlektraKouloumpi2021].
+Table: Circular Economics in Amsterdam's Food Industry [@circleeconomyKeynoteIlektraKouloumpi2021].
 
 *In his 2015 paper Regenerative Capitalism*, John Fullerton, an investor and a capital markets and derivatives expert, builds his economic theory on the ideas of Club of Rome and the Limits to Growth [@meadowsLimitsGrowthReport1972] as well as taking inspiration from R. Buckminster Fuller.
 

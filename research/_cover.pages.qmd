@@ -3,4 +3,11 @@
   fitpaper=true,
   pagecommand={\thispagestyle{empty}}
 ]{_cover.pages.pdf}
-\clearpage
+\cleardoublepage
+
+\includepdf[
+  pages=1,
+  fitpaper=true,
+  pagecommand={\thispagestyle{empty}}
+]{_approval.pdf}
+\cleardoublepage
