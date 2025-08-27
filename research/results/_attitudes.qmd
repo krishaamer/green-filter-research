@@ -8,7 +8,7 @@ warnings.filterwarnings("ignore")
 
 ## Taiwanese College Students' Overall Attitudes
 
-These are student attitudes across all 36 likert fields without clustering. Clustered results are available under the Personas section.
+These are student attitudes across all 36 Likert fields without clustering. Clustered results are available under the Personas section.
 
 #### Economy
 
@@ -143,14 +143,20 @@ Testing student knowledge about the environment. College students see coral reef
 ecosystem_sensitivity()
 ```
 
-| Rank (most-to-least chosen) | Ecosystem that sits at that rank | ≈ Share of all answers | Take-away                                                                                                  |
-| --------------------------- | -------------------------------- | ---------------------- | ---------------------------------------------------------------------------------------------------------- |
-| 1                           | **珊瑚礁 (Coral reefs)**            | **≈ 68 %** (599 votes) | Reefs are the textbook fragile ecosystem in students’ minds. Think bleaching clips all over IG and TikTok. |
-| 2                           | **熱帶雨林 (Tropical rain-forests)** | ≈ 26 % (225)           | Deforestation stories keep rain-forests firmly in the spotlight.                                           |
-| 3                           | **沙漠 (Deserts)**                 | ≈ 2.4 % (21)           | Only a small crew sees deserts as sensitive – lots of folks still picture them as “already tough”.         |
-| 4                           | **濕地 (Wetlands)**                | ≈ 2.4 % (21)           | Same low share as deserts. Wetlands might be off the radar unless you’re into birdwatching or flood news.  |
-| 5                           | **草原 / 草地 (Grasslands)**         | ≈ 1.1 % (10)           | Grasslands barely register, even though they store heaps of carbon. Room for awareness-boosting.           |
-| 6 +                         | Other rankings or blanks         | < 1 % each             | Everything outside the top five is statistical noise in this data set.                                     |
++-----------+--------------------------------------+------------------------+------------------------------------------------------------------------------------------------------------+
+| Rank      | Ecosystem                            | ≈ Share                | Potential Explanation                                                                                      |
++===========+======================================+========================+============================================================================================================+
+| 1         | **珊瑚礁 (Coral reefs)**             | **≈ 68 %** (599 votes) | Reefs are the textbook fragile ecosystem in students’ minds. Think bleaching clips all over IG and TikTok. |
++-----------+--------------------------------------+------------------------+------------------------------------------------------------------------------------------------------------+
+| 2         | **熱帶雨林 (Tropical rain-forests)** | ≈ 26 % (225)           | Deforestation stories keep rain-forests firmly in the spotlight.                                           |
++-----------+--------------------------------------+------------------------+------------------------------------------------------------------------------------------------------------+
+| 3         | **沙漠 (Deserts)**                   | ≈ 2.4 % (21)           | Few people see deserts as sensitive; most picture them as “already tough”.                                 |
++-----------+--------------------------------------+------------------------+------------------------------------------------------------------------------------------------------------+
+| 4         | **濕地 (Wetlands)**                  | ≈ 2.4 % (21)           | Same low share as deserts. Wetlands might be off the radar unless you’re into bird-watching or flood news. |
++-----------+--------------------------------------+------------------------+------------------------------------------------------------------------------------------------------------+
+| 5         | **草原 / 草地 (Grasslands)**         | ≈ 1.1 % (10)           | Grasslands barely register, even though they store heaps of carbon. Room for awareness-boosting.           |
++-----------+--------------------------------------+------------------------+------------------------------------------------------------------------------------------------------------+
+| 6 +       | Other rankings or blanks             | \< 1 % each            | Everything outside the top five is statistical noise in this data set.                                     |
++-----------+--------------------------------------+------------------------+------------------------------------------------------------------------------------------------------------+
 
-
-In summary, reefs dominate students mind share, with nearly 7 in 10 students putting coral reefs in the pole position. Rain-forests still matter. One quarter see them as the next-most fragile, a solid silver medal. Everything else is background noise. Deserts, wetlands, and grasslands together grab < 6 %. That’s a massive perception gap I could tackle in outreach or app content.
+In summary, reefs dominate students' mind share, with nearly 7/10 of the students putting coral reefs in the highest position. Rain-forests still matter. One quarter see them as the next-most fragile. Everything else is background noise. Deserts, wetlands, and grasslands together grab \< 6%. That’s a massive perception gap I could tackle in outreach or app content.

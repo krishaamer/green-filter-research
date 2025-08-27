@@ -20,51 +20,45 @@ Due to the length, I've decided to exclude full raw interview transcripts. The d
 
 ## Appendix 4: College Students' Survey Data
 
-Due to the large amounts of data captured by the initial survey (over 1600 people started the survey, after filtering, leading to over 800 Gen-Z current college students finished it fully), I've chosen to exclude it from the PDF version of my thesis. The data is available upon request - and has also been published on Hugging Face as a public dataset here: https://huggingface.co/datasets/krishaamer/taiwanese-college-students
+Due to the large amounts of data captured by the initial survey (over 1600 people started the survey; after filtering, over 800 Gen-Z current college students finished it fully), I've chosen to exclude it from the PDF version of my thesis. The data is available upon request - and has also been published on Hugging Face as a public dataset: https://huggingface.co/datasets/krishaamer/taiwanese-college-students
 
 ## Appendix 5: Research Tech Stack
 
 For anyone who would like to repeat this research, here's a table with the software that this research project made use of.
 
-| Tool/Service | Category                 |
-|--------------|--------------------------|
-| Matplotlib   | Data Visualization       |
-| NumPy        | Scientific Computing     |
-| jupyter      | Development Environment  |
-| seaborn      | Data Visualization       |
-| Python       | Programming Language     |
-| VSCode       | Code Editor              |
-| GitHub       | Version Control          |
-| fireflies.ai | AI Meeting Assistant     |
-| Google Meet  | Communication            |
-| databricks   | Data Platform            |
-| HuggingFace  | Machine Learning         |
-| TypeScript   | Programming Language     |
-| Tally        | Form Builder             |
-| Zotero       | Reference Manager        |
-| Quarto       | Publishing/Documentation |
-
-| Tool/Service     | Category                |
-|------------------|-------------------------|
-| Apache Parquet   | Data Storage Format     |
-| Haystack         | Search Framework        |
-| MongoDB          | NoSQL Database          |
-| langchain        | AI/ML Development       |
-| GitHub Copilot   | AI Coding Assistant     |
-| Figma            | Design Tool             |
-| Sketch           | Design Tool             |
-| OpenAI ChatGPT   | AI Assistant            |
-| Anthropic Claude | AI Assistant            |
-| Google Gemini    | AI Assistant            |
-| Google Colab     | Development Environment |
-| Google Sheets    | Spreadsheet             |
-| META Llama       | AI Model                |
-| Mistral          | AI Model                |
-| OpenAI API       | API Service             |
-| Postman          | API Testing Tool        |
-
 | Tool/Service     | Category                     |
 |------------------|------------------------------|
+| Matplotlib       | Data Visualization           |
+| NumPy            | Scientific Computing         |
+| jupyter          | Development Environment      |
+| seaborn          | Data Visualization           |
+| Python           | Programming Language         |
+| VSCode           | Code Editor                  |
+| GitHub           | Version Control              |
+| fireflies.ai     | AI Meeting Assistant         |
+| Google Meet      | Communication                |
+| databricks       | Data Platform                |
+| HuggingFace      | Machine Learning             |
+| TypeScript       | Programming Language         |
+| Tally            | Form Builder                 |
+| Zotero           | Reference Manager            |
+| Quarto           | Publishing/Documentation     |
+| Apache Parquet   | Data Storage Format          |
+| Haystack         | Search Framework             |
+| MongoDB          | NoSQL Database               |
+| langchain        | AI/ML Development            |
+| GitHub Copilot   | AI Coding Assistant          |
+| Figma            | Design Tool                  |
+| Sketch           | Design Tool                  |
+| OpenAI ChatGPT   | AI Assistant                 |
+| Anthropic Claude | AI Assistant                 |
+| Google Gemini    | AI Assistant                 |
+| Google Colab     | Development Environment      |
+| Google Sheets    | Spreadsheet                  |
+| META Llama       | AI Model                     |
+| Mistral          | AI Model                     |
+| OpenAI API       | API Service                  |
+| Postman          | API Testing Tool             |
 | Next.js          | Web Framework                |
 | fullstory        | Analytics                    |
 | Polygon.io       | Financial Data API           |
@@ -83,13 +77,12 @@ For anyone who would like to repeat this research, here's a table with the softw
 | Tailwind         | CSS Framework                |
 | Markdown         | Markup Language              |
 
-
 ## Appendix 6: Further Reading
 
-Some recommended books on the topics covered in this thesis include, but are not limited to: 
+Some recommended books on the topics covered in this thesis include, but are not limited to:
 
-- R. Buckminster Fuller "Operating Manual for Spaceship Earth"
-- Victor Papanek "Design for the Real World"
-- Jonathan Chapman "Emotionally Durable Design"
-- Carlo Vezzoli "Product-Service System Design for Sustainability"
-- Ezio Manzini "Design, When Everybody Designs".
+-   R. Buckminster Fuller "Operating Manual for Spaceship Earth"
+-   Victor Papanek "Design for the Real World"
+-   Jonathan Chapman "Emotionally Durable Design"
+-   Carlo Vezzoli "Product-Service System Design for Sustainability"
+-   Ezio Manzini "Design, When Everybody Designs".

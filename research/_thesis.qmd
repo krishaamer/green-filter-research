@@ -126,8 +126,6 @@ warnings.filterwarnings("ignore")
 
 {{< include "discussion/_index.qmd" >}}
 
-\newpage
-
 {{< include "discussion/_process.qmd" >}}
 
 \newpage

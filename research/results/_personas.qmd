@@ -8,11 +8,9 @@ warnings.filterwarnings("ignore")
 
 ### Clustering College Students to Build Personas
 
-Customer segmentation
-
 Personas are created using K-means clustering, an unsupervised machine learning algorithm, which clusters college students based on their responses across 36 Likert scale fields in the online survey. Clusters are visualized using Principal Component Analysis (PCA), where the principal component loadings on the X and Y axes represent the weights of the original Likert scale fields, transformed into the principal components that capture the most variance.
 
-The Likert scale is a psychometric scale developed by Rensis Likert already in the 1930s, and it's commonly used to this day in questionnaires to measure respondents' attitudes, opinions, and perceptions [@sullivanAnalyzingInterpretingData2013]. K-Means, K-Modes, and K-Prototypes are unsupervised machine learning algorithms, used for finding patterns in the data. Here I've opted to use K-Means and Principal Component Analysis (PCA), which is used to convert data to lower dimension space (this is a simpler predecessor of *embeddings* used in large-language models).
+Segmentation helps design features for groups of people with shared needs. The Likert scale is a psychometric scale developed by Rensis Likert already in the 1930s, and it's commonly used to this day in questionnaires to measure respondents' attitudes, opinions, and perceptions [@sullivanAnalyzingInterpretingData2013]. K-Means, K-Modes, and K-Prototypes are unsupervised machine learning algorithms, used for finding patterns in the data. Here I've opted to use K-Means and Principal Component Analysis (PCA), which is used to convert data to lower dimension space (this is a simpler predecessor of *embeddings* used in large-language models).
 
 | Persona | Color/marker | Rough **attitude signal** along PC 1 | Cluster Centre (PC 1, PC 2) | Size |
 |-------------|-------------|----------------------|-------------|-------------|
@@ -71,16 +69,6 @@ show_single_persona(2)
 show_clustering_heatmap()
 ```
 
-#### Mean Answer Scores
-
-Mean response values for each Likert question in each cluster:
-
-```{python}
-#| label: fig-survey-mean-answ
-#| fig-cap: "Mean Values of Survey Responses"
-#| fig-scap: "Mean Values of Survey Responses"
-get_kmeans_table()
-```
 
 #### Agreement Between Personas
 
@@ -92,6 +80,8 @@ There is some similarity between clusters. All 3 personas report a high level of
 #| fig-scap: "Topics With Highest Agreement Between Personas"
 treemap()
 ```
+
+\newpage
 
 | Agreement Between Personas | Design Implications |
 |-------------------------|------------------------------------------|

@@ -60,6 +60,8 @@ Other Tools Used:
 
 -   Postman for API testing
 
+\newpage
+
 #### Google Chrome Extension App Installs
 
 While Google is the most popular browser with over 3.45 billion users [@GoogleChromeStatistics2023], extensions are a relatively less known feature of the browser. Most popular extensions are Grammarly, for Taiwanese students End Note is familiar. However, it's only available for computers (extensions don't run on phones and tablets).
@@ -70,6 +72,8 @@ While Google is the most popular browser with over 3.45 billion users [@GoogleCh
 #| fig-scap: "Green Filter Google Chrome Momo extension installs"
 app_installs()
 ```
+
+\newpage
 
 #### Momo AI Extension
 
@@ -85,12 +89,14 @@ The following screenshots are from the production version (live on the web for a
   src={Momo}
 />
 ```
+\newpage
+
 #### Review
 
 Overview of the ESG performance of this product and the company that made it.
 
 ::: {.content-hidden unless-format="pdf"}
-![Prototype: Review](./images/interactive/momo/review.png){width="100%"}
+![Prototype: Review](./images/interactive/momo/review.png){width="50%"}
 :::
 
 ```{=mdx}
@@ -99,12 +105,15 @@ Overview of the ESG performance of this product and the company that made it.
   src={Review}
 />
 ```
+
+\newpage
+
 #### Save
 
 Which other products (and the companies that made them) could I choose to reduce my personal pollution impact.
 
 ::: {.content-hidden unless-format="pdf"}
-![Prototype: Save](./images/interactive/momo/save.png){width="100%"}
+![Prototype: Save](./images/interactive/momo/save.png){width="70%"}
 :::
 
 ```{=mdx}
@@ -127,12 +136,15 @@ What if I like the products of this company and want to invest in it?
   src={Invest}
 />
 ```
+
+\newpage
+
 #### AI Companion
 
 The main view of the application with many embedded widgets for diverse AI companion features.
 
 ::: {.content-hidden unless-format="pdf"}
-![Prototype: Home Feed](./images/interactive/companion/home.png){width="100%"}
+![Prototype: Home Feed](./images/interactive/companion/home.png){width="90%"}
 :::
 
 ```{=mdx}
@@ -155,9 +167,12 @@ See where and how the product was made - in which factory and what are the condi
   src={Factory}
 />
 ```
+
+\newpage
+
 #### Map
 
-Where was the product physically made and how long was the transport route?
+Where was the product physically made, and how long was the transport route?
 
 ::: {.content-hidden unless-format="pdf"}
 ![Prototype: Map](./images/interactive/companion/map.png){width="100%"}
@@ -169,6 +184,9 @@ Where was the product physically made and how long was the transport route?
   src={Map}
 />
 ```
+
+\newpage
+
 #### FAQ
 
 The AI companion lists a number of basic questions to prompt the user to start a conversation. Feasibly, these could be personalized as the AI better understand the user and their experience thus far.
@@ -208,6 +226,8 @@ One the user begins saving money, they'll have a source of funds to direct to in
 />
 ```
 Investing is the last, and most complicated step. This is where user probably needs the most help.
+
+\newpage
 
 #### Chat
 
