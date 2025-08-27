@@ -251,11 +251,11 @@ Google has launched eco–focused features across its range of products: search 
 : Examples of CO~2~ visibility in Google's products. []{short-caption="Examples of CO~2~ visibility in Google's products"}
 
 ::: {.content-hidden unless-format="pdf"}
-![Google's view of flight emissions](./images/design/flight-emissions.png){width="100%"}
+![Google's View of Flight Emissions](./images/design/flight-emissions.png){width="100%"}
 :::
 
 ```{=mdx}
-<Figure caption="Google's view of flight emissions" src={FlightEmissions} refURL="https://www.google.com/travel/flights" refTitle="Copyright by Google 2023 referenced under fair use" />
+<Figure caption="Google's View of Flight Emissions" src={FlightEmissions} refURL="https://www.google.com/travel/flights" refTitle="Copyright by Google 2023 referenced under fair use" />
 ```
 [@WEE2021100364] proposes 7 types of nudging technique based on an overview of 37 papers which explore nudging people to be more environmentally friendly.
 
@@ -311,7 +311,7 @@ The small screen estate space of mobiles phones and smartwatches necessitates di
 | Moving               |
 | Seeing               |
 
-: Modes of interaction []{short-caption="Modes of interaction"}
+: Modes of Interaction []{short-caption="Modes of Interaction"}
 
 Engineering persuasion with personalization has been the bread and butter of interaction design in social media apps. In 2010, [@kolkoThoughtsInteractionDesign2010; @ixdfWhatInteractionDesign] believed *Interaction Design* is still an emerging (and changing) field, and there are many versions of definitions. Instead of trying to define the limits of the field here, I prefer to simply say *interaction design is about creating a connection between the product and the user*, and focus on the tools of an interaction designer, which may be helpful for the goal of designing a sustainability-focused financial AI assistant (the stated goal of this research). And as what I'm designing here is an AI, the focus of the interaction design will be the interaction between the human and the AIs (possibly plural).
 
@@ -385,7 +385,7 @@ A wide range of personal carbon footprint calculators have been released online,
 | LiveGreen |  |
 | Earth Hero |  |
 
-: A selection of personal sustainability apps. []{short-caption="A selection of personal sustainability apps"}
+Table: A Selection of Personal Sustainability Apps. []{short-caption="A Selection of Personal Sustainability Apps."}
 
 [@shinWearableActivityTrackers2019]'s synthesis review of 463 studies shows wearable devices have potential to influence behavior change towards healthier lifestyles. While the behavior changes may sound simple - like switching from driving to walking - and would have and effect both on health and the environmental, they are hindered by factors from personal motivation to (lack of) suitable urban architecture. [@delclos-alioWalkingTransportationLarge2022] discusses walking in Latin-American cities. Walking is the most sustainable method or transport but requires the availability of city infrastructure, such as sidewalks, which many cities still lack. The urban environment has an influence on health. [@sanchezGreenBearLoRaWANbased2022] suggests tracking users using their smartphones and attributing points for actions deemed beneficial - yet this has potential privacy issues. For any service tracking the user's action, following privacy UX guidelines is crucial [@jarovskyYouAreProbably2022].
 
@@ -434,7 +434,7 @@ In theory, DPPs are able to capture and make usable the comprehensive trace of d
 | R1 Rethink | Use the product more intensively (sharing the product via online platforms, etc) |
 | R0 Refuse | Don't use product at all (or replace the function with a better alternative) |
 
-: The 9 R strategies from [@potting2017circular]. []{short-caption="R strategies"}
+: The 9 R strategies from [@potting2017circular]. []{short-caption="R Strategies"}
 
 There's extensive literature on the use Digital Product Passports (DPP) at specific industries and for particular use cases, often focused on improved efficiencies. [@plociennikDigitalLifecyclePassport2022] details the use of Digital Product Passports and the cloud platform infrastructure to improve e-waste sorting when paired with ML-based object detection. [@bergerConfidentialitypreservingDataExchange2023] outlines data-science and machine-learning approaches (for example sharing models) to enable the exchange of sensitive EV-battery life-cycle data through Digital Product Passports, while preserving confidentiality, helping overcome stakeholder reluctance. [@jensenDigitalProductPassports2023] study of mechatronics supply chains found DPPs *"support decision-making throughout product life cycles in favor of a circular economy"*; specifically:
 
@@ -462,8 +462,8 @@ Similar to *Nutritional Facts Labeling*, *Carbon Labels* provide basic informati
 
 ```{python}
 #| label: fig-br-comp-rank
-#| fig-cap: "British company ranking"
-#| fig-scap: "British company ranking"
+#| fig-cap: "Taiwanese company ranking"
+#| fig-scap: "Taiwanese company ranking"
 company_rank_chart()
 ```
 

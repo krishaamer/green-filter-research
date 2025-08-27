@@ -456,11 +456,11 @@ Google has launched eco–focused features across its range of products: search 
 : Examples of CO~2~ visibility in Google's products. []{short-caption="Examples of CO~2~ visibility in Google's products"}
 
 ::: {.content-hidden unless-format="pdf"}
-![Google's view of flight emissions](./images/design/flight-emissions.png){width="100%"}
+![Google's View of Flight Emissions](./images/design/flight-emissions.png){width="100%"}
 :::
 
 ```{=mdx}
-<Figure caption="Google's view of flight emissions" src={FlightEmissions} refURL="https://www.google.com/travel/flights" refTitle="Copyright by Google 2023 referenced under fair use" />
+<Figure caption="Google's View of Flight Emissions" src={FlightEmissions} refURL="https://www.google.com/travel/flights" refTitle="Copyright by Google 2023 referenced under fair use" />
 ```
 [@WEE2021100364] proposes 7 types of nudging technique based on an overview of 37 papers which explore nudging people to be more environmentally friendly.
 
@@ -474,7 +474,7 @@ Google has launched eco–focused features across its range of products: search 
 | Labelling | Provide labels to influence choice (for example CO~2~ footprint labels) |
 | Functional Design | Design the environment and choice architecture so the desired behavior is more convenient |
 
-: Types of nudge documented by [@WEE2021100364] []{short-caption="Types of nudge"}
+Table: Types of Nudge; Documented By [@WEE2021100364] []{short-caption="Types of Nudge"}
 
 [@ACUTI2023122151] makes the point that physical proximity to a drop-off point helps people participate in sustainability and metaphorical messaging alongside proximity can be powerful, enhancing the ease of information processing. In a field study in Northern Italy, a metaphor‐based message re-framed the factual statement "1g of mercury can pollute 1000L of water" as "7 bathtubs", and 354000000L as "140 Olympic swimming pools," (a projection of potential Italian mercury pollution at current disposal rates), which significantly boosted willingness to recycle mercury.
 
@@ -493,7 +493,7 @@ Alibaba's Ant Forest (螞蟻森林) has shown the potential gamified nature prot
 | 2024 | N/A         | 548 million | 3.87 million hectares                |
 | 2025 | N/A         | N/A         | N/A                                  |
 
-: Ant Forest assisted tree planting; data compiled from [@ZhuZiXun2017; @yangSwitchingGreenLifestyles2018; @unfcccAlipayAntForest2019; @wangFuelingProEnvironmentalBehaviors2020; @600MillionPeople2021; @zhangPromoteProenvironmentalBehaviour2022; @wangMotivationsInfluencingAlipay2022; @zhouUnpackingEffectGamified2023; @caoImpactArtificialIntelligence2023; @MaYiJiTuanESGBaoGao; @MaYiJiTuanGongBuZhongShu8Nian]. []{short-caption="Ant Forest assisted tree planting"}
+Table: Ant Forest Assisted Tree Planting; Data Compiled From [@ZhuZiXun2017; @yangSwitchingGreenLifestyles2018; @unfcccAlipayAntForest2019; @wangFuelingProEnvironmentalBehaviors2020; @600MillionPeople2021; @zhangPromoteProenvironmentalBehaviour2022; @wangMotivationsInfluencingAlipay2022; @zhouUnpackingEffectGamified2023; @caoImpactArtificialIntelligence2023; @MaYiJiTuanESGBaoGao; @MaYiJiTuanGongBuZhongShu8Nian]. []{short-caption="Ant Forest Assisted Tree Planting"}
 
 ```{python}
 #| label: fig-ant-forest-growth
@@ -590,7 +590,7 @@ A wide range of personal carbon footprint calculators have been released online,
 | LiveGreen |  |
 | Earth Hero |  |
 
-: A selection of personal sustainability apps. []{short-caption="A selection of personal sustainability apps"}
+Table: A Selection of Personal Sustainability Apps. []{short-caption="A Selection of Personal Sustainability Apps"}
 
 [@shinWearableActivityTrackers2019]'s synthesis review of 463 studies shows wearable devices have potential to influence behavior change towards healthier lifestyles. While the behavior changes may sound simple - like switching from driving to walking - and would have and effect both on health and the environmental, they are hindered by factors from personal motivation to (lack of) suitable urban architecture. [@delclos-alioWalkingTransportationLarge2022] discusses walking in Latin-American cities. Walking is the most sustainable method or transport but requires the availability of city infrastructure, such as sidewalks, which many cities still lack. The urban environment has an influence on health. [@sanchezGreenBearLoRaWANbased2022] suggests tracking users using their smartphones and attributing points for actions deemed beneficial - yet this has potential privacy issues. For any service tracking the user's action, following privacy UX guidelines is crucial [@jarovskyYouAreProbably2022].
 
@@ -667,8 +667,8 @@ Similar to *Nutritional Facts Labeling*, *Carbon Labels* provide basic informati
 
 ```{python}
 #| label: fig-br-comp-rank
-#| fig-cap: "British Company Ranking"
-#| fig-scap: "British Company Ranking"
+#| fig-cap: "Taiwanese Company Ranking"
+#| fig-scap: "Taiwanese Company Ranking"
 company_rank_chart()
 ```
 
@@ -681,7 +681,7 @@ Despite ongoing interest, several studies have shown that the overall impact of 
 | Oatly      | U.K.    |
 | IKEA       | Sweden  |
 
-: Examples of companies using carbon labeling from [@briankatemanCarbonLabelsAre2020]. []{short-caption="Examples of companies using carbon labeling"}
+Table: Examples of Companies Using Carbon Labeling; Dara From [@briankatemanCarbonLabelsAre2020]. []{short-caption="Examples of Companies Using Carbon Labeling"}
 
 | Organization    | Number of Certified Products |
 |-----------------|------------------------------|
@@ -689,7 +689,7 @@ Despite ongoing interest, several studies have shown that the overall impact of 
 | Carbon Calories |                              |
 | Carbon Trust    | 27000                        |
 
-: Organizations that certify carbon labels [@climatepartnerLabellingCarbonFootprint2020]. []{short-caption="Organizations that certify carbon labels "}
+Table: Organizations That Certify Carbon Labels [@climatepartnerLabellingCarbonFootprint2020]. []{short-caption="Organizations That Certify Carbon Labels"}
 
 Transitioning from simpler carbon labels to data-driven *Digital Product Passports* requires comprehensive data collection on product's history, composition, and environmental impact, digital infrastructure, industry collaboration, regulatory frameworks, and consumer engagement.
 
@@ -700,7 +700,7 @@ Transitioning from simpler carbon labels to data-driven *Digital Product Passpor
 | Consumers to make more informed purchasing decisions        |
 | Verify compliance with legal obligations                    |
 
-: Digital Product Passport goals from [@strettonDigitalProductPassports2022]. []{short-caption="Digital Product Passport goals"}
+Table: Digital Product Passport Goals; From [@strettonDigitalProductPassports2022]. []{short-caption="Digital Product Passport Goals"}
 
 [@vancapelleveenAnatomyPassportCircular2023] conducted a comprehensive, structured review of 200 academic papers on Digital Product Passports and related concepts, including circular, product, material, resource, recycling, and cradle-to-cradle variants, assessing dimensions such as historical developments, stakeholders, goals, challenges, and designs for solutions, in order to formalize the concept and its boundaries, finally synthesizing a unified definition:
 
@@ -1438,7 +1438,7 @@ The ability to build sustainability into the organization requires deep understa
 | Proactive Remediation | Early detection and rapid resolution of control defects before they escalate into larger compliance or security gaps. |
 | Continuous Capability Building | Ongoing training and tooling updates; best-practice sharing to keep risk-management skills and processes current. |
 
-: Banking transformation strategies from [@jimboehmBetterRiskControls2021]
+Table: Banking Transformation Strategies; From [@jimboehmBetterRiskControls2021] []{short-caption="Banking Transformation Strategies"}
 
 These banking transformation strategies sit alongside strict regulatory requirements, such as Know Your Customer (KYC), and emerging technologies like generative AI, which is already reshaping compliance workflows. [@rahulagarwalHowGenerativeAI2024] details how GenAI is being used for the purposed of compliance and *comprehensive risk assessment* in modern banking.
 
@@ -1451,7 +1451,7 @@ These banking transformation strategies sit alongside strict regulatory requirem
 | Cyber Risk | Monitor threat-intelligence feeds; draft incident-response reports; automatically search for, and possibly even patch security gaps. |
 | Climate Risk | Distill lengthy climate-scenario reports; visualize key metrics; accelerate enterprise-level climate-risk assessments. |
 
-: GenAI usage for comprehensive risk management from cyber- to climate threats in modern banking as per [@rahulagarwalHowGenerativeAI2024]. []{short-caption="GenAI usage for risk management"}
+Table: GenAI Usage for Comprehensive Risk Management From Cyber- to Climate Threats in Modern Banking; From [@rahulagarwalHowGenerativeAI2024]. []{short-caption="GenAI Usage for Risk Management"}
 
 In the context of China’s industrial modernization, [@luDoesEnvironmentalInformation2023] finds that *digitization* is the pathway to increased Environmental Information Disclosure (EID) and Green Innovation, correlating with increased numbers of green patents and sustainable R&D projects.
 
